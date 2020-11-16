@@ -1,5 +1,7 @@
 papers/
 slides/
+dna_ref/
+dna_reads/
+protein_ref/
 *.docx
 *.pdf
-

@@ -13,8 +13,12 @@ Usage:
     $ python read_simulator.py -l $readLength -c $coverage ref.fa ...
 
 Attributes:
-    parse_fasta(str):  parse the input FASTA references, output a 
-        dictionary which maps ids to sequences.
+    parse_fasta(str):  parse one or more input FASTA reference(s)
+    
+    write_fasta(list): print a FASTA-like input to stdout
+    
+    read_simulation(str, int, int): simulate error-free reads by scanning 
+        through the geome
 
 
 """
