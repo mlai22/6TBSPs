@@ -78,14 +78,14 @@ def main():
 	filename = args.proteinDBS
 	k = int(args.i[0])
 
-	with open('protein_dictionary', 'wb') as handle:
+	with open('protein_dictionary.pickle', 'wb') as handle:
 		pickle.dump(parse_fasta(filename), handle, protocol = pickle.HIGHEST_PROTOCOL)	
-	with open('protein_dictionary', 'rb') as handle:
+	with open('protein_dictionary.pickle', 'rb') as handle:
 		protein_seq = pickle.load(handle)	
 
-	with open('kmer_protein_dictionary', 'wb') as handle:
+	with open('kmer_protein_dictionary.pickle', 'wb') as handle:
 		pickle.dump(protein_kmer_table(protein_seq, k), handle, protocol = pickle.HIGHEST_PROTOCOL)
-	with open('kmer_protein_dictionary', 'rb') as handle:
+	with open('kmer_protein_dictionary.pickle', 'rb') as handle:
 		kmer_protein_seq = pickle.load(handle)
 
 	return
