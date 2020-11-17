@@ -3,7 +3,7 @@
 '''
 To build a compressed hashtable for protein databases.
 Input: one or more multi-fasta protein database(s)
-Output: compressed hashtable
+Output: compressed dictionary (hashtable)
 
 Author:
 	Mei-Yu Lai
@@ -18,20 +18,20 @@ Attributes:
 	Parse an input FASTA and translate the DNA sequences in 6-frame, 
 	output a single FASTA file of compressed protein sequences.
 '''
-
-import sys
+#%%
 import argparse
 import pickle
-
+#%%
 def parse_fasta(filename):
 	'''
 	Parse protein sequences from FASTA file
 
 	Args:
-		filename (str): file name of the FASTA file
+        filename (str):   file name of the FASTA file
 
 	Returns:
-		dict: a dictionary with keys: read IDs and values: protein sequences
+		ID_seq (dict):    a dictionary with keys reference IDs and values 
+                            protein sequences
 	'''
 	ID_seq = {}
 	with open(filename, 'r') as fh:
@@ -46,10 +46,10 @@ def parse_fasta(filename):
 				protein_seq += line.rstrip()
 			ID_seq[readID] = protein_seq
 	return ID_seq
-
+#%%
 def protein_kmer_table(seqs, k):
 	'''
-	create a dictionary of k-mer protein sequence
+	Create a dictionary of k-mer protein sequence
 
 	Args:
 		seqs (dict): read dictionary
@@ -63,14 +63,14 @@ def protein_kmer_table(seqs, k):
 		for loc in range(len(sequence) - k + 1):
 			kmer = sequence[loc:loc+k]
 			if kmer not in table:
-				table[kmer] = set()
-			table[kmer].add((readID, loc))
+				table[kmer] = []
+			table[kmer].append((readID, loc))
 	return table
-
+#%%
 def main():
 	'''The main function for 6TBSPS-build'''
 
-	parser = argparse.ArgumentParser(prog = '6tbsps',
+	parser = argparse.ArgumentParser(prog = '6tbsps-build',
 									 description = 'To build a compressed hashtable for protein databases.')
 	parser.add_argument('proteinDBS', metavar = 'protein.fa', help = 'protein FASTA filename')
 	parser.add_argument('-i', nargs = 1, type = int, help = 'k-mer')
@@ -89,7 +89,6 @@ def main():
 		kmer_protein_seq = pickle.load(handle)
 
 	return
-
+#%%
 if __name__ == '__main__':
 	main()
-
