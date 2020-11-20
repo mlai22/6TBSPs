@@ -11,7 +11,7 @@ E-mail:
 	mlai22@jhu.edu
 
 Usage:
-	$ python 6tbsps.py-build protein.faa
+	$ python 6tbsps.py-build [-k $kmer_len] -o $out_basename protein.faa
 
 Attributes:
 	Parse an input FASTA and translate the DNA sequences in 6-frame, 
