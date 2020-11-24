@@ -120,6 +120,7 @@ class LocalAlignment:
                                    self.Y[i][j],
                                    0)
         argmax = np.where(self.M == self.M.max())
+        print(argmax)
         self.score = int(self.M[argmax])
         return self.score
         # print(self.X)
@@ -191,7 +192,7 @@ class LocalAlignment:
                 # diagnal
                 align_seq_x += self.x[i-1]
                 align_seq_y += self.y[j-1]
-                if self.x[i-1] == self.y[i-1]:
+                if self.x[i-1] == self.y[j-1]:
                     xscript += '|'
                 else:
                     xscript += '*'
@@ -202,7 +203,7 @@ class LocalAlignment:
 
         self.align_seq_x = align_seq_x[::-1]
         self.align_seq_y = align_seq_y[::-1]
-        self.xcript = xscript[::-1]
+        self.xscript = xscript[::-1]
 
         return self.score, self.align_seq_x, self.align_seq_y, self.xscript
 
@@ -212,7 +213,7 @@ class LocalAlignment:
         '''
         print(self.score)
         print(self.align_seq_x)
-        print(self.xcript)
+        print(self.xscript)
         print(self.align_seq_y)
 
 
@@ -220,10 +221,10 @@ if __name__ == "__main__":
     '''
     Test codes
     '''
-    # la = LocalAlignment('MISLIAALAVDRVIGMENAMPFNLPADLAWFKRNTLDKPVIMGRHTWESIG', 'SLNCIVAVSQNMGIGKNGDLPWPPLRNEFRYFQRMTTTSSVEGKQNLVIMGKKTWFSIPE', test_score_matrix)
+    la = LocalAlignment('MISLIAALAVDRVIGMENAMPFNLPADLAWFKRNTLDKPVIMGRHTWESIG', 'SLNCIVAVSQNMGIGKNGDLPWPPLRNEFRYFQRMTTTSSVEGKQNLVIMGKKTWFSIPE', test_score_matrix)
     # la = LocalAlignment('SLNCIVAVSQNMGIGKNGDLPWPPLRNEFRYFQRMTTTSSVEGKQNLVIMGKKTWFSIPE', 'MISLIAALAVDRVIGMENAMPFNLPADLAWFKRNTLDKPVIMGRHTWESIG', test_score_matrix)
-    la = LocalAlignment('QRNTLDKPVIMGRHTWESI', 'QRMTTTSSVEGKQNLVIMGKKTWFSI', test_score_matrix)
-
+    # la = LocalAlignment('QRNTLDKPVIMGRHTWESI', 'QRMTTTSSVEGKQNLVIMGKKTWFSI', test_score_matrix)
+    # la = LocalAlignment('NAMPFNL', 'NGDLPWPPL', None)
     # la = LocalAlignment('GGTATGCTGGCGCTA', 'TATATGCGGCGTTT', test_score_matrix)
     # la = LocalAlignment('ACACACTA','AGCACACA', test_score_matrix)
     # la = LocalAlignment('ATTGAGC','ATGC', None)
