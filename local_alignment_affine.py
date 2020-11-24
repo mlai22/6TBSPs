@@ -162,34 +162,40 @@ class LocalAlignment:
             xscript = ''
             v = self.M[i,j]
             while (v != 0):
+
                 if (self.M[i][j] == self.Y[i][j]):
                     # horizontal first
-                    # horizontal, j-direction, ext
+                    # horizontal(j), ext
                     align_seq_x += '_'
                     align_seq_y += self.y[j-1]
                     xscript += ' '
-                    v = self.Y[i, j-1]
-                    j -= 1
-                    if (self.Y[i][j] == self.M[i][j-1] + self.go + self.ge):
-                        # horizontal, j-direction, open
-                        align_seq_x += '_'
-                        align_seq_y += self.y[j-1]
-                        xscript += ' '
+                    if (self.Y[i,j] == self.Y[i, j-1] + self.ge):
+                        # continue horizontal(j) ext
+                        v = self.Y[i, j-1]
+                        j -= 1
+                    else:
+                    # if (self.Y[i][j] == self.M[i][j-1] + self.go + self.ge):
+                        # horizontal(j) open
+                        # align_seq_x += '_'
+                        # align_seq_y += self.y[j-1]
+                        # xscript += ' '
                         v = self.M[i, j-1]
                         j -= 1
                 elif (self.M[i][j] == self.X[i][j]):
                     # vertical then
-                    # vertical, i-direction, ext
+                    # vertical(i) ext
                     align_seq_x += self.x[i-1]
                     align_seq_y += '_'
                     xscript += ' '
-                    v = self.X[i-1, j]
-                    i -= 1
-                    if (self.X[i][j] == self.M[i-1][j] + self.go + self.ge):
+                    if (self.X[i,j] == self.X[i-1, j] + self.ge):
+                        v = self.X[i-1, j]
+                        i -= 1
+                    # if (self.X[i][j] == self.M[i-1][j] + self.go + self.ge):
+                    else:
                         # horizontal, j-direction, open
-                        align_seq_x += self.x[i-1]
-                        align_seq_y += '_'
-                        xscript += ' '
+                        # align_seq_x += self.x[i-1]
+                        # align_seq_y += '_'
+                        # xscript += ' '
                         v = self.M[i-1, j]
                         i -= 1
                 elif (self.M[i][j] == self.M[i-1][j-1] + self._match(i, j)):
