@@ -124,9 +124,6 @@ class LocalAlignment:
         self.max_loc_list = [(i, j) for i, j in zip(argmax[0], argmax[1])]
         self.score = int(self.M[self.max_loc_list[0]])
         return self.score
-        # print(self.X)
-        # print(self.M)
-        # print(self.Y)
     
     def traceback(self):
         """
@@ -174,11 +171,7 @@ class LocalAlignment:
                         v = self.Y[i, j-1]
                         j -= 1
                     else:
-                    # if (self.Y[i][j] == self.M[i][j-1] + self.go + self.ge):
                         # horizontal(j) open
-                        # align_seq_x += '_'
-                        # align_seq_y += self.y[j-1]
-                        # xscript += ' '
                         v = self.M[i, j-1]
                         j -= 1
                 elif (self.M[i][j] == self.X[i][j]):
@@ -190,12 +183,8 @@ class LocalAlignment:
                     if (self.X[i,j] == self.X[i-1, j] + self.ge):
                         v = self.X[i-1, j]
                         i -= 1
-                    # if (self.X[i][j] == self.M[i-1][j] + self.go + self.ge):
                     else:
-                        # horizontal, j-direction, open
-                        # align_seq_x += self.x[i-1]
-                        # align_seq_y += '_'
-                        # xscript += ' '
+                        # horizontal(j) open
                         v = self.M[i-1, j]
                         i -= 1
                 elif (self.M[i][j] == self.M[i-1][j-1] + self._match(i, j)):
@@ -210,7 +199,6 @@ class LocalAlignment:
                     v = self.M[i-1][j-1]
                     i -= 1
                     j -= 1
-
 
             self.align_seq_x_list.append(align_seq_x[::-1])
             self.align_seq_y_list.append(align_seq_y[::-1])
