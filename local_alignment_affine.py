@@ -101,6 +101,7 @@ class LocalAlignment:
             M (numpy.array): match matrix
             go (float): gap open panalty
             ge (float): gap extend panalt
+            max_loc_list (list[tuple]): the list of maxs locs
             score: max value in self.M matrix, the best global alignment value
                    in local alignment
         return:
@@ -120,8 +121,8 @@ class LocalAlignment:
                                    self.Y[i][j],
                                    0)
         argmax = np.where(self.M == self.M.max())
-        print(argmax)
-        self.score = int(self.M[argmax])
+        self.max_loc_list = [(i, j) for i, j in zip(argmax[0], argmax[1])]
+        self.score = int(self.M[self.max_loc_list[0]])
         return self.score
         # print(self.X)
         # print(self.M)
@@ -138,11 +139,12 @@ class LocalAlignment:
             s (func): score_matrix function
             x (string): seq_x
             y (string): seq_y
-            xscript (string): transcript of alignment
+            xscript_list (list of string): transcript of alignment
+            max_loc_list (list[tuple]): the list of maxs locs
             score (float): max value in self.M matrix, the best global alignment value
                     in local alignment
-            align_seq_x: aligned substring of sequence x, contains _ for gap
-            align_seq_y: aligned substring of sequence y, contains _ for gap
+            align_seq_x_list (list of string): aligned substring of sequence x, contains _ for gap
+            align_seq_y_list (list of string): aligned substring of sequence y, contains _ for gap
         return:
             self.score
             self.align_seq_x
@@ -150,81 +152,88 @@ class LocalAlignment:
             self.xscript
 
         """
-        align_seq_x = ''
-        align_seq_y = ''
-        xscript = ''
-        i, j = np.unravel_index(np.argmax(self.M), self.M.shape)
-        v = self.M[i,j]
-        while (v != 0):
-            # print(v)
-            if (self.M[i][j] == self.Y[i][j]):
-                # horizontal first
-                # horizontal, j-direction, ext
-                align_seq_x += '_'
-                align_seq_y += self.y[j-1]
-                xscript += ' '
-                v = self.Y[i, j-1]
-                j -= 1
-                if (self.Y[i][j] == self.M[i][j-1] + self.go + self.ge):
-                    # horizontal, j-direction, open
+        self.align_seq_x_list = []
+        self.align_seq_y_list = []
+        self.xscript_list = []
+
+        for i, j in self.max_loc_list:
+            align_seq_x = ''
+            align_seq_y = ''
+            xscript = ''
+            v = self.M[i,j]
+            while (v != 0):
+                if (self.M[i][j] == self.Y[i][j]):
+                    # horizontal first
+                    # horizontal, j-direction, ext
                     align_seq_x += '_'
                     align_seq_y += self.y[j-1]
                     xscript += ' '
-                    v = self.M[i, j-1]
+                    v = self.Y[i, j-1]
                     j -= 1
-            elif (self.M[i][j] == self.X[i][j]):
-                # vertical then
-                # vertical, i-direction, ext
-                align_seq_x += self.x[i-1]
-                align_seq_y += '_'
-                xscript += ' '
-                v = self.X[i-1, j]
-                i -= 1
-                if (self.X[i][j] == self.M[i-1][j] + self.go + self.ge):
-                    # horizontal, j-direction, open
+                    if (self.Y[i][j] == self.M[i][j-1] + self.go + self.ge):
+                        # horizontal, j-direction, open
+                        align_seq_x += '_'
+                        align_seq_y += self.y[j-1]
+                        xscript += ' '
+                        v = self.M[i, j-1]
+                        j -= 1
+                elif (self.M[i][j] == self.X[i][j]):
+                    # vertical then
+                    # vertical, i-direction, ext
                     align_seq_x += self.x[i-1]
                     align_seq_y += '_'
                     xscript += ' '
-                    v = self.M[i-1, j]
+                    v = self.X[i-1, j]
                     i -= 1
-            elif (self.M[i][j] == self.M[i-1][j-1] + self._match(i, j)):
-                # match last
-                # diagnal
-                align_seq_x += self.x[i-1]
-                align_seq_y += self.y[j-1]
-                if self.x[i-1] == self.y[j-1]:
-                    xscript += '|'
-                else:
-                    xscript += '*'
-                v = self.M[i-1][j-1]
-                i -= 1
-                j -= 1
+                    if (self.X[i][j] == self.M[i-1][j] + self.go + self.ge):
+                        # horizontal, j-direction, open
+                        align_seq_x += self.x[i-1]
+                        align_seq_y += '_'
+                        xscript += ' '
+                        v = self.M[i-1, j]
+                        i -= 1
+                elif (self.M[i][j] == self.M[i-1][j-1] + self._match(i, j)):
+                    # match last
+                    # diagnal
+                    align_seq_x += self.x[i-1]
+                    align_seq_y += self.y[j-1]
+                    if self.x[i-1] == self.y[j-1]:
+                        xscript += '|'
+                    else:
+                        xscript += '*'
+                    v = self.M[i-1][j-1]
+                    i -= 1
+                    j -= 1
 
 
-        self.align_seq_x = align_seq_x[::-1]
-        self.align_seq_y = align_seq_y[::-1]
-        self.xscript = xscript[::-1]
+            self.align_seq_x_list.append(align_seq_x[::-1])
+            self.align_seq_y_list.append(align_seq_y[::-1])
+            self.xscript_list.append(xscript[::-1])
 
-        return self.score, self.align_seq_x, self.align_seq_y, self.xscript
+        return self.score, self.align_seq_x_list, self.align_seq_y_list, self.xscript_list
 
     def display(self):
         '''
         Display some parameters of this function.
         '''
-        print(self.score)
-        print(self.align_seq_x)
-        print(self.xscript)
-        print(self.align_seq_y)
+        print('score: {}'.format(self.score))
+        for i, loc in enumerate(self.max_loc_list):
+            print('x: {} y: {}'.format(loc[0], loc[1]))
+            print(self.align_seq_x_list[i])
+            print(self.xscript_list[i])
+            print(self.align_seq_y_list[i])
+            print('')
 
 
 if __name__ == "__main__":
     '''
     Test codes
     '''
-    la = LocalAlignment('MISLIAALAVDRVIGMENAMPFNLPADLAWFKRNTLDKPVIMGRHTWESIG', 'SLNCIVAVSQNMGIGKNGDLPWPPLRNEFRYFQRMTTTSSVEGKQNLVIMGKKTWFSIPE', test_score_matrix)
+    # la = LocalAlignment('MISLIAALAVDRVIGMENAMPFNLPADLAWFKRNTLDKPVIMGRHTWESIG', 'SLNCIVAVSQNMGIGKNGDLPWPPLRNEFRYFQRMTTTSSVEGKQNLVIMGKKTWFSIPE', test_score_matrix)
     # la = LocalAlignment('SLNCIVAVSQNMGIGKNGDLPWPPLRNEFRYFQRMTTTSSVEGKQNLVIMGKKTWFSIPE', 'MISLIAALAVDRVIGMENAMPFNLPADLAWFKRNTLDKPVIMGRHTWESIG', test_score_matrix)
     # la = LocalAlignment('QRNTLDKPVIMGRHTWESI', 'QRMTTTSSVEGKQNLVIMGKKTWFSI', test_score_matrix)
     # la = LocalAlignment('NAMPFNL', 'NGDLPWPPL', None)
+    la = LocalAlignment('SLIAALAVDRVIGMENAMPFNL', 'SLNCIVAVSQNMGIGKNGDLPWPPL', None)
     # la = LocalAlignment('GGTATGCTGGCGCTA', 'TATATGCGGCGTTT', test_score_matrix)
     # la = LocalAlignment('ACACACTA','AGCACACA', test_score_matrix)
     # la = LocalAlignment('ATTGAGC','ATGC', None)
