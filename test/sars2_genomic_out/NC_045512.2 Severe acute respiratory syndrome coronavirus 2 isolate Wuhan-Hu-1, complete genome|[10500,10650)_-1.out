@@ -1,3 +1,76 @@
 Frame: -1
 Query: VVSVPAACAVCLSTKGP
 Length: 17
+
+score: 28
+x: 13 y: 434
+SVPAACAVCLS
+|*|  |*||||
+SIP__CSVCLS
+
+x: 16 y: 435
+SVPAACAVCLSTKG
+|*|  |*||||  |
+SIP__CSVCLS__G
+
+
+score: 28
+x: 13 y: 434
+SVPAACAVCLS
+|*|  |*||||
+SIP__CSVCLS
+
+x: 16 y: 435
+SVPAACAVCLSTKG
+|*|  |*||||  |
+SIP__CSVCLS__G
+
+
+score: 25
+x: 17 y: 159
+CAVCL_STKGP
+|**|| ||| |
+CIRCLWSTK_P
+
+
+score: 27
+x: 16 y: 372
+SVPAAC_AVC______LSTKG
+||***| ||*      |||*|
+SVFNICQAVTANVNALLSTDG
+
+
+score: 15
+x: 3 y: 3
+VVS
+|||
+VVS
+
+
+score: 15
+x: 3 y: 3
+VVS
+|||
+VVS
+
+
+score: 25
+x: 17 y: 159
+CAVCL_STKGP
+|**|| ||| |
+CIRCLWSTK_P
+
+
+score: 15
+x: 17 y: 3
+KGP
+|||
+KGP
+
+
+score: 15
+x: 17 y: 3
+KGP
+|||
+KGP
+

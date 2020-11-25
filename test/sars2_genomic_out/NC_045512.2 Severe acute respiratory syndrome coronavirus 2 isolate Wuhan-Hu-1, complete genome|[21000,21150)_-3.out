@@ -1,3 +1,66 @@
 Frame: -3
 Query: QELAFVV
 Length: 7
+
+score: 15
+x: 3 y: 3
+QEL
+|||
+QEL
+
+
+score: 15
+x: 3 y: 3
+QEL
+|||
+QEL
+
+
+score: 15
+x: 3 y: 3
+QEL
+|||
+QEL
+
+
+score: 20
+x: 7 y: 2002
+QELAFVV
+|*| |||
+QLL_FVV
+
+
+score: 15
+x: 7 y: 3
+FVV
+|||
+FVV
+
+
+score: 15
+x: 7 y: 3
+FVV
+|||
+FVV
+
+
+score: 15
+x: 7 y: 3
+FVV
+|||
+FVV
+
+
+score: 20
+x: 7 y: 404
+QELAFVV
+|*| |||
+QLL_FVV
+
+
+score: 15
+x: 7 y: 3
+FVV
+|||
+FVV
+

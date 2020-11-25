@@ -1,3 +1,59 @@
 Frame: 2
 Query: LKVYTFPGNKPTNFRSLVDLFSKRTLKSVWLSLGCMLSALTQYN
 Length: 44
+
+score: 43
+x: 43 y: 1170
+LKVYTFPGNKPTN____FRSL_VDLFSKR__T__LKSVWLS_LGCMLSALTQY
+||***|*  |**|    |**| |*|*|**  |  |* |**| || |*|**|*|
+LKSPNFS__KLINIIIWFLLLSVCLGSLIYSTAALG_VLMSNLG_MPSYCTGY
+
+
+score: 43
+x: 43 y: 1170
+LKVYTFPGNKPTN____FRSL_VDLFSKR__T__LKSVWLS_LGCMLSALTQY
+||***|*  |**|    |**| |*|*|**  |  |* |**| || |*|**|*|
+LKSPNFS__KLINIIIWFLLLSVCLGSLIYSTAALG_VLMSNLG_MPSYCTGY
+
+
+score: 37
+x: 33 y: 466
+K_VYTFPGNKPTNFRSL__VDLFSKRTLKSVWLSL
+| ||*** | ||*|***  |**|**  ||** |||
+KSVYYTS_N_PTTFHLDGEVITFDN__LKTL_LSL
+
+
+score: 15
+x: 3 y: 3
+LKV
+|||
+LKV
+
+
+score: 37
+x: 33 y: 466
+K_VYTFPGNKPTNFRSL__VDLFSKRTLKSVWLSL
+| ||*** | ||*|***  |**|**  ||** |||
+KSVYYTS_N_PTTFHLDGEVITFDN__LKTL_LSL
+
+
+score: 15
+x: 3 y: 3
+LKV
+|||
+LKV
+
+
+score: 15
+x: 44 y: 3
+QYN
+|||
+QYN
+
+
+score: 15
+x: 44 y: 3
+QYN
+|||
+QYN
+

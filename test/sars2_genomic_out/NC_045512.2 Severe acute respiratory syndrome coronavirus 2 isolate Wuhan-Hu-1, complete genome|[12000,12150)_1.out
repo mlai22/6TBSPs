@@ -1,3 +1,81 @@
 Frame: 1
 Query: FTTFCFAFHAGCCRHKQAL
 Length: 19
+
+score: 23
+x: 10 y: 1262
+TTFCFAF_HA
+|**|||* ||
+TDTCFANKHA
+
+
+score: 15
+x: 3 y: 121
+FTT
+|||
+FTT
+
+x: 19 y: 3
+QAL
+|||
+QAL
+
+
+score: 23
+x: 10 y: 1262
+TTFCFAF_HA
+|**|||* ||
+TDTCFANKHA
+
+
+score: 18
+x: 11 y: 891
+TFCFAFHAG
+|||    ||
+TFC____AG
+
+x: 18 y: 223
+FHAG____CCRHKQA
+|**|    |***|||
+FKKGVQIPCTCGKQA
+
+
+score: 15
+x: 3 y: 3
+FTT
+|||
+FTT
+
+
+score: 18
+x: 11 y: 891
+TFCFAFHAG
+|||    ||
+TFC____AG
+
+x: 18 y: 223
+FHAG____CCRHKQA
+|**|    |***|||
+FKKGVQIPCTCGKQA
+
+
+score: 15
+x: 3 y: 3
+FTT
+|||
+FTT
+
+
+score: 15
+x: 19 y: 3
+QAL
+|||
+QAL
+
+
+score: 15
+x: 19 y: 3
+QAL
+|||
+QAL
+

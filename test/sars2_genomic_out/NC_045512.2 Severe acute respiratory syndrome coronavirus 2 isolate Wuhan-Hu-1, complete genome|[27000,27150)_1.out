@@ -1,3 +1,69 @@
 Frame: 1
 Query: TSRTCLKKSLLLHHERFLITNWELRSV
 Length: 27
+
+score: 27
+x: 17 y: 3254
+RTCLKKSLLLHHERF
+||*|* |*||**| |
+RTILG_SALLEDE_F
+
+x: 20 y: 3255
+RTCLKKSLLLHHERFLIT
+||*|* |*||**| |  |
+RTILG_SALLEDE_F__T
+
+x: 27 y: 1938
+CLKKSLL_LHHERF__LITN__WELR_SV
+||**|** |****|  ||**  |*|* ||
+CLEASFNYLKSPNFSKLINIIIWFLLLSV
+
+
+score: 15
+x: 3 y: 3
+TSR
+|||
+TSR
+
+
+score: 15
+x: 3 y: 3
+TSR
+|||
+TSR
+
+
+score: 15
+x: 27 y: 3
+RSV
+|||
+RSV
+
+
+score: 15
+x: 27 y: 3
+RSV
+|||
+RSV
+
+
+score: 15
+x: 27 y: 3
+RSV
+|||
+RSV
+
+
+score: 15
+x: 27 y: 3
+RSV
+|||
+RSV
+
+
+score: 15
+x: 27 y: 3
+RSV
+|||
+RSV
+

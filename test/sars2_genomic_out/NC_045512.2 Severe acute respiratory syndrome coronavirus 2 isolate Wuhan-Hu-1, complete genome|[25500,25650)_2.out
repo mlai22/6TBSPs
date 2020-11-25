@@ -1,3 +1,55 @@
 Frame: 2
 Query: YKPHSLSDGLLLALHFLLFFRALPKS
 Length: 26
+
+score: 35
+x: 17 y: 125
+KPHSLSD__GLL_LALHFL
+||**||*  ||* ||*|*|
+KPNELSRVLGLKTLATHGL
+
+x: 26 y: 130
+KPHSLSD__GLL_LALHFLLFFRALPKS
+||**||*  ||* ||*|*|    |***|
+KPNELSRVLGLKTLATHGL____AAVNS
+
+
+score: 35
+x: 17 y: 125
+KPHSLSD__GLL_LALHFL
+||**||*  ||* ||*|*|
+KPNELSRVLGLKTLATHGL
+
+x: 26 y: 130
+KPHSLSD__GLL_LALHFLLFFRALPKS
+||**||*  ||* ||*|*|    |***|
+KPNELSRVLGLKTLATHGL____AAVNS
+
+
+score: 15
+x: 3 y: 3
+YKP
+|||
+YKP
+
+
+score: 15
+x: 3 y: 3
+YKP
+|||
+YKP
+
+
+score: 15
+x: 26 y: 3
+PKS
+|||
+PKS
+
+
+score: 15
+x: 26 y: 3
+PKS
+|||
+PKS
+

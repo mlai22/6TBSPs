@@ -1,3 +1,101 @@
 Frame: 3
 Query: KLLTLESNQQNLLLDFLILQTCALLVKFLTPPDLHLFMLGTGRESATVL
 Length: 49
+
+score: 48
+x: 48 y: 3403
+TLESNQQNLLLDFLILQTCALL_VKFLT__PPD____LHL__FMLG______TG___RESATV
+|***|**|*|*|**||* ||** |*|*|  ||*    |**  |**|      ||   ||***|
+TYHPNCVNCLDDRCILH_CANFNVLFSTVFPPTSFGPLVRKIFVDGVPFVVSTGYHFRELGVV
+
+
+score: 15
+x: 3 y: 3
+KLL
+|||
+KLL
+
+
+score: 43
+x: 48 y: 933
+LL___LDFLILQTCALLVKFLTPPDLHLFMLG__TG_RE____SATV
+||   |**||**|*||*|  |***   |*|**  || ||    |**|
+LLSVCLGSLIYSTAALGV__LMSN___LGMPSYCTGYREGYLNSTNV
+
+
+score: 36
+x: 49 y: 392
+LLTLESNQQNLLLDFLI_LQT_____________CALLVKFLTPPDLHLFMLGTGRESATVL
+||||   ||**|***** ||*             |||*   |*********||**||****|
+LLTL___QQIELKFNPPALQDAYYRARAGEAANFCALI___LAYCNKTVGELGDVRETMSYL
+
+
+score: 15
+x: 3 y: 3
+KLL
+|||
+KLL
+
+
+score: 43
+x: 49 y: 358
+LTLESNQQNLLLD_F_LILQTCALLVKFLTPPDLHLF__MLG___TGR____ES__A_____TVL
+||***||***  | | |*||****|***||***|***  ||*   |*|    |*  |     |||
+LTKHPNQEYA__DVFHLYLQYIRKLHDELTGHMLDMYSVMLTNDNTSRYWEPEFYEAMYTPHTVL
+
+
+score: 36
+x: 49 y: 392
+LLTLESNQQNLLLDFLI_LQT_____________CALLVKFLTPPDLHLFMLGTGRESATVL
+||||   ||**|***** ||*             |||*   |*********||**||****|
+LLTL___QQIELKFNPPALQDAYYRARAGEAANFCALI___LAYCNKTVGELGDVRETMSYL
+
+
+score: 15
+x: 3 y: 3
+KLL
+|||
+KLL
+
+
+score: 15
+x: 49 y: 3
+TVL
+|||
+TVL
+
+
+score: 15
+x: 49 y: 3
+TVL
+|||
+TVL
+
+
+score: 15
+x: 49 y: 3
+TVL
+|||
+TVL
+
+
+score: 15
+x: 49 y: 3
+TVL
+|||
+TVL
+
+
+score: 15
+x: 49 y: 3
+TVL
+|||
+TVL
+
+
+score: 15
+x: 49 y: 3
+TVL
+|||
+TVL
+

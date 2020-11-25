@@ -1,3 +1,29 @@
 Frame: 1
 Query: LCWLP
 Length: 5
+
+score: 15
+x: 3 y: 3
+LCW
+|||
+LCW
+
+x: 3 y: 21
+LCW
+|||
+LCW
+
+
+score: 15
+x: 5 y: 3
+WLP
+|||
+WLP
+
+
+score: 15
+x: 5 y: 3
+WLP
+|||
+WLP
+

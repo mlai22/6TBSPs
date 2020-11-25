@@ -1,3 +1,59 @@
 Frame: 1
 Query: YEDQDALFAYTKRNVIPTITQMNLKYAISAKNRARTVAGVSICSTMTNRQ
 Length: 50
+
+score: 250
+x: 50 y: 4809
+YEDQDALFAYTKRNVIPTITQMNLKYAISAKNRARTVAGVSICSTMTNRQ
+||||||||||||||||||||||||||||||||||||||||||||||||||
+YEDQDALFAYTKRNVIPTITQMNLKYAISAKNRARTVAGVSICSTMTNRQ
+
+
+score: 15
+x: 3 y: 3
+YED
+|||
+YED
+
+
+score: 40
+x: 48 y: 1334
+DQDALFA_YT_KRNV___IPTI_____TQ__MNLKYAISAKNR___ART_____V_AGVSICS____TMTN
+|**|*|* || |**|   |*|*     |*  |*|*|*****|*   ||*     | |*||**|    |**|
+DYGARFYFYTSKTTVASLINTLNDLNETLVTMPLGYVTHGLNLEEAARYMRSLKVPATVSVSSPDAVTAYN
+
+
+score: 15
+x: 3 y: 3
+YED
+|||
+YED
+
+
+score: 15
+x: 3 y: 3
+YED
+|||
+YED
+
+
+score: 250
+x: 50 y: 50
+YEDQDALFAYTKRNVIPTITQMNLKYAISAKNRARTVAGVSICSTMTNRQ
+||||||||||||||||||||||||||||||||||||||||||||||||||
+YEDQDALFAYTKRNVIPTITQMNLKYAISAKNRARTVAGVSICSTMTNRQ
+
+
+score: 15
+x: 3 y: 3
+YED
+|||
+YED
+
+
+score: 15
+x: 3 y: 3
+YED
+|||
+YED
+

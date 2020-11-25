@@ -1,3 +1,90 @@
 Frame: 3
 Query: IAVQMTKLATTEELPDEFVVVTVK
 Length: 24
+
+score: 32
+x: 14 y: 824
+AVQM_TKLA__TTEEL
+||** ||*|  |||*|
+AVVIPTKKAGGTTEML
+
+x: 22 y: 833
+AVQM_TKLA__TTEELPDEFVVV_T
+||** ||*|  |||*|******| |
+AVVIPTKKAGGTTEMLAKALRKVPT
+
+
+score: 15
+x: 3 y: 3
+IAV
+|||
+IAV
+
+
+score: 32
+x: 14 y: 824
+AVQM_TKLA__TTEEL
+||** ||*|  |||*|
+AVVIPTKKAGGTTEML
+
+x: 22 y: 833
+AVQM_TKLA__TTEELPDEFVVV_T
+||** ||*|  |||*|******| |
+AVVIPTKKAGGTTEMLAKALRKVPT
+
+
+score: 15
+x: 3 y: 3
+IAV
+|||
+IAV
+
+
+score: 15
+x: 3 y: 3
+IAV
+|||
+IAV
+
+
+score: 15
+x: 24 y: 3
+TVK
+|||
+TVK
+
+
+score: 20
+x: 24 y: 296
+VTVK
+||||
+VTVK
+
+
+score: 15
+x: 24 y: 3
+TVK
+|||
+TVK
+
+
+score: 15
+x: 24 y: 3
+TVK
+|||
+TVK
+
+
+score: 15
+x: 24 y: 3
+TVK
+|||
+TVK
+
+
+score: 20
+x: 24 y: 296
+VTVK
+||||
+VTVK
+

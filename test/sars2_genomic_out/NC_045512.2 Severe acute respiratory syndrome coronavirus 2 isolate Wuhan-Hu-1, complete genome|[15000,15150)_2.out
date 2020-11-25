@@ -1,3 +1,95 @@
 Frame: 2
 Query: MRIKMHFSHIQNVMSSLL
 Length: 18
+
+score: 24
+x: 18 y: 3114
+FSHIQNVMSSLL
+|||*|*****||
+FSHSQLGGLHLL
+
+
+score: 15
+x: 3 y: 3
+MRI
+|||
+MRI
+
+
+score: 19
+x: 17 y: 85
+MRIKMHFSHIQNVMSSL
+||| |*****  |**||
+MRI_MTWLDM__VDTSL
+
+x: 18 y: 326
+MSSLL
+|*|||
+MVSLL
+
+
+score: 15
+x: 3 y: 74
+MRI
+|||
+MRI
+
+x: 18 y: 3
+SLL
+|||
+SLL
+
+
+score: 15
+x: 3 y: 74
+MRI
+|||
+MRI
+
+x: 18 y: 3
+SLL
+|||
+SLL
+
+
+score: 15
+x: 18 y: 3
+SLL
+|||
+SLL
+
+
+score: 15
+x: 18 y: 3
+SLL
+|||
+SLL
+
+
+score: 15
+x: 18 y: 3
+SLL
+|||
+SLL
+
+
+score: 15
+x: 18 y: 3
+SLL
+|||
+SLL
+
+
+score: 15
+x: 18 y: 3
+SLL
+|||
+SLL
+
+
+score: 15
+x: 18 y: 3
+SLL
+|||
+SLL
+

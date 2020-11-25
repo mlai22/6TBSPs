@@ -1,3 +1,71 @@
 Frame: 3
 Query: RVWLIMVLDFTFTPVKQL
 Length: 18
+
+score: 27
+x: 15 y: 23
+LIMV_LDFTF________TPV
+||*| |*|*|        |||
+LIKVTLVFLFVAAIFYLITPV
+
+x: 16 y: 950
+RVWLIM_VLDFTFTPV_K
+|||**| ||    |*| |
+RVWTLMNVL____TLVYK
+
+
+score: 27
+x: 15 y: 23
+LIMV_LDFTF________TPV
+||*| |*|*|        |||
+LIKVTLVFLFVAAIFYLITPV
+
+
+score: 15
+x: 3 y: 3
+RVW
+|||
+RVW
+
+
+score: 15
+x: 3 y: 3
+RVW
+|||
+RVW
+
+
+score: 15
+x: 18 y: 3
+KQL
+|||
+KQL
+
+
+score: 15
+x: 18 y: 3
+KQL
+|||
+KQL
+
+
+score: 15
+x: 18 y: 3
+KQL
+|||
+KQL
+
+
+score: 15
+x: 18 y: 3
+KQL
+|||
+KQL
+
+
+score: 15
+x: 18 y: 3
+KQL
+|||
+KQL
+

@@ -1,3 +1,73 @@
 Frame: 3
 Query: TSLTPFRMAYCWRCTSCCFSERFQNHNPQKEMATSTLQGCSLCLQLAVV
 Length: 49
+
+score: 41
+x: 47 y: 220
+S_LTP___FRM__AYCWRCTSCCFS___ERFQNHNP__QKEMATST_LQGCS___LCLQLA
+| |*|   |**  |***|  |* ||   |**||***  ||  |**| |*|*|   |*|**|
+SILSPLYAFASEAARVVR__SI_FSRTLETAQNSVRVLQK__AAITILDGISQYSLRLIDA
+
+
+score: 41
+x: 47 y: 220
+S_LTP___FRM__AYCWRCTSCCFS___ERFQNHNP__QKEMATST_LQGCS___LCLQLA
+| |*|   |**  |***|  |* ||   |**||***  ||  |**| |*|*|   |*|**|
+SILSPLYAFASEAARVVR__SI_FSRTLETAQNSVRVLQK__AAITILDGISQYSLRLIDA
+
+
+score: 26
+x: 49 y: 59
+LTPFRMAYCWRCTSCCFSERFQNHNPQKEMATSTLQGCSLCLQ_LAVV
+| ||*|*****  |* |***|**|   |* |***|*   | |* ||*|
+L_PFAMGIIAM__SA_FAMMFVKH___KH_AFLCLF___L_LPSLATV
+
+
+score: 40
+x: 39 y: 271
+TSLTPFRMAYCWRCT___SCCFSERFQNH_NPQKE_MAT_STLQG
+|*|*|         |   |**||*   |* |*||* |** |||||
+TGLYP_________TLNISDEFSS___NVANYQKVGMQKYSTLQG
+
+
+score: 26
+x: 49 y: 59
+LTPFRMAYCWRCTSCCFSERFQNHNPQKEMATSTLQGCSLCLQ_LAVV
+| ||*|*****  |* |***|**|   |* |***|*   | |* ||*|
+L_PFAMGIIAM__SA_FAMMFVKH___KH_AFLCLF___L_LPSLATV
+
+
+score: 15
+x: 49 y: 3
+AVV
+|||
+AVV
+
+
+score: 15
+x: 49 y: 3
+AVV
+|||
+AVV
+
+
+score: 15
+x: 49 y: 3
+AVV
+|||
+AVV
+
+
+score: 15
+x: 49 y: 3
+AVV
+|||
+AVV
+
+
+score: 15
+x: 49 y: 3
+AVV
+|||
+AVV
+

@@ -53,8 +53,8 @@ def main():
 		description='Build a compressed hashtable for protein databases.')
 	parser.add_argument('prot_faa', metavar='protein.faa', nargs = '+', \
 		help='protein FASTA filename')
-	parser.add_argument('-k', '--kmer', default=5, nargs='?', type=int, \
-		help='k-mer length (default:5)')
+	parser.add_argument('-k', '--kmer', default=3, nargs='?', type=int, \
+		help='k-mer length (default:3)')
 	parser.add_argument('--db', '--database', \
 		help='database base name of k-mer indices', required = True)
 

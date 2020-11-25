@@ -1,3 +1,15 @@
 Frame: -2
 Query: LCPYQLLVLFACQQKVHKSYLLSLCQHELQLVIPYGACNKKRHSHNLC
 Length: 48
+
+score: 15
+x: 3 y: 4
+LCP
+|||
+LCP
+
+x: 48 y: 3
+NLC
+|||
+NLC
+

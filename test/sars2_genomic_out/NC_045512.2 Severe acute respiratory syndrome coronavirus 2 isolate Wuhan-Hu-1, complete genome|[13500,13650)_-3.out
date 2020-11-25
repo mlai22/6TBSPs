@@ -1,3 +1,52 @@
 Frame: -3
 Query: SKNQLNCHLRPFLGSDNN
 Length: 18
+
+score: 15
+x: 3 y: 3
+SKN
+|||
+SKN
+
+
+score: 22
+x: 14 y: 1265
+NQLNCHLR__PFLG
+|*||**|*  | ||
+NDLNETLVTMP_LG
+
+
+score: 22
+x: 14 y: 1265
+NQLNCHLR__PFLG
+|*||**|*  | ||
+NDLNETLVTMP_LG
+
+
+score: 15
+x: 18 y: 3
+DNN
+|||
+DNN
+
+
+score: 15
+x: 18 y: 3
+DNN
+|||
+DNN
+
+
+score: 15
+x: 18 y: 3
+DNN
+|||
+DNN
+
+
+score: 15
+x: 18 y: 3
+DNN
+|||
+DNN
+

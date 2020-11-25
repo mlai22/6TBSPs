@@ -1,3 +1,66 @@
 Frame: 1
 Query: SLEIPRRNVATLQAENVTGLFKDCSKVITGLHPTQAPTHLSVDTKFKTEG
 Length: 50
+
+score: 250
+x: 50 y: 3660
+SLEIPRRNVATLQAENVTGLFKDCSKVITGLHPTQAPTHLSVDTKFKTEG
+||||||||||||||||||||||||||||||||||||||||||||||||||
+SLEIPRRNVATLQAENVTGLFKDCSKVITGLHPTQAPTHLSVDTKFKTEG
+
+
+score: 15
+x: 3 y: 3
+SLE
+|||
+SLE
+
+
+score: 15
+x: 3 y: 3
+SLE
+|||
+SLE
+
+
+score: 15
+x: 3 y: 3
+SLE
+|||
+SLE
+
+
+score: 32
+x: 45 y: 34
+SLEIPRRNVATLQAENVT__GLFKDCSKVITGLHPTQAPTHLSVDTK
+|||    |||*    ||*  |*| |***   |**|******* |*||
+SLE____NVAF____NVVNKGHF_DGQQ___GEVPVSIINNT_VYTK
+
+
+score: 15
+x: 3 y: 3
+SLE
+|||
+SLE
+
+
+score: 15
+x: 3 y: 3
+SLE
+|||
+SLE
+
+
+score: 15
+x: 50 y: 3
+TEG
+|||
+TEG
+
+
+score: 15
+x: 50 y: 3
+TEG
+|||
+TEG
+
