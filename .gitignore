@@ -1,8 +1,5 @@
 papers/
 slides/
-test/dna_ref/
-test/dna_reads/
-test/protein_ref/
 *.docx
 *.pdf
 datasets

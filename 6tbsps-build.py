@@ -11,7 +11,7 @@ E-mail:
 	mlai22@jhu.edu
 
 Usage:
-	$ python 6tbsps.py-build [-k $kmer_len] -o $out_basename protein.faa
+	$ python 6tbsps.py-build [-k $kmer_len] --db $out_basename protein.faa
 
 Attributes:
 	Parse an input FASTA and translate the DNA sequences in 6-frame, 
@@ -20,33 +20,9 @@ Attributes:
 #%%
 import os
 import argparse
-import pickle
-#%%
-def parse_fasta(filename, ID_seq):
-	'''
-	Parse protein sequences from FASTA file
 
-	Args:
-        filename (str):   file name of the protein FASTA file
-		ID_seq (dict):    a dictionary with keys reference IDs and values 
-                            protein sequences
-
-	Returns:
-		None
-	'''
-	with open(filename, 'r') as fh:
-		while True:
-			line = fh.readline()	
-			if len(line) == 0:
-				break
-			if line[0] == '>':
-				refID = line[1:].rstrip()
-				protein_seq = ''
-			else:
-				protein_seq += line.rstrip()
-			ID_seq[refID] = protein_seq
-			
-	return
+# custom scripts
+import scripts.file_io as fio
 #%%
 def protein_kmer_table(seqs, k):
 	'''
@@ -70,23 +46,6 @@ def protein_kmer_table(seqs, k):
 
 	return table
 #%%
-def write_dict(dictionary, dir_name, base_name):
-	'''
-	Write a dictionary to file, compressed using pickle
-
-	Args:
-		dictionary (dict): 		a python dictionary
-		dir_name (str): 		output directory name
-		base_name (str):		output base name
-
-	Returns:
-		None
-	'''
-	with open(os.path.join(dir_name, base_name)+'.pickle', 'wb') as handle:
-		pickle.dump(dictionary, handle, protocol = pickle.HIGHEST_PROTOCOL)	
-	
-	return
-#%%
 def main():
 	'''The main function for 6TBSPS-build'''
 
@@ -94,24 +53,24 @@ def main():
 		description='Build a compressed hashtable for protein databases.')
 	parser.add_argument('prot_faa', metavar='protein.faa', nargs = '+', \
 		help='protein FASTA filename')
-	parser.add_argument('-k', default=5, nargs='?', type=int, \
+	parser.add_argument('-k', '--kmer', default=5, nargs='?', type=int, \
 		help='k-mer length (default:5)')
-	parser.add_argument('-o', help='base name of the k-mer indices')
+	parser.add_argument('--db', '--database', \
+		help='database base name of k-mer indices', required = True)
 
 	args = parser.parse_args()
 	in_files = args.prot_faa
-	out_path = os.path.join(os.getcwd(), args.o)
-	out_dir = os.path.dirname(out_path)
-	out_base = os.path.basename(out_path)
-	k = int(args.k)
+	out_dir = os.path.dirname(args.db)
+	out_base = os.path.basename(args.db)
+	k = int(args.kmer)
 
 	prot_seqs = {}
 	for name in in_files:
-		parse_fasta(name, prot_seqs)
-	write_dict(prot_seqs, out_dir, out_base+'.prot')
+		fio.parse_fasta(name, prot_seqs)
+	fio.write_dict(prot_seqs, out_dir, out_base+'.prot')
 
 	prot_kmer = protein_kmer_table(prot_seqs, k)
-	write_dict(prot_kmer, out_dir, out_base+'.kmer')
+	fio.write_dict(prot_kmer, out_dir, out_base+'.kmer')
 
 	return
 #%%
