@@ -60,27 +60,30 @@ def main():
 			os.makedirs(out_dir)
 
 		frames = sft.six_frames(seq)
-		# for each of the 6 frames:
-		for f in [-3, -2, -1, 1, 2, 3]:
-			with open(os.path.join(out_dir, read_id+'_'+str(f)+'.out'), 'w') as out_file:
+		with open(os.path.join(out_dir, read_id+'.out'), 'w') as out_file:
+			# for each of the 6 frames:
+			for f in [-3, -2, -1, 1, 2, 3]:
 				frame = frames[f]
 				# 6-frame translation
 				query = sft.translation(sft.transcription(frame))
-				print('Frame:', str(f), file=out_file)
-				print('Query:', query, file=out_file)
-				print('Length:', len(query), file=out_file)
-
 				# seed and extend
 				regions = naive_seed_and_extend(query, prot_db, k)
-				
 				# local alignment
 				for ref_id, (s, e) in regions:
 					subject = prot_seq[ref_id][s:e]
 					la = LocalAlignment(query, subject, None)
 					la.fill_matrix()
 					la.traceback()
+					
+					print('Frame:', str(f), file=out_file)
+					print('Query:', query, file=out_file)
+					print('Length:', len(query), file=out_file)
+					print('Subject:', ref_id, file=out_file)
+					print('Length:', len(prot_seq[ref_id]), file=out_file)
 					print(file=out_file)
+
 					la.display(out_file)
+					print(file=out_file)
 
 	return 
 #%%
