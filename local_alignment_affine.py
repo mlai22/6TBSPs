@@ -1,4 +1,4 @@
-""" Local Alignment using affine gap, Alg: SW
+""" Local Alignment using affine gap, Alg: Gotch(Local)
 ​
 Author: 
     Zitong He
@@ -7,7 +7,8 @@ Email:
     hezt@jhu.edu
     
 Usage:
-    None
+    This is a class for internal pipline, no external usage.
+    Internal usage see LocalAlignment.display()
 ​
 Attributes:
     None
@@ -26,7 +27,7 @@ GAPEXT = -1.
 def test_score_matrix(xc, yc):
     '''
     Given characters from seq_x and seq_y, compute the score based on the score_matrix.
-
+    TODO: Need delete this one in the future, not used in this impelemtation
     Args:
         xc (char): the character from seq_x
         yc (char): the character from seq_y
@@ -35,9 +36,10 @@ def test_score_matrix(xc, yc):
         score (int): score based on xc and yc
 
     '''
-    if xc == yc: return MATCH # match
-    if xc == '-' or yc == '-': EOFError # gap
-    return MISMATCH
+    # if xc == yc: return MATCH # match
+    # if xc == '-' or yc == '-': EOFError # gap
+    # return MISMATCH
+    pass
 
 class LocalAlignment:
     def __init__(self, seq_x, seq_y, score_matrix):
