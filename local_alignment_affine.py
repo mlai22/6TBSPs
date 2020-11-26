@@ -136,12 +136,14 @@ class LocalAlignment:
             s (func): score_matrix function
             x (string): seq_x
             y (string): seq_y
-            xscript_list (list of string): transcript of alignment
+            xscript_list (list[string]): transcript of alignment
             max_loc_list (list[tuple]): the list of maxs locs
             score (float): max value in self.M matrix, the best global alignment value
                     in local alignment
-            align_seq_x_list (list of string): aligned substring of sequence x, contains _ for gap
-            align_seq_y_list (list of string): aligned substring of sequence y, contains _ for gap
+            align_seq_x_list (list[string]): aligned substring of sequence x, contains _ for gap
+            align_seq_y_list (list[string]): aligned substring of sequence y, contains _ for gap
+            max_loc_x_list (list[list[start, end]]): aligned location, start and end
+            max_loc_y_list (list[list[start, end]]): aligned location, start and end
         return:
             self.score
             self.align_seq_x
@@ -152,14 +154,19 @@ class LocalAlignment:
         self.align_seq_x_list = []
         self.align_seq_y_list = []
         self.xscript_list = []
+        self.max_loc_x_list = []
+        self.max_loc_y_list = []
 
         for i, j in self.max_loc_list:
             align_seq_x = ''
             align_seq_y = ''
             xscript = ''
+            max_loc_x = [0, 0]
+            max_loc_y = [0, 0]
+            max_loc_x[1] = i
+            max_loc_y[1] = j
             v = self.M[i,j]
             while (v != 0):
-
                 if (self.M[i][j] == self.Y[i][j]):
                     # horizontal first
                     # horizontal(j), ext
@@ -169,11 +176,10 @@ class LocalAlignment:
                     if (self.Y[i,j] == self.Y[i, j-1] + self.ge):
                         # continue horizontal(j) ext
                         v = self.Y[i, j-1]
-                        j -= 1
                     else:
                         # horizontal(j) open
                         v = self.M[i, j-1]
-                        j -= 1
+                    j -= 1
                 elif (self.M[i][j] == self.X[i][j]):
                     # vertical then
                     # vertical(i) ext
@@ -182,11 +188,10 @@ class LocalAlignment:
                     xscript += ' '
                     if (self.X[i,j] == self.X[i-1, j] + self.ge):
                         v = self.X[i-1, j]
-                        i -= 1
                     else:
                         # horizontal(j) open
                         v = self.M[i-1, j]
-                        i -= 1
+                    i -= 1
                 elif (self.M[i][j] == self.M[i-1][j-1] + self._match(i, j)):
                     # match last
                     # diagnal
@@ -199,12 +204,18 @@ class LocalAlignment:
                     v = self.M[i-1][j-1]
                     i -= 1
                     j -= 1
+            max_loc_x[0] = i
+            max_loc_y[0] = j
 
             self.align_seq_x_list.append(align_seq_x[::-1])
             self.align_seq_y_list.append(align_seq_y[::-1])
             self.xscript_list.append(xscript[::-1])
+            self.max_loc_x_list.append(max_loc_x)
+            self.max_loc_y_list.append(max_loc_y)
 
-        return self.score, self.align_seq_x_list, self.align_seq_y_list, self.xscript_list
+        return self.score, \
+               self.align_seq_x_list, self.align_seq_y_list, self.xscript_list, \
+               self.max_loc_x_list, self.max_loc_y_list
 
     def display(self):
         '''
@@ -212,10 +223,14 @@ class LocalAlignment:
         '''
         print('score: {}'.format(self.score))
         for i, loc in enumerate(self.max_loc_list):
-            print('x: {} y: {}'.format(loc[0], loc[1]))
-            print(self.align_seq_x_list[i])
-            print(self.xscript_list[i])
-            print(self.align_seq_y_list[i])
+            # print('x: {} y: {}'.format(loc[0], loc[1]))
+            print('{:<4d}{}{:>4d}'.format(self.max_loc_x_list[i][0],
+                                      self.align_seq_x_list[i],
+                                      self.max_loc_x_list[i][1]))
+            print('    {}    '.format(self.xscript_list[i]))
+            print('{:<4d}{}{:>4d}'.format(self.max_loc_y_list[i][0],
+                                      self.align_seq_y_list[i],
+                                      self.max_loc_y_list[i][1]))
             print('')
 
 
@@ -223,11 +238,11 @@ if __name__ == "__main__":
     '''
     Test codes
     '''
-    # la = LocalAlignment('MISLIAALAVDRVIGMENAMPFNLPADLAWFKRNTLDKPVIMGRHTWESIG', 'SLNCIVAVSQNMGIGKNGDLPWPPLRNEFRYFQRMTTTSSVEGKQNLVIMGKKTWFSIPE', test_score_matrix)
+    la = LocalAlignment('MISLIAALAVDRVIGMENAMPFNLPADLAWFKRNTLDKPVIMGRHTWESIG', 'SLNCIVAVSQNMGIGKNGDLPWPPLRNEFRYFQRMTTTSSVEGKQNLVIMGKKTWFSIPE', test_score_matrix)
     # la = LocalAlignment('SLNCIVAVSQNMGIGKNGDLPWPPLRNEFRYFQRMTTTSSVEGKQNLVIMGKKTWFSIPE', 'MISLIAALAVDRVIGMENAMPFNLPADLAWFKRNTLDKPVIMGRHTWESIG', test_score_matrix)
     # la = LocalAlignment('QRNTLDKPVIMGRHTWESI', 'QRMTTTSSVEGKQNLVIMGKKTWFSI', test_score_matrix)
     # la = LocalAlignment('NAMPFNL', 'NGDLPWPPL', None)
-    la = LocalAlignment('SLIAALAVDRVIGMENAMPFNL', 'SLNCIVAVSQNMGIGKNGDLPWPPL', None)
+    # la = LocalAlignment('SLIAALAVDRVIGMENAMPFNL', 'SLNCIVAVSQNMGIGKNGDLPWPPL', None)
     # la = LocalAlignment('GGTATGCTGGCGCTA', 'TATATGCGGCGTTT', test_score_matrix)
     # la = LocalAlignment('ACACACTA','AGCACACA', test_score_matrix)
     # la = LocalAlignment('ATTGAGC','ATGC', None)
