@@ -2,7 +2,7 @@
 '''
 To build a compressed hashtable for protein databases.
 Input: one or more multi-fasta protein database(s)
-Output: compressed dictionary (hashtable) of kmers and reference proteins
+Output: 2D local alignment graph 
 
 Author:
 	Yuchen Ge
@@ -11,7 +11,7 @@ E-mail:
 	yge15@jhmi.edu
 
 Usage:
-	$ python 6tbsps.py-build [-k $kmer_len] -o $out_basename protein.faa
+	$ python 6tbsps-query --db $database -o $out_dir reads.fa
 
 Attributes:
 	Parse an input FASTA and translate the DNA sequences in 6-frame, 
@@ -60,7 +60,7 @@ def main():
 			os.makedirs(out_dir)
 
 		frames = sft.six_frames(seq)
-		with open(os.path.join(out_dir, read_id+'.out'), 'w') as out_file:
+		with open(os.path.join(out_dir, read_id.replace('/', '|')+'.out'), 'w') as out_file:
 			# for each of the 6 frames:
 			for f in [-3, -2, -1, 1, 2, 3]:
 				frame = frames[f]
