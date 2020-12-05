@@ -9,3 +9,7 @@ sw = swalign.LocalAlignment(scoring, gap_penalty=-3, gap_extension_penalty=-1)  
 # alignment = sw.align('MISLIAALAVDRVIGMENAMPFNLPADLAWFKRNTLDKPVIMGRHTWESIG','SLNCIVAVSQNMGIGKNGDLPWPPLRNEFRYFQRMTTTSSVEGKQNLVIMGKKTWFSIPE')
 alignment = sw.align('ATTGAGC', 'ATGC')
 alignment.dump()
+
+
+if __name__ == "__main__":
+    pass
