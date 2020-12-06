@@ -27,7 +27,7 @@ And in the matrix, '*' represents gap and the penalty is -5, -4 and -6 according
 '''
 
 
-def score_matrix(xc, yc, matrix_name='BLOSUM62'):
+def score_matrix(matrix_name='BLOSUM62'):
     """
     Given characters from seq_x and seq_y, compute the score based on the score_matrix.
     Args:
@@ -36,14 +36,15 @@ def score_matrix(xc, yc, matrix_name='BLOSUM62'):
     Returns:
         score (int): score based on xc and yc
     """
-    path = matrix_name + ".csv"
-    Matrix = pandas.read_csv(path)
-    assert (Matrix == Matrix.T).all().all()
-    Matrix.rename(index={'*': '-'}, columns={'*': '-'}, inplace=True)
-    return Matrix.loc[xc, yc]
+    path = './score_matrices/' + matrix_name + '.csv'
+    matrix = pandas.read_csv(path)
+    assert (matrix == matrix.T).all().all()
+    # matrix.rename(index={'*': '-'}, columns={'*': '-'}, inplace=True)
+    return matrix
+    # return Matrix.loc[xc, yc]
 
 
-def e_Value_cal(m, n, S, name='BLOSUM62'):
+def e_value_cal(m, n, S, name='BLOSUM62'):
     '''
     Actually, the parameters in the evalue calculating equation is quite hard to determine. We use data from this site
     https://bioinfo.lifl.fr/reblosum/all-matrices.html

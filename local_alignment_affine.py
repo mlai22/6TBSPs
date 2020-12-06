@@ -18,11 +18,12 @@ Attributes:
 import sys
 import os
 import numpy as np
+from score_matrix import score_matrix
 
-MATCH = 5.
-MISMATCH = -1.
-GAPOPEN = -3.
-GAPEXT = -1.
+# MATCH = 5.
+# MISMATCH = -1.
+# GAPOPEN = -3.
+# GAPEXT = -1.
 
 def test_score_matrix(xc, yc):
     '''
@@ -42,7 +43,7 @@ def test_score_matrix(xc, yc):
     pass
 
 class LocalAlignment:
-    def __init__(self, seq_x, seq_y, score_matrix):
+    def __init__(self, seq_x, seq_y, matrix_name='BLOSUM62', gap_open=-12., gap_ext=-4.):
         '''
         Init class parameters and score_matrix
         Parameters include the seq_x and seq_y, which need to be aligned.
@@ -50,7 +51,9 @@ class LocalAlignment:
         Args:
             seq_x (string): sequence x
             seq_y (string): sequence y
-            score_matrix: for now, still use fixed match/mismatch/gap value​
+            matrix_name (string): name of the score matrix which we want to use
+            gap_open (float): gap opening
+            gap_ext (float): gap extension
         Returns:
             None
 
@@ -58,14 +61,15 @@ class LocalAlignment:
             X (numpy.array): upper matrix, _ will appear in seq_y
             Y (numpy.array): lower matrix, _ will appear in seq_x
             M (numpy.array): match matrix
-            go (float): gap open panalty
-            ge (float): gap extend panalty
+            go (float): gap open panalty, for a score matrix, all go are same
+            ge (float): gap extend panalty, for a score matrix, all ge are same
+            score_matrix: score_matrix
         '''
-        self.go = GAPOPEN
-        self.ge = GAPEXT
+        self.score_matrix = score_matrix(matrix_name)# only about match
+        self.go = gap_open
+        self.ge = gap_ext
         self.x = seq_x
         self.y = seq_y
-        self.s = score_matrix # only about match
 
         # initialize three matrix for affine sw
         dim_i = len(seq_x) + 1
@@ -85,12 +89,16 @@ class LocalAlignment:
 
     def _match(self, i, j):
         '''
-        TODO: future add socore matrix
+        i (int): index of current char in seq x
+        j (int): index of current char in seq y
+        return (float): score
         '''
-        if self.x[i-1] == self.y[j-1]:
-            return MATCH
-        else:
-            return MISMATCH
+        return float(self.score_matrix.loc[self.x[i-1], self.y[j-1]])
+        # return float(score_matrix(self.x[i-1], self.y[j-1], self.matrix_name))
+        # if self.x[i-1] == self.y[j-1]:
+            # return MATCH
+        # else:
+            # return MISMATCH
 
     def fill_matrix(self):
         '''
@@ -240,15 +248,15 @@ if __name__ == "__main__":
     '''
     Test codes
     '''
-    # la = LocalAlignment('MISLIAALAVDRVIGMENAMPFNLPADLAWFKRNTLDKPVIMGRHTWESIG', 'SLNCIVAVSQNMGIGKNGDLPWPPLRNEFRYFQRMTTTSSVEGKQNLVIMGKKTWFSIPE', test_score_matrix)
-    # la = LocalAlignment('SLNCIVAVSQNMGIGKNGDLPWPPLRNEFRYFQRMTTTSSVEGKQNLVIMGKKTWFSIPE', 'MISLIAALAVDRVIGMENAMPFNLPADLAWFKRNTLDKPVIMGRHTWESIG', test_score_matrix)
-    # la = LocalAlignment('QRNTLDKPVIMGRHTWESI', 'QRMTTTSSVEGKQNLVIMGKKTWFSI', test_score_matrix)
-    # la = LocalAlignment('NAMPFNL', 'NGDLPWPPL', None)
-    la = LocalAlignment('SLIAALAVDRVIGMENAMPFNL', 'SLNCIVAVSQNMGIGKNGDLPWPPL', None)
-    # la = LocalAlignment('GGTATGCTGGCGCTA', 'TATATGCGGCGTTT', test_score_matrix)
-    # la = LocalAlignment('ACACACTA','AGCACACA', test_score_matrix)
-    # la = LocalAlignment('ATTGAGC','ATGC', None)
-    # la = LocalAlignment('ATGC','ATTGAGC', None)
+    # la = LocalAlignment('MISLIAALAVDRVIGMENAMPFNLPADLAWFKRNTLDKPVIMGRHTWESIG', 'SLNCIVAVSQNMGIGKNGDLPWPPLRNEFRYFQRMTTTSSVEGKQNLVIMGKKTWFSIPE')
+    la = LocalAlignment('SLNCIVAVSQNMGIGKNGDLPWPPLRNEFRYFQRMTTTSSVEGKQNLVIMGKKTWFSIPE', 'MISLIAALAVDRVIGMENAMPFNLPADLAWFKRNTLDKPVIMGRHTWESIG')
+    # la = LocalAlignment('QRNTLDKPVIMGRHTWESI', 'QRMTTTSSVEGKQNLVIMGKKTWFSI')
+    # la = LocalAlignment('NAMPFNL', 'NGDLPWPPL')
+    # la = LocalAlignment('SLIAALAVDRVIGMENAMPFNL', 'SLNCIVAVSQNMGIGKNGDLPWPPL')
+    # la = LocalAlignment('GGTATGCTGGCGCTA', 'TATATGCGGCGTTT')
+    # la = LocalAlignment('ACACACTA','AGCACACA')
+    # la = LocalAlignment('ATTGAGC','ATGC')
+    # la = LocalAlignment('ATGC','ATTGAGC')
     la.fill_matrix()
     la.traceback()
     la.display()
