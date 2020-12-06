@@ -92,7 +92,7 @@ class LocalAlignment:
         j (int): index of current char in seq y
         return (float): score
         '''
-        return float(self.score_matrix.loc[self.x[i-1], self.y[j-1]])
+        return float(self.score_matrix[self.x[i-1]][self.y[j-1]])
         # return float(score_matrix(self.x[i-1], self.y[j-1], self.matrix_name))
         # if self.x[i-1] == self.y[j-1]:
             # return MATCH

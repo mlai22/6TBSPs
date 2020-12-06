@@ -39,6 +39,7 @@ def score_matrix(matrix_name='BLOSUM62'):
     path = './score_matrices/' + matrix_name + '.csv'
     matrix = pandas.read_csv(path)
     assert (matrix == matrix.T).all().all()
+    matrix = matrix.to_dict('index')
     # matrix.rename(index={'*': '-'}, columns={'*': '-'}, inplace=True)
     return matrix
     # return Matrix.loc[xc, yc]
