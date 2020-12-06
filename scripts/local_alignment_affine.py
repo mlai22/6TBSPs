@@ -18,7 +18,6 @@ Attributes:
 import sys
 import os
 import numpy as np
-from scripts.score_matrix import score_matrix
 
 # MATCH = 5.
 # MISMATCH = -1.
@@ -43,7 +42,7 @@ def test_score_matrix(xc, yc):
     pass
 
 class LocalAlignment:
-    def __init__(self, seq_x, seq_y, matrix_name='BLOSUM62', gap_open=-12., gap_ext=-4.):
+    def __init__(self, seq_x, seq_y, score_matrix, gap_open=-12., gap_ext=-4.):
         '''
         Init class parameters and score_matrix
         Parameters include the seq_x and seq_y, which need to be aligned.
@@ -51,7 +50,7 @@ class LocalAlignment:
         Args:
             seq_x (string): sequence x
             seq_y (string): sequence y
-            matrix_name (string): name of the score matrix which we want to use
+            score_matrix (pandas.df): score matrix
             gap_open (float): gap opening
             gap_ext (float): gap extension
         Returns:
@@ -65,7 +64,7 @@ class LocalAlignment:
             ge (float): gap extend panalty, for a score matrix, all ge are same
             score_matrix: score_matrix
         '''
-        self.score_matrix = score_matrix(matrix_name)# only about match
+        self.score_matrix = score_matrix
         self.go = gap_open
         self.ge = gap_ext
         self.x = seq_x
@@ -266,11 +265,13 @@ if __name__ == "__main__":
     '''
     Test codes
     '''
+    # from score_matrix import score_matrix
+    sm = score_matrix()
     # la = LocalAlignment('MISLIAALAVDRVIGMENAMPFNLPADLAWFKRNTLDKPVIMGRHTWESIG', 'SLNCIVAVSQNMGIGKNGDLPWPPLRNEFRYFQRMTTTSSVEGKQNLVIMGKKTWFSIPE')
     # la = LocalAlignment('SLNCIVAVSQNMGIGKNGDLPWPPLRNEFRYFQRMTTTSSVEGKQNLVIMGKKTWFSIPE', 'MISLIAALAVDRVIGMENAMPFNLPADLAWFKRNTLDKPVIMGRHTWESIG')
     # la = LocalAlignment('QRNTLDKPVIMGRHTWESI', 'QRMTTTSSVEGKQNLVIMGKKTWFSI')
     # la = LocalAlignment('NAMPFNL', 'NGDLPWPPL')
-    la = LocalAlignment('SLIAALAVDRVIGMENAMPFNL', 'SLNCIVAVSQNMGIGKNGDLPWPPL')
+    la = LocalAlignment('SLIAALAVDRVIGMENAMPFNL', 'SLNCIVAVSQNMGIGKNGDLPWPPL', sm)
     # la = LocalAlignment('GGTATGCTGGCGCTA', 'TATATGCGGCGTTT')
     # la = LocalAlignment('ACACACTA','AGCACACA')
     # la = LocalAlignment('ATTGAGC','ATGC')

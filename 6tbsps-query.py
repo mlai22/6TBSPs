@@ -27,6 +27,7 @@ import scripts.file_io as fio
 import scripts.six_frame_translation as sft
 from scripts.seed_and_extend import naive_seed_and_extend
 from scripts.local_alignment_affine import LocalAlignment
+from scripts.score_matrix import score_matrix
 #%%
 def main():
 	'''Main function of the 6tbsps-query'''
@@ -37,7 +38,8 @@ def main():
 	parser.add_argument('-o', required = True, help = 'output directory')
 	parser.add_argument('reads', metavar = 'reads.fa', nargs = '+', \
 		help = 'DNA reads in fasta format')
-	
+
+	score_martix = score_matrix() # default BLOSUM62
 	args = parser.parse_args()
 	out_dir = args.o
 	in_files = args.reads
@@ -71,7 +73,7 @@ def main():
 				# local alignment
 				for ref_id, (s, e) in regions:
 					subject = prot_seq[ref_id][s:e]
-					la = LocalAlignment(query, subject, None)
+					la = LocalAlignment(query, subject, score_matrix)
 					la.fill_matrix()
 					la.traceback()
 					
