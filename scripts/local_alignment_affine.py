@@ -233,7 +233,7 @@ class LocalAlignment:
         Args:
             out_file: output file handle
         '''
-        print('score: {}'.format(self.score))
+        print('score: {}'.format(self.score), file=out_file)
         for i, loc in enumerate(self.max_loc_list):
             # print('x: {} y: {}'.format(loc[0], loc[1]))
             print('{:<4d}{}{:>4d}'.format(self.max_loc_x_list[i][0],
