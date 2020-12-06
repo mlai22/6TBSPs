@@ -3,3 +3,5 @@ slides/
 *.docx
 *.pdf
 datasets
+.vscode
+__pycache__
