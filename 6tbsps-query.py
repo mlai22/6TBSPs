@@ -84,7 +84,7 @@ def main():
 					print('Length:', len(prot_seq[ref_id]), file=out_file)
 					print(file=out_file)
 
-					la.display(out_file)
+					la.display_file(out_file)
 					print(file=out_file)
 
 	return 
