@@ -39,7 +39,7 @@ def main():
 	parser.add_argument('reads', metavar = 'reads.fa', nargs = '+', \
 		help = 'DNA reads in fasta format')
 
-	score_martix = score_matrix() # default BLOSUM62
+	sm = score_matrix() # default BLOSUM62
 	args = parser.parse_args()
 	out_dir = args.o
 	in_files = args.reads
@@ -73,7 +73,7 @@ def main():
 				# local alignment
 				for ref_id, (s, e) in regions:
 					subject = prot_seq[ref_id][s:e]
-					la = LocalAlignment(query, subject, score_matrix)
+					la = LocalAlignment(query, subject, sm)
 					la.fill_matrix()
 					la.traceback()
 					
