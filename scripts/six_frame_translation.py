@@ -122,6 +122,9 @@ def translation(rna):
 	loc = 0
 	while(loc+3 <= len(rna)):
 		codon = rna[loc:loc+3]
+		# neglect uncommon condon
+		if codon not in amino_acid_table:
+			continue
 		# stop codon
 		if amino_acid_table[codon] == '.':
 			break
