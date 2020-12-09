@@ -43,7 +43,7 @@ def main():
 	parser.add_argument('--sm', '--score-matrix', default='BLOSUM62', nargs='?', type=str, \
 		help = 'scoring matrix: BLOSUM45, BLOSUM62 (default), BLOSUM80')
 	parser.add_argument('reads', metavar = 'reads.fa', nargs = '+', \
-		help = 'DNA reads in fasta format')
+		help = 'DNA reads in FASTA format')
 
 	args = parser.parse_args()
 	sm = score_matrix(args.sm) # default BLOSUM62
