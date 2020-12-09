@@ -87,6 +87,7 @@ Distributed under the GNU General Public License v3.0. See [`LICENSE`](LICENSE) 
 Listed in alphabetical order by last name:
 * Yuchen (Peter) Ge - yge15@jhmi.edu
   * Pursing PhD in Biomedical Engineering at Johns Hopkins University
+  
 [TODO]
 
 <!-- REFERENCES -->
