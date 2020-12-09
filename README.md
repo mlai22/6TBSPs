@@ -63,7 +63,7 @@ optional arguments:
 
 Search DNA sequences against a pre-indexed protein database.
 ```sh
-usage: 6tbsps-query [-h] --db DB -o O [-t [T]] [--sm [SM]] reads.fa [reads.fa ...]
+usage: python 6tbsps-query [-h] --db DB -o O [-t [T]] [--sm [SM]] reads.fa [reads.fa ...]
 
 positional arguments:
   reads.fa              DNA reads in FASTA format
@@ -77,6 +77,11 @@ optional arguments:
                         scoring matrix: BLOSUM45, BLOSUM62 (default), BLOSUM80
 ```
 
+## Generate Test Results
+
+
+The following commands will help you reproduce our test outputs. See ['test/'](test/) for details.
+
 <!-- LICENSE -->
 ## License
 Distributed under the GNU General Public License v3.0. See [`LICENSE`](LICENSE) for more information.
@@ -87,7 +92,7 @@ Distributed under the GNU General Public License v3.0. See [`LICENSE`](LICENSE) 
 Listed in alphabetical order by last name:
 * Yuchen (Peter) Ge - yge15@jhmi.edu
   * Pursing PhD in Biomedical Engineering at Johns Hopkins University
-  
+
 [TODO]
 
 <!-- REFERENCES -->
