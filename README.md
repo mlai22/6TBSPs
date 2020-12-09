@@ -3,7 +3,9 @@
   <h3 align="center">A 6-frame Translation-based Protein Search Tool (6TBSPs)</h3>
 </p>
 
-![](logo.png)
+<p align="center">
+  <img src="logo.png" alt="cool project logo">
+</p>
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
