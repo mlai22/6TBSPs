@@ -18,28 +18,7 @@ Attributes:
 import sys
 import os
 import numpy as np
-
-# MATCH = 5.
-# MISMATCH = -1.
-# GAPOPEN = -3.
-# GAPEXT = -1.
-
-def test_score_matrix(xc, yc):
-    '''
-    Given characters from seq_x and seq_y, compute the score based on the score_matrix.
-    TODO: Need delete this one in the future, not used in this impelemtation
-    Args:
-        xc (char): the character from seq_x
-        yc (char): the character from seq_y
-​
-    Returns:
-        score (int): score based on xc and yc
-
-    '''
-    # if xc == yc: return MATCH # match
-    # if xc == '-' or yc == '-': EOFError # gap
-    # return MISMATCH
-    pass
+import math
 
 class LocalAlignment:
     def __init__(self, seq_x, seq_y, score_matrix, gap_open=-12., gap_ext=-4.):
@@ -226,38 +205,65 @@ class LocalAlignment:
                self.align_seq_x_list, self.align_seq_y_list, self.xscript_list, \
                self.max_loc_x_list, self.max_loc_y_list
 
-    def display(self, offset=0):
+    def display(self, base=0):
         '''
         Display some parameters of this function.
         Args:
+            offset (int): y or ref's base loc
             out_file: output file handle
         '''
-        # print('score: {}'.format(self.score))
         for i, loc in enumerate(self.max_loc_list):
-            # print('x: {} y: {}'.format(loc[0], loc[1]))
-            print('{:<4d} {} {:>4d}'.format(self.max_loc_x_list[i][0],
-                                        self.align_seq_x_list[i],
-                                        self.max_loc_x_list[i][1]))
-            print('     {}     '.format(self.xscript_list[i]))
-            print('{:<4d} {} {:>4d}'.format(self.max_loc_y_list[i][0],
-                                        self.align_seq_y_list[i],
-                                        self.max_loc_y_list[i][1]))
+            left_digits =  int(math.log10(int(self.max_loc_y_list[i][0]) + base)) + 1
+            right_digits = int(math.log10(int(self.max_loc_y_list[i][1]) + base)) + 1
+
+            print('{0:>{1}d} {2} {3:<{4}d}'.format(
+                self.max_loc_x_list[i][0],
+                left_digits,
+                self.align_seq_x_list[i],
+                self.max_loc_x_list[i][1],
+                right_digits))
+            print('{0} {1} {2}'.format(
+                ' ' * left_digits,
+                self.xscript_list[i],
+                ' ' * right_digits))
+            print('{0:>{1}d} {2} {3:<{4}d}'.format(
+                int(self.max_loc_y_list[i][0]) + base,
+                left_digits,
+                self.align_seq_y_list[i],
+                int(self.max_loc_y_list[i][1]) + base,
+                right_digits))
             print('')
     
-    def display_file(self, out_file=None, offset=0):
+    def display_file(self, out_file=None, base=0):
         '''
         Display some parameters of this function.
+        Args:
+            offset (int): y or ref's base loc
+            out_file: output file handle
         '''
-        # print('score: {}'.format(self.score), file=out_file)
         for i, loc in enumerate(self.max_loc_list):
-            # print('x: {} y: {}'.format(loc[0], loc[1]))
-            print('{:<4d} {} {:>4d}'.format(self.max_loc_x_list[i][0],
-                                            self.align_seq_x_list[i],
-                                            self.max_loc_x_list[i][1]), file=out_file)
-            print('     {}     '.format(self.xscript_list[i]), file=out_file)
-            print('{:<4d} {} {:>4d}'.format(self.max_loc_y_list[i][0],
-                                            self.align_seq_y_list[i],
-                                            self.max_loc_y_list[i][1]), file=out_file)
+            left_digits =  int(math.log10(int(self.max_loc_y_list[i][0]) + base)) + 1
+            right_digits = int(math.log10(int(self.max_loc_y_list[i][1]) + base)) + 1
+            print(left_digits)
+            print('{0:>{1}d} {2} {3:<{4}d}'.format(
+                self.max_loc_x_list[i][0],
+                left_digits,
+                self.align_seq_x_list[i],
+                self.max_loc_x_list[i][1],
+                right_digits),
+                file=out_file)
+            print('{0} {1} {2}'.format(
+                ' ' * left_digits,
+                self.xscript_list[i],
+                ' ' * right_digits),
+                file=out_file)
+            print('{0:>{1}d} {2} {3:<{4}d}'.format(
+                int(self.max_loc_y_list[i][0]) + base,
+                left_digits,
+                self.align_seq_y_list[i],
+                int(self.max_loc_y_list[i][1]) + base,
+                right_digits),
+                file=out_file)
             print('', file=out_file)
 
 
@@ -267,15 +273,15 @@ if __name__ == "__main__":
     '''
     from score_matrix import score_matrix
     sm = score_matrix()
-    # la = LocalAlignment('MISLIAALAVDRVIGMENAMPFNLPADLAWFKRNTLDKPVIMGRHTWESIG', 'SLNCIVAVSQNMGIGKNGDLPWPPLRNEFRYFQRMTTTSSVEGKQNLVIMGKKTWFSIPE')
+    la = LocalAlignment('MISLIAALAVDRVIGMENAMPFNLPADLAWFKRNTLDKPVIMGRHTWESIG', 'SLNCIVAVSQNMGIGKNGDLPWPPLRNEFRYFQRMTTTSSVEGKQNLVIMGKKTWFSIPE', sm)
     # la = LocalAlignment('SLNCIVAVSQNMGIGKNGDLPWPPLRNEFRYFQRMTTTSSVEGKQNLVIMGKKTWFSIPE', 'MISLIAALAVDRVIGMENAMPFNLPADLAWFKRNTLDKPVIMGRHTWESIG')
     # la = LocalAlignment('QRNTLDKPVIMGRHTWESI', 'QRMTTTSSVEGKQNLVIMGKKTWFSI')
     # la = LocalAlignment('NAMPFNL', 'NGDLPWPPL')
-    la = LocalAlignment('SLIAALAVDRVIGMENAMPFNL', 'SLNCIVAVSQNMGIGKNGDLPWPPL', sm)
+    # la = LocalAlignment('SLIAALAVDRVIGMENAMPFNL', 'SLNCIVAVSQNMGIGKNGDLPWPPL', sm)
     # la = LocalAlignment('GGTATGCTGGCGCTA', 'TATATGCGGCGTTT')
     # la = LocalAlignment('ACACACTA','AGCACACA')
     # la = LocalAlignment('ATTGAGC','ATGC')
     # la = LocalAlignment('ATGC','ATTGAGC')
     la.fill_matrix()
     la.traceback()
-    la.display()
+    la.display(10000)

@@ -19,30 +19,30 @@ import os
 import pandas as pd
 
 def ranking_loss():
-    
+
     return 0
 
 def evaluate_6tbsps():
     print('6')
     
 def evaluate_blastx(src_dir):
-    for f in os.listdir(src_dir):
-        src_f = os.path.join(src_dir, f)
-        # dst_f = os.path.join(dst_dir, f + '_ms.fa')
-        df = pd.read_csv(src_f, header=None)
-        df = df[df.iloc[:, 2] == 1]
-        f_content = []
-        for index, row in df.iterrows():
-            content = '>'
-            for idx, c in enumerate(row):
-                if idx == 6:
-                    c = str(c).replace(' ', '')
-                content += str(c) + ','
-            f_content.append(content + '\n')
-            f_content.append(row.iloc[1] + '\n')
-        print(dst_f)
-        with open(dst_f, 'w') as f:
-            f.writelines(f_content)
+    # for f in os.listdir(src_dir):
+    #     src_f = os.path.join(src_dir, f)
+    #     # dst_f = os.path.join(dst_dir, f + '_ms.fa')
+    #     df = pd.read_csv(src_f, header=None)
+    #     df = df[df.iloc[:, 2] == 1]
+    #     f_content = []
+    #     for index, row in df.iterrows():
+    #         content = '>'
+    #         for idx, c in enumerate(row):
+    #             if idx == 6:
+    #                 c = str(c).replace(' ', '')
+    #             content += str(c) + ','
+    #         f_content.append(content + '\n')
+    #         f_content.append(row.iloc[1] + '\n')
+    #     print(dst_f)
+    #     with open(dst_f, 'w') as f:
+    #         f.writelines(f_content)
     print('b') 
 
 def main():
