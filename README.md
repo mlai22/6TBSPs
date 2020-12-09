@@ -14,8 +14,8 @@
       <li><a href="#install-requirements">Install Requirements</a></li>
     </ul>
   </li>
-  <li><a href="#build-protein-database-index">About The Project</a></li>
-  <li><a href="#search-dna-or-rna-sequences">About The Project</a></li>
+  <li><a href="#build-protein-database-index">Build Protein Database Index</a></li>
+  <li><a href="#search-dna-or-rna-sequences">Search DNA or RNA Sequences</a></li>
   <li><a href="#license">License</a></li>
   <li><a href="#contact">Contact</a></li>
   <li><a href="#references">References</a></li>
