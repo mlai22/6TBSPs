@@ -209,13 +209,20 @@ class LocalAlignment:
         '''
         Display some parameters of this function.
         Args:
-            offset (int): y or ref's base loc
+            base (int): y or ref's base loc, always >= 0
             out_file: output file handle
         '''
         for i, loc in enumerate(self.max_loc_list):
-            left_digits =  int(math.log10(int(self.max_loc_y_list[i][0]) + base)) + 1
-            right_digits = int(math.log10(int(self.max_loc_y_list[i][1]) + base)) + 1
-
+            left_num = int(self.max_loc_y_list[i][0]) + base
+            right_num = int(self.max_loc_y_list[i][1]) + base
+            if left_num == 0:
+                left_digits = 1
+            else:
+                left_digits =  int(math.log10(left_num)) + 1
+            if right_num == 0:
+                right_digits = 1
+            else:
+                right_digits = int(math.log10(right_num)) + 1
             print('{0:<{1}d}  {2}  {3:<{4}d}'.format(
                 self.max_loc_x_list[i][0],
                 left_digits,
@@ -238,12 +245,20 @@ class LocalAlignment:
         '''
         Display some parameters of this function.
         Args:
-            offset (int): y or ref's base loc
+            base (int): y or ref's base loc, always >= 0
             out_file: output file handle
         '''
         for i, loc in enumerate(self.max_loc_list):
-            left_digits =  int(math.log10(int(self.max_loc_y_list[i][0]) + base)) + 1
-            right_digits = int(math.log10(int(self.max_loc_y_list[i][1]) + base)) + 1
+            left_num = int(self.max_loc_y_list[i][0]) + base
+            right_num = int(self.max_loc_y_list[i][1]) + base
+            if left_num == 0:
+                left_digits = 1
+            else:
+                left_digits =  int(math.log10(left_num)) + 1
+            if right_num == 0:
+                right_digits = 1
+            else:
+                right_digits = int(math.log10(right_num)) + 1
             print('{0:<{1}d}  {2}  {3:<{4}d}'.format(
                 self.max_loc_x_list[i][0],
                 left_digits,
