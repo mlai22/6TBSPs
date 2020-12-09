@@ -20,6 +20,7 @@
   </li>
   <li><a href="#build-protein-database-index">Build Protein Database Index</a></li>
   <li><a href="#search-dna-or-rna-sequences">Search DNA or RNA Sequences</a></li>
+  <li><a href="#generate-test-results">Generate Test Results</a></li>
   <li><a href="#license">License</a></li>
   <li><a href="#contact">Contact</a></li>
   <li><a href="#references">References</a></li>
@@ -82,6 +83,11 @@ optional arguments:
 ```
 
 ## Generate Test Results
+
+We downloaded from NCBI the reference sequences for Sars-Cov2.
+The three datasets that we used for test purposes are [`cds.fna`](test/SARS2-reference/ncbi_dataset/data/cds.fna), 
+[`genomic.fna`](test/SARS2-reference/ncbi_dataset/data/genomic.fna),
+and [`protein.faa`](test/SARS2-reference/ncbi_dataset/data/protein.faa).
 
 The following commands will help you reproduce our test outputs. See [`test/`](test/) for details.
 ```sh
