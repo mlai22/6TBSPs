@@ -7,9 +7,9 @@ Length: 7096
 Score: 271
 E-value: 3.119912586540255e-33
 
-0    YVGCHNKCAYWVPRASANIGCNHTGVVGEGSEGLNDNLLEILQKEKVNI   48
+0    YVGCHNKCAYWVPRASANIGCNHTGVVGEGSEGLNDNLLEILQKEKVNI  48 
      |||||||||||||||||||||||||||||||||||||||||||||||||     
-0    YVGCHNKCAYWVPRASANIGCNHTGVVGEGSEGLNDNLLEILQKEKVNI   48
+412  YVGCHNKCAYWVPRASANIGCNHTGVVGEGSEGLNDNLLEILQKEKVNI  460
 
 
 Frame: 2
@@ -21,9 +21,9 @@ Length: 4405
 Score: 271
 E-value: 3.119912586540255e-33
 
-0    YVGCHNKCAYWVPRASANIGCNHTGVVGEGSEGLNDNLLEILQKEKVNI   48
+0    YVGCHNKCAYWVPRASANIGCNHTGVVGEGSEGLNDNLLEILQKEKVNI  48 
      |||||||||||||||||||||||||||||||||||||||||||||||||     
-0    YVGCHNKCAYWVPRASANIGCNHTGVVGEGSEGLNDNLLEILQKEKVNI   48
+412  YVGCHNKCAYWVPRASANIGCNHTGVVGEGSEGLNDNLLEILQKEKVNI  460
 
 
 Frame: 2
@@ -35,9 +35,9 @@ Length: 638
 Score: 271
 E-value: 3.119912586540255e-33
 
-0    YVGCHNKCAYWVPRASANIGCNHTGVVGEGSEGLNDNLLEILQKEKVNI   48
+0    YVGCHNKCAYWVPRASANIGCNHTGVVGEGSEGLNDNLLEILQKEKVNI  48 
      |||||||||||||||||||||||||||||||||||||||||||||||||     
-0    YVGCHNKCAYWVPRASANIGCNHTGVVGEGSEGLNDNLLEILQKEKVNI   48
+232  YVGCHNKCAYWVPRASANIGCNHTGVVGEGSEGLNDNLLEILQKEKVNI  280
 
 
 Frame: 2
@@ -49,9 +49,9 @@ Length: 638
 Score: 271
 E-value: 3.119912586540255e-33
 
-0    YVGCHNKCAYWVPRASANIGCNHTGVVGEGSEGLNDNLLEILQKEKVNI   48
+0    YVGCHNKCAYWVPRASANIGCNHTGVVGEGSEGLNDNLLEILQKEKVNI  48 
      |||||||||||||||||||||||||||||||||||||||||||||||||     
-0    YVGCHNKCAYWVPRASANIGCNHTGVVGEGSEGLNDNLLEILQKEKVNI   48
+232  YVGCHNKCAYWVPRASANIGCNHTGVVGEGSEGLNDNLLEILQKEKVNI  280
 
 
 Frame: -3
@@ -63,21 +63,21 @@ Length: 7096
 Score: 38
 E-value: 0.889839575714801
 
-12   VVIKTFGTFSNNTCMVTTYVSAS   34
-     |||****|**| ||**||***||     
-3458 VVIPDYNTYKN_TCDGTTFTYAS 3479
+12    VVIKTFGTFSNNTCMVTTYVSAS  34  
+      |||****|**| ||**||***||      
+4071  VVIPDYNTYKN_TCDGTTFTYAS  4092
 
-12   VVIKTFGTFSNNTCMVTTYVSAST   35
-     |||****|**| ||**||***||*     
-3458 VVIPDYNTYKN_TCDGTTFTYASA 3480
+12    VVIKTFGTFSNNTCMVTTYVSAST  35  
+      |||****|**| ||**||***||*      
+4071  VVIPDYNTYKN_TCDGTTFTYASA  4093
 
-12   VVIKTFGTFSNNTCMVTTYVSASTWNPIGTLVMA   45
-     |||****|**| ||**||***||****|***|*|     
-3458 VVIPDYNTYKN_TCDGTTFTYASALWEIQQVVDA 3490
+12    VVIKTFGTFSNNTCMVTTYVSASTWNPIGTLVMA  45  
+      |||****|**| ||**||***||****|***|*|      
+4071  VVIPDYNTYKN_TCDGTTFTYASALWEIQQVVDA  4103
 
-12   VVIKTFGTFSNNTCMVTTYVSASTWNPIGTLVMATN   47
-     |||****|**| ||**||***||****|***|*|**     
-3458 VVIPDYNTYKN_TCDGTTFTYASALWEIQQVVDADS 3492
+12    VVIKTFGTFSNNTCMVTTYVSASTWNPIGTLVMATN  47  
+      |||****|**| ||**||***||****|***|*|**      
+4071  VVIPDYNTYKN_TCDGTTFTYASALWEIQQVVDADS  4105
 
 
 Frame: 1
@@ -89,13 +89,13 @@ Length: 275
 Score: 24
 E-value: 8.094343867625463
 
-0    LCW    2
+0    LCW  2  
      |||     
-0    LCW    2
+128  LCW  130
 
-0    LCW    2
+0    LCW  2  
      |||     
-18   LCW   20
+146  LCW  148
 
 
 Frame: 1
@@ -107,9 +107,9 @@ Length: 7096
 Score: 22
 E-value: 15.373289105571208
 
-2    WLP    4
-     |||     
-0    WLP    2
+2     WLP  4   
+      |||      
+6885  WLP  6887
 
 
 Frame: 1
@@ -121,9 +121,9 @@ Length: 298
 Score: 22
 E-value: 15.373289105571208
 
-2    WLP    4
-     |||     
-0    WLP    2
+2   WLP  4 
+    |||    
+87  WLP  89
 
 
 Frame: 3
@@ -135,9 +135,9 @@ Length: 7096
 Score: 22
 E-value: 55.34384078005635
 
-8    PIGF   11
-     |*||     
-580  PVGF  583
+8     PIGF  11  
+      |*||      
+4359  PVGF  4362
 
 
 Frame: -3
@@ -149,13 +149,13 @@ Length: 4405
 Score: 25
 E-value: 57.559253651469554
 
-0    DVDFLFLE    7
-     |*|**||*     
-659  DIDITFLK  666
+0     DVDFLFLE  7   
+      |*|**||*      
+1272  DIDITFLK  1279
 
-18   GTFSNNTCMVTTYVSASTWNPIGTLVMATNI   48
+18   GTFSNNTCMVTTYVSASTWNPIGTLVMATNI  48 
      ||**|****|*******|**|***|*****|     
-251  GTEVNEFACVVADAVIKTLQPVSELLTPLGI  281
+864  GTEVNEFACVVADAVIKTLQPVSELLTPLGI  894
 
 
 Frame: 2
@@ -167,21 +167,21 @@ Length: 1273
 Score: 25
 E-value: 57.559253651469554
 
-13   RASANI   18
-     |||||*     
-753  RASANL  758
+13    RASANI  18  
+      |||||*      
+1018  RASANL  1023
 
-13   RASANIG   19
-     |||||**     
-753  RASANLA  759
+13    RASANIG  19  
+      |||||**      
+1018  RASANLA  1024
 
-13   RASANIGC   20
-     |||||***     
-753  RASANLAA  760
+13    RASANIGC  20  
+      |||||***      
+1018  RASANLAA  1025
 
-13   RASANIGCN   21
-     |||||****     
-753  RASANLAAT  761
+13    RASANIGCN  21  
+      |||||****      
+1018  RASANLAAT  1026
 
 
 Frame: 3
@@ -193,9 +193,9 @@ Length: 932
 Score: 21
 E-value: 76.27142619371043
 
-11   FHVLALT   17
+11   FHVLALT  17 
      |*|*|||     
-146  FSVAALT  152
+395  FSVAALT  401
 
 
 Frame: 3
@@ -207,9 +207,9 @@ Length: 4405
 Score: 13
 E-value: 992.435849567968
 
-0    MLV    2
-     |||     
-0    MLV    2
+0     MLV  2   
+      |||      
+3779  MLV  3781
 
 
 Frame: 3
@@ -221,9 +221,9 @@ Length: 290
 Score: 13
 E-value: 992.435849567968
 
-0    MLV    2
+0    MLV  2  
      |||     
-0    MLV    2
+210  MLV  212
 
 
 Frame: 3
@@ -235,9 +235,9 @@ Length: 290
 Score: 13
 E-value: 992.435849567968
 
-0    MLV    2
+0    MLV  2  
      |||     
-0    MLV    2
+210  MLV  212
 
 
 Frame: 3
@@ -249,9 +249,9 @@ Length: 1273
 Score: 13
 E-value: 992.435849567968
 
-15   ALT   17
+15   ALT  17 
      |||     
-0    ALT    2
+765  ALT  767
 
 
 Frame: 3
@@ -263,9 +263,9 @@ Length: 121
 Score: 13
 E-value: 992.435849567968
 
-15   ALT   17
-     |||     
-0    ALT    2
+15  ALT  17
+    |||    
+54  ALT  56
 
 
 Frame: 3
@@ -277,9 +277,9 @@ Length: 419
 Score: 13
 E-value: 992.435849567968
 
-15   ALT   17
-     |||     
-0    ALT    2
+15  ALT  17
+    |||    
+54  ALT  56
 
 
 Frame: -3
@@ -291,9 +291,9 @@ Length: 1273
 Score: 16
 E-value: 1032.1630373488535
 
-0    DVD    2
-     |||     
-0    DVD    2
+0     DVD  2   
+      |||      
+1162  DVD  1164
 
 
 Frame: -3
@@ -305,9 +305,9 @@ Length: 932
 Score: 16
 E-value: 1032.1630373488535
 
-0    DVD    2
+0    DVD  2  
      |||     
-0    DVD    2
+735  DVD  737
 
 
 Frame: -3
@@ -319,9 +319,9 @@ Length: 222
 Score: 15
 E-value: 1422.4626591401686
 
-46   TNI   48
+46   TNI  48 
      |||     
-0    TNI    2
+115  TNI  117
 
 
 Frame: -3
@@ -333,9 +333,9 @@ Length: 638
 Score: 15
 E-value: 1422.4626591401686
 
-46   TNI   48
+46   TNI  48 
      |||     
-0    TNI    2
+433  TNI  435
 
 
 Frame: -3
@@ -347,9 +347,9 @@ Length: 1945
 Score: 15
 E-value: 1422.4626591401686
 
-46   TNI   48
-     |||     
-0    TNI    2
+46    TNI  48  
+      |||      
+1335  TNI  1337
 
 
 Frame: -3
@@ -361,9 +361,9 @@ Length: 638
 Score: 15
 E-value: 1422.4626591401686
 
-46   TNI   48
+46   TNI  48 
      |||     
-0    TNI    2
+433  TNI  435
 
 
 Frame: -3
@@ -375,9 +375,9 @@ Length: 1945
 Score: 15
 E-value: 1422.4626591401686
 
-46   TNI   48
-     |||     
-0    TNI    2
+46    TNI  48  
+      |||      
+1335  TNI  1337
 
 
 Frame: 2
@@ -389,9 +389,9 @@ Length: 1945
 Score: 14
 E-value: 1960.349231111099
 
-46   VNI   48
-     |||     
-0    VNI    2
+46  VNI  48
+    |||    
+20  VNI  22
 
 
 Frame: 2
@@ -403,9 +403,9 @@ Length: 1945
 Score: 14
 E-value: 1960.349231111099
 
-46   VNI   48
-     |||     
-0    VNI    2
+46  VNI  48
+    |||    
+20  VNI  22
 
 
 Frame: -1
@@ -417,9 +417,9 @@ Length: 7096
 Score: 13
 E-value: 2205.412999039929
 
-0    LML    2
+0    LML  2  
      |||     
-0    LML    2
+787  LML  789
 
 
 Frame: -1
@@ -431,9 +431,9 @@ Length: 4405
 Score: 13
 E-value: 2205.412999039929
 
-0    LML    2
+0    LML  2  
      |||     
-0    LML    2
+787  LML  789
 
 
 Frame: -1
@@ -445,9 +445,9 @@ Length: 638
 Score: 13
 E-value: 2205.412999039929
 
-0    LML    2
+0    LML  2  
      |||     
-0    LML    2
+607  LML  609
 
 
 Frame: -1
@@ -459,8 +459,8 @@ Length: 638
 Score: 13
 E-value: 2205.412999039929
 
-0    LML    2
+0    LML  2  
      |||     
-0    LML    2
+607  LML  609
 
 

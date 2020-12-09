@@ -7,9 +7,9 @@ Length: 7096
 Score: 233
 E-value: 6.127173308203539e-28
 
-0    SLLSVLLSMQGAVDINKLCEEMLDNRATLQAIASEFSSLPSYAAFATAQ   48
-     |||||||||||||||||||||||||||||||||||||||||||||||||     
-3359 SLLSVLLSMQGAVDINKLCEEMLDNRATLQAIASEFSSLPSYAAFATAQ 3407
+0     SLLSVLLSMQGAVDINKLCEEMLDNRATLQAIASEFSSLPSYAAFATAQ  48  
+      |||||||||||||||||||||||||||||||||||||||||||||||||      
+3912  SLLSVLLSMQGAVDINKLCEEMLDNRATLQAIASEFSSLPSYAAFATAQ  3960
 
 
 Frame: 2
@@ -21,9 +21,9 @@ Length: 4405
 Score: 233
 E-value: 6.127173308203539e-28
 
-0    SLLSVLLSMQGAVDINKLCEEMLDNRATLQAIASEFSSLPSYAAFATAQ   48
-     |||||||||||||||||||||||||||||||||||||||||||||||||     
-3359 SLLSVLLSMQGAVDINKLCEEMLDNRATLQAIASEFSSLPSYAAFATAQ 3407
+0     SLLSVLLSMQGAVDINKLCEEMLDNRATLQAIASEFSSLPSYAAFATAQ  48  
+      |||||||||||||||||||||||||||||||||||||||||||||||||      
+3912  SLLSVLLSMQGAVDINKLCEEMLDNRATLQAIASEFSSLPSYAAFATAQ  3960
 
 
 Frame: 1
@@ -35,9 +35,9 @@ Length: 7096
 Score: 27
 E-value: 11.751343759320932
 
-9    AGCCRHKQAL   18
-     |*||****||     
-1658 AACCHLAKAL 1667
+9     AGCCRHKQAL  18  
+      |*||****||      
+3228  AACCHLAKAL  3237
 
 
 Frame: 1
@@ -49,9 +49,9 @@ Length: 4405
 Score: 27
 E-value: 11.751343759320932
 
-9    AGCCRHKQAL   18
-     |*||****||     
-1658 AACCHLAKAL 1667
+9     AGCCRHKQAL  18  
+      |*||****||      
+3228  AACCHLAKAL  3237
 
 
 Frame: 3
@@ -63,9 +63,9 @@ Length: 7096
 Score: 22
 E-value: 36.8958938533709
 
-1    YFLFCF    6
-     ||**|*     
-3228 YFCTCY 3233
+1     YFLFCF  6   
+      ||**|*      
+3787  YFCTCY  3792
 
 
 Frame: 3
@@ -77,9 +77,9 @@ Length: 4405
 Score: 20
 E-value: 70.07501192097664
 
-1    YFLF    4
+1    YFLF  4  
      |*||     
-345  YYLF  348
+904  YYLF  907
 
 
 Frame: -3
@@ -91,9 +91,9 @@ Length: 1273
 Score: 18
 E-value: 88.72725901406105
 
-0    LSSSKSCI    7
+0    LSSSKSCI  7  
      |||**|**     
-0    LSSTASAL    7
+937  LSSTASAL  944
 
 
 Frame: 1
@@ -105,9 +105,9 @@ Length: 1945
 Score: 20
 E-value: 110.95210220821302
 
-2    TFC    4
-     |||     
-886  TFC  888
+2     TFC  4   
+      |||      
+1638  TFC  1640
 
 
 Frame: 1
@@ -119,9 +119,9 @@ Length: 1945
 Score: 20
 E-value: 110.95210220821302
 
-2    TFC    4
-     |||     
-886  TFC  888
+2     TFC  4   
+      |||      
+1638  TFC  1640
 
 
 Frame: -2
@@ -133,17 +133,17 @@ Length: 7096
 Score: 14
 E-value: 120.02138149659788
 
-0    LEQ    2
-     |||     
-0    LEQ    2
+0   LEQ  2 
+    |||    
+63  LEQ  65
 
-0    LEQ    2
+0    LEQ  2  
      |||     
-702  LEQ  704
+765  LEQ  767
 
-0    LEQ    2
-     |||     
-5612 LEQ 5614
+0     LEQ  2   
+      |||      
+5675  LEQ  5677
 
 
 Frame: -2
@@ -155,9 +155,9 @@ Length: 222
 Score: 14
 E-value: 120.02138149659788
 
-0    LEQ    2
-     |||     
-0    LEQ    2
+0   LEQ  2 
+    |||    
+16  LEQ  18
 
 
 Frame: -2
@@ -169,13 +169,13 @@ Length: 4405
 Score: 14
 E-value: 120.02138149659788
 
-0    LEQ    2
-     |||     
-0    LEQ    2
+0   LEQ  2 
+    |||    
+63  LEQ  65
 
-0    LEQ    2
+0    LEQ  2  
      |||     
-702  LEQ  704
+765  LEQ  767
 
 
 Frame: -2
@@ -187,9 +187,9 @@ Length: 180
 Score: 14
 E-value: 120.02138149659788
 
-0    LEQ    2
-     |||     
-0    LEQ    2
+0   LEQ  2 
+    |||    
+63  LEQ  65
 
 
 Frame: -2
@@ -201,9 +201,9 @@ Length: 638
 Score: 14
 E-value: 120.02138149659788
 
-0    LEQ    2
+0    LEQ  2  
      |||     
-0    LEQ    2
+585  LEQ  587
 
 
 Frame: -2
@@ -215,9 +215,9 @@ Length: 601
 Score: 14
 E-value: 120.02138149659788
 
-0    LEQ    2
+0    LEQ  2  
      |||     
-0    LEQ    2
+351  LEQ  353
 
 
 Frame: -2
@@ -229,9 +229,9 @@ Length: 180
 Score: 14
 E-value: 120.02138149659788
 
-0    LEQ    2
-     |||     
-0    LEQ    2
+0   LEQ  2 
+    |||    
+63  LEQ  65
 
 
 Frame: -2
@@ -243,9 +243,9 @@ Length: 638
 Score: 14
 E-value: 120.02138149659788
 
-0    LEQ    2
+0    LEQ  2  
      |||     
-0    LEQ    2
+585  LEQ  587
 
 
 Frame: 3
@@ -257,9 +257,9 @@ Length: 1945
 Score: 17
 E-value: 183.41755356722194
 
-4    FCFPC    8
-     *|**|     
-262  WCIRC  266
+4     FCFPC  8   
+      *|**|      
+1189  WCIRC  1193
 
 
 Frame: 3
@@ -271,9 +271,9 @@ Length: 1945
 Score: 17
 E-value: 183.41755356722194
 
-4    FCFPC    8
-     *|**|     
-262  WCIRC  266
+4     FCFPC  8   
+      *|**|      
+1189  WCIRC  1193
 
 
 Frame: 1
@@ -285,9 +285,9 @@ Length: 1273
 Score: 16
 E-value: 400.22648386996366
 
-0    FTT    2
-     |||     
-118  FTT  120
+0     FTT  2   
+      |||      
+1074  FTT  1076
 
 
 Frame: 1
@@ -299,9 +299,9 @@ Length: 306
 Score: 16
 E-value: 400.22648386996366
 
-0    FTT    2
+0    FTT  2  
      |||     
-0    FTT    2
+222  FTT  224
 
 
 Frame: 1
@@ -313,9 +313,9 @@ Length: 306
 Score: 16
 E-value: 400.22648386996366
 
-0    FTT    2
+0    FTT  2  
      |||     
-0    FTT    2
+222  FTT  224
 
 
 Frame: -3
@@ -327,9 +327,9 @@ Length: 7096
 Score: 12
 E-value: 607.8725018432024
 
-0    LSS    2
-     |||     
-0    LSS    2
+0     LSS  2   
+      |||      
+7036  LSS  7038
 
 
 Frame: -3
@@ -341,9 +341,9 @@ Length: 298
 Score: 12
 E-value: 607.8725018432024
 
-0    LSS    2
+0    LSS  2  
      |||     
-0    LSS    2
+238  LSS  240
 
 
 Frame: 3
@@ -355,9 +355,9 @@ Length: 638
 Score: 13
 E-value: 661.6238997119787
 
-9    RVL   11
+9    RVL  11 
      |||     
-0    RVL    2
+379  RVL  381
 
 
 Frame: 3
@@ -369,9 +369,9 @@ Length: 527
 Score: 13
 E-value: 661.6238997119787
 
-9    RVL   11
+9    RVL  11 
      |||     
-0    RVL    2
+403  RVL  405
 
 
 Frame: 3
@@ -383,9 +383,9 @@ Length: 638
 Score: 13
 E-value: 661.6238997119787
 
-9    RVL   11
+9    RVL  11 
      |||     
-0    RVL    2
+379  RVL  381
 
 
 Frame: 1
@@ -397,9 +397,9 @@ Length: 419
 Score: 13
 E-value: 1047.5711745439664
 
-16   QAL   18
+16   QAL  18 
      |||     
-0    QAL    2
+379  QAL  381
 
 
 Frame: 1
@@ -411,9 +411,9 @@ Length: 932
 Score: 13
 E-value: 1047.5711745439664
 
-16   QAL   18
+16   QAL  18 
      |||     
-0    QAL    2
+183  QAL  185
 
 
 Frame: 2
@@ -425,9 +425,9 @@ Length: 638
 Score: 14
 E-value: 1960.349231111099
 
-46   TAQ   48
+46   TAQ  48 
      |||     
-0    TAQ    2
+373  TAQ  375
 
 
 Frame: 2
@@ -439,9 +439,9 @@ Length: 306
 Score: 14
 E-value: 1960.349231111099
 
-46   TAQ   48
+46   TAQ  48 
      |||     
-0    TAQ    2
+189  TAQ  191
 
 
 Frame: 2
@@ -453,9 +453,9 @@ Length: 198
 Score: 14
 E-value: 1960.349231111099
 
-46   TAQ   48
-     |||     
-0    TAQ    2
+46  TAQ  48
+    |||    
+16  TAQ  18
 
 
 Frame: 2
@@ -467,9 +467,9 @@ Length: 638
 Score: 14
 E-value: 1960.349231111099
 
-46   TAQ   48
+46   TAQ  48 
      |||     
-0    TAQ    2
+373  TAQ  375
 
 
 Frame: 2
@@ -481,9 +481,9 @@ Length: 306
 Score: 14
 E-value: 1960.349231111099
 
-46   TAQ   48
+46   TAQ  48 
      |||     
-0    TAQ    2
+189  TAQ  191
 
 
 Frame: 2
@@ -495,9 +495,9 @@ Length: 198
 Score: 14
 E-value: 1960.349231111099
 
-46   TAQ   48
-     |||     
-0    TAQ    2
+46  TAQ  48
+    |||    
+16  TAQ  18
 
 
 Frame: 2
@@ -509,9 +509,9 @@ Length: 1273
 Score: 12
 E-value: 3723.219073789615
 
-0    SLL    2
+0    SLL  2  
      |||     
-0    SLL    2
+115  SLL  117
 
 
 Frame: 2
@@ -523,9 +523,9 @@ Length: 38
 Score: 12
 E-value: 3723.219073789615
 
-0    SLL    2
-     |||     
-0    SLL    2
+0   SLL  2 
+    |||    
+14  SLL  16
 
 
 Frame: 2
@@ -537,9 +537,9 @@ Length: 290
 Score: 12
 E-value: 3723.219073789615
 
-0    SLL    2
-     |||     
-0    SLL    2
+0   SLL  2 
+    |||    
+20  SLL  22
 
 
 Frame: 2
@@ -551,9 +551,9 @@ Length: 83
 Score: 12
 E-value: 3723.219073789615
 
-0    SLL    2
-     |||     
-0    SLL    2
+0   SLL  2 
+    |||    
+53  SLL  55
 
 
 Frame: 2
@@ -565,9 +565,9 @@ Length: 932
 Score: 12
 E-value: 3723.219073789615
 
-0    SLL    2
+0    SLL  2  
      |||     
-0    SLL    2
+238  SLL  240
 
 
 Frame: 2
@@ -579,9 +579,9 @@ Length: 298
 Score: 12
 E-value: 3723.219073789615
 
-0    SLL    2
+0    SLL  2  
      |||     
-0    SLL    2
+272  SLL  274
 
 
 Frame: 2
@@ -593,9 +593,9 @@ Length: 290
 Score: 12
 E-value: 3723.219073789615
 
-0    SLL    2
-     |||     
-0    SLL    2
+0   SLL  2 
+    |||    
+20  SLL  22
 
 
 Frame: 2
@@ -607,8 +607,8 @@ Length: 83
 Score: 12
 E-value: 3723.219073789615
 
-0    SLL    2
-     |||     
-0    SLL    2
+0   SLL  2 
+    |||    
+53  SLL  55
 
 

@@ -7,9 +7,9 @@ Length: 7096
 Score: 245
 E-value: 1.3320582729679725e-29
 
-0    LEKMADQAMTQMYKQARSEDKRAKVTSAMQTMLFTMLRKLDNDALNNIIN   49
-     ||||||||||||||||||||||||||||||||||||||||||||||||||     
-1633 LEKMADQAMTQMYKQARSEDKRAKVTSAMQTMLFTMLRKLDNDALNNIIN 1682
+0     LEKMADQAMTQMYKQARSEDKRAKVTSAMQTMLFTMLRKLDNDALNNIIN  49  
+      ||||||||||||||||||||||||||||||||||||||||||||||||||      
+4000  LEKMADQAMTQMYKQARSEDKRAKVTSAMQTMLFTMLRKLDNDALNNIIN  4049
 
 
 Frame: 1
@@ -21,9 +21,9 @@ Length: 4405
 Score: 245
 E-value: 1.3320582729679725e-29
 
-0    LEKMADQAMTQMYKQARSEDKRAKVTSAMQTMLFTMLRKLDNDALNNIIN   49
-     ||||||||||||||||||||||||||||||||||||||||||||||||||     
-1633 LEKMADQAMTQMYKQARSEDKRAKVTSAMQTMLFTMLRKLDNDALNNIIN 1682
+0     LEKMADQAMTQMYKQARSEDKRAKVTSAMQTMLFTMLRKLDNDALNNIIN  49  
+      ||||||||||||||||||||||||||||||||||||||||||||||||||      
+4000  LEKMADQAMTQMYKQARSEDKRAKVTSAMQTMLFTMLRKLDNDALNNIIN  4049
 
 
 Frame: 1
@@ -35,9 +35,9 @@ Length: 198
 Score: 245
 E-value: 1.3320582729679725e-29
 
-0    LEKMADQAMTQMYKQARSEDKRAKVTSAMQTMLFTMLRKLDNDALNNIIN   49
-     ||||||||||||||||||||||||||||||||||||||||||||||||||     
-0    LEKMADQAMTQMYKQARSEDKRAKVTSAMQTMLFTMLRKLDNDALNNIIN   49
+0   LEKMADQAMTQMYKQARSEDKRAKVTSAMQTMLFTMLRKLDNDALNNIIN  49 
+    ||||||||||||||||||||||||||||||||||||||||||||||||||     
+58  LEKMADQAMTQMYKQARSEDKRAKVTSAMQTMLFTMLRKLDNDALNNIIN  107
 
 
 Frame: 1
@@ -49,9 +49,9 @@ Length: 198
 Score: 245
 E-value: 1.3320582729679725e-29
 
-0    LEKMADQAMTQMYKQARSEDKRAKVTSAMQTMLFTMLRKLDNDALNNIIN   49
-     ||||||||||||||||||||||||||||||||||||||||||||||||||     
-0    LEKMADQAMTQMYKQARSEDKRAKVTSAMQTMLFTMLRKLDNDALNNIIN   49
+0   LEKMADQAMTQMYKQARSEDKRAKVTSAMQTMLFTMLRKLDNDALNNIIN  49 
+    ||||||||||||||||||||||||||||||||||||||||||||||||||     
+58  LEKMADQAMTQMYKQARSEDKRAKVTSAMQTMLFTMLRKLDNDALNNIIN  107
 
 
 Frame: -1
@@ -63,9 +63,9 @@ Length: 7096
 Score: 34
 E-value: 3.2753365357266726
 
-17   KHCLH   21
-     |||||     
-926  KHCLH  930
+17    KHCLH  21  
+      |||||      
+1111  KHCLH  1115
 
 
 Frame: -1
@@ -77,9 +77,9 @@ Length: 4405
 Score: 34
 E-value: 3.2753365357266726
 
-17   KHCLH   21
-     |||||     
-926  KHCLH  930
+17    KHCLH  21  
+      |||||      
+1111  KHCLH  1115
 
 
 Frame: 2
@@ -91,9 +91,9 @@ Length: 7096
 Score: 27
 E-value: 4.9479342144509175
 
-0    WKRWLI    5
-     |**|||     
-2106 WLMWLI 2111
+0     WKRWLI  5   
+      |**|||      
+2362  WLMWLI  2367
 
 
 Frame: 2
@@ -105,9 +105,9 @@ Length: 4405
 Score: 27
 E-value: 4.9479342144509175
 
-0    WKRWLI    5
-     |**|||     
-2106 WLMWLI 2111
+0     WKRWLI  5   
+      |**|||      
+2362  WLMWLI  2367
 
 
 Frame: -1
@@ -119,9 +119,9 @@ Length: 1945
 Score: 32
 E-value: 6.220726016244414
 
-24   SNFCPLVL   31
+24   SNFCPLVL  31 
      *|||*|*|     
-134  ANFCALIL  141
+889  ANFCALIL  896
 
 
 Frame: -1
@@ -133,9 +133,9 @@ Length: 1945
 Score: 32
 E-value: 6.220726016244414
 
-24   SNFCPLVL   31
+24   SNFCPLVL  31 
      *|||*|*|     
-134  ANFCALIL  141
+889  ANFCALIL  896
 
 
 Frame: 3
@@ -147,17 +147,17 @@ Length: 7096
 Score: 17
 E-value: 61.13918452240732
 
-1    KDG    3
-     |||     
-0    KDG    2
+1   KDG  3 
+    |||    
+46  KDG  48
 
-0    GKDG    3
+0    GKDG  3  
      |*||     
-145  GPDG  148
+191  GPDG  194
 
-1    KDG    3
-     |||     
-6739 KDG 6741
+1     KDG  3   
+      |||      
+6785  KDG  6787
 
 
 Frame: 3
@@ -169,9 +169,9 @@ Length: 419
 Score: 17
 E-value: 61.13918452240732
 
-1    KDG    3
+1    KDG  3  
      |||     
-0    KDG    2
+126  KDG  128
 
 
 Frame: 3
@@ -183,9 +183,9 @@ Length: 4405
 Score: 17
 E-value: 61.13918452240732
 
-1    KDG    3
-     |||     
-0    KDG    2
+1   KDG  3 
+    |||    
+46  KDG  48
 
 
 Frame: 3
@@ -197,9 +197,9 @@ Length: 180
 Score: 17
 E-value: 61.13918452240732
 
-1    KDG    3
-     |||     
-0    KDG    2
+1   KDG  3 
+    |||    
+46  KDG  48
 
 
 Frame: 3
@@ -211,9 +211,9 @@ Length: 346
 Score: 17
 E-value: 61.13918452240732
 
-1    KDG    3
+1    KDG  3  
      |||     
-0    KDG    2
+333  KDG  335
 
 
 Frame: 3
@@ -225,9 +225,9 @@ Length: 180
 Score: 17
 E-value: 61.13918452240732
 
-1    KDG    3
-     |||     
-0    KDG    2
+1   KDG  3 
+    |||    
+46  KDG  48
 
 
 Frame: 2
@@ -239,9 +239,9 @@ Length: 222
 Score: 13
 E-value: 441.0825998079858
 
-5    IKL    7
-     |||     
-0    IKL    2
+5   IKL  7 
+    |||    
+48  IKL  50
 
 
 Frame: 2
@@ -253,9 +253,9 @@ Length: 419
 Score: 13
 E-value: 441.0825998079858
 
-5    IKL    7
+5    IKL  7  
      |||     
-0    IKL    2
+336  IKL  338
 
 
 Frame: 2
@@ -267,9 +267,9 @@ Length: 638
 Score: 13
 E-value: 441.0825998079858
 
-5    IKL    7
-     |||     
-0    IKL    2
+5   IKL  7 
+    |||    
+76  IKL  78
 
 
 Frame: 2
@@ -281,9 +281,9 @@ Length: 290
 Score: 13
 E-value: 441.0825998079858
 
-5    IKL    7
+5    IKL  7  
      |||     
-0    IKL    2
+272  IKL  274
 
 
 Frame: 2
@@ -295,9 +295,9 @@ Length: 638
 Score: 13
 E-value: 441.0825998079858
 
-5    IKL    7
-     |||     
-0    IKL    2
+5   IKL  7 
+    |||    
+76  IKL  78
 
 
 Frame: 2
@@ -309,9 +309,9 @@ Length: 290
 Score: 13
 E-value: 441.0825998079858
 
-5    IKL    7
+5    IKL  7  
      |||     
-0    IKL    2
+272  IKL  274
 
 
 Frame: -1
@@ -323,9 +323,9 @@ Length: 638
 Score: 16
 E-value: 1053.2275891314832
 
-0    VDN    2
-     |||     
-0    VDN    2
+0  VDN  2
+   |||   
+5  VDN  7
 
 
 Frame: -1
@@ -337,9 +337,9 @@ Length: 638
 Score: 16
 E-value: 1053.2275891314832
 
-0    VDN    2
-     |||     
-0    VDN    2
+0  VDN  2
+   |||   
+5  VDN  7
 
 
 Frame: 1
@@ -351,9 +351,9 @@ Length: 298
 Score: 14
 E-value: 2000.3563582766315
 
-0    LEK    2
-     |||     
-0    LEK    2
+0   LEK  2 
+    |||    
+21  LEK  23
 
 
 Frame: 1
@@ -365,9 +365,9 @@ Length: 61
 Score: 14
 E-value: 2000.3563582766315
 
-47   IIN   49
-     |||     
-0    IIN    2
+47  IIN  49
+    |||    
+31  IIN  33
 
 
 Frame: 1
@@ -379,9 +379,9 @@ Length: 1945
 Score: 14
 E-value: 2000.3563582766315
 
-47   IIN   49
-     |||     
-0    IIN    2
+47    IIN  49  
+      |||      
+1549  IIN  1551
 
 
 Frame: 1
@@ -393,9 +393,9 @@ Length: 346
 Score: 14
 E-value: 2000.3563582766315
 
-47   IIN   49
-     |||     
-0    IIN    2
+47  IIN  49
+    |||    
+25  IIN  27
 
 
 Frame: 1
@@ -407,9 +407,9 @@ Length: 1945
 Score: 14
 E-value: 2000.3563582766315
 
-47   IIN   49
-     |||     
-0    IIN    2
+47    IIN  49  
+      |||      
+1549  IIN  1551
 
 
 Frame: -2
@@ -421,9 +421,9 @@ Length: 43
 Score: 13
 E-value: 2370.8189739679233
 
-0    LIM    2
-     |||     
-0    LIM    2
+0   LIM  2 
+    |||    
+21  LIM  23
 
 
 Frame: -2
@@ -435,8 +435,8 @@ Length: 1273
 Score: 12
 E-value: 3267.3146974072124
 
-40   VIA   42
+40   VIA  42 
      |||     
-0    VIA    2
+432  VIA  434
 
 

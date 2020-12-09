@@ -7,9 +7,9 @@ Length: 1273
 Score: 253
 E-value: 1.003248971817103e-30
 
-0    KRSFIEDLLFNKVTLADAGFIKQYGDCLGDIAARDLICAQKFNGLTVLP   48
+0    KRSFIEDLLFNKVTLADAGFIKQYGDCLGDIAARDLICAQKFNGLTVLP  48 
      |||||||||||||||||||||||||||||||||||||||||||||||||     
-731  KRSFIEDLLFNKVTLADAGFIKQYGDCLGDIAARDLICAQKFNGLTVLP  779
+813  KRSFIEDLLFNKVTLADAGFIKQYGDCLGDIAARDLICAQKFNGLTVLP  861
 
 
 Frame: -1
@@ -21,17 +21,17 @@ Length: 7096
 Score: 29
 E-value: 16.2824138881091
 
-6    PLNFCAQMRSLAAISPR   22
-     |*****|*|*|****||     
-6439 PETYFTQSRNLQEFKPR 6455
+6     PLNFCAQMRSLAAISPR  22  
+      |*****|*|*|****||      
+6641  PETYFTQSRNLQEFKPR  6657
 
-6    PLNFCAQMRSLAAISPRQ   23
-     |*****|*|*|****||*     
-6439 PETYFTQSRNLQEFKPRS 6456
+6     PLNFCAQMRSLAAISPRQ  23  
+      |*****|*|*|****||*      
+6641  PETYFTQSRNLQEFKPRS  6658
 
-6    PLNFCAQMRSLAAISPRQS   24
-     |*****|*|*|****||**     
-6439 PETYFTQSRNLQEFKPRSQ 6457
+6     PLNFCAQMRSLAAISPRQS  24  
+      |*****|*|*|****||**      
+6641  PETYFTQSRNLQEFKPRSQ  6659
 
 
 Frame: 2
@@ -43,9 +43,9 @@ Length: 7096
 Score: 27
 E-value: 30.306097063511874
 
-25   DCLGDIAAR   33
+25   DCLGDIAAR  33 
      *|**|**||     
-139  ECIKDLLAR  147
+198  ECIKDLLAR  206
 
 
 Frame: 2
@@ -57,9 +57,9 @@ Length: 4405
 Score: 27
 E-value: 30.306097063511874
 
-25   DCLGDIAAR   33
+25   DCLGDIAAR  33 
      *|**|**||     
-139  ECIKDLLAR  147
+198  ECIKDLLAR  206
 
 
 Frame: -1
@@ -71,17 +71,17 @@ Length: 4405
 Score: 26
 E-value: 42.61833768781622
 
-7    LNFCAQMRSL   16
-     |**||****|     
-3322 LDMCASLKEL 3331
+7     LNFCAQMRSL  16  
+      |**||****|      
+3524  LDMCASLKEL  3533
 
-10   CAQMRSLAAISPRQSPYC   27
+10   CAQMRSLAAISPRQSPYC  27 
      |*****|**|******||     
-10   CTLSEQLDFIDTKRGVYC   27
+212  CTLSEQLDFIDTKRGVYC  229
 
-22   RQSPYCLMKPASASVTL   38
-     **||***|****|***|     
-1597 QESPFVMMSAPPAQYEL 1613
+22    RQSPYCLMKPASASVTL  38  
+      **||***|****|***|      
+1799  QESPFVMMSAPPAQYEL  1815
 
 
 Frame: 3
@@ -93,9 +93,9 @@ Length: 7096
 Score: 20
 E-value: 70.07501192097664
 
-3    LLKIYFS    9
-     *****||     
-331  IMQLFFS  337
+3     LLKIYFS  9   
+      *****||      
+2345  IMQLFFS  2351
 
 
 Frame: 3
@@ -107,9 +107,9 @@ Length: 4405
 Score: 20
 E-value: 70.07501192097664
 
-3    LLKIYFS    9
-     *****||     
-331  IMQLFFS  337
+3     LLKIYFS  9   
+      *****||      
+2345  IMQLFFS  2351
 
 
 Frame: 3
@@ -121,9 +121,9 @@ Length: 222
 Score: 19
 E-value: 96.57300657890312
 
-0    RGH    2
+0    RGH  2  
      |||     
-0    RGH    2
+145  RGH  147
 
 
 Frame: 1
@@ -135,9 +135,9 @@ Length: 7096
 Score: 15
 E-value: 145.14925093267027
 
-2    VIY    4
-     |||     
-0    VIY    2
+2     VIY  4   
+      |||      
+3106  VIY  3108
 
 
 Frame: 1
@@ -149,9 +149,9 @@ Length: 4405
 Score: 15
 E-value: 145.14925093267027
 
-2    VIY    4
-     |||     
-0    VIY    2
+2     VIY  4   
+      |||      
+3106  VIY  3108
 
 
 Frame: 1
@@ -163,9 +163,9 @@ Length: 500
 Score: 15
 E-value: 145.14925093267027
 
-2    VIY    4
+2    VIY  4  
      |||     
-0    VIY    2
+343  VIY  345
 
 
 Frame: 1
@@ -177,9 +177,9 @@ Length: 500
 Score: 15
 E-value: 145.14925093267027
 
-2    VIY    4
+2    VIY  4  
      |||     
-0    VIY    2
+343  VIY  345
 
 
 Frame: -3
@@ -191,9 +191,9 @@ Length: 7096
 Score: 21
 E-value: 173.7293596634515
 
-12   NEVSSSNITKAI   23
+12   NEVSSSNITKAI  23 
      |***||**|***     
-106  NTKHSSGVTREL  117
+161  NTKHSSGVTREL  172
 
 
 Frame: -3
@@ -205,9 +205,9 @@ Length: 4405
 Score: 21
 E-value: 173.7293596634515
 
-12   NEVSSSNITKAI   23
+12   NEVSSSNITKAI  23 
      |***||**|***     
-106  NTKHSSGVTREL  117
+161  NTKHSSGVTREL  172
 
 
 Frame: 1
@@ -219,9 +219,9 @@ Length: 1273
 Score: 14
 E-value: 200.03563582766316
 
-0    QEV    2
+0    QEV  2  
      |||     
-0    QEV    2
+778  QEV  780
 
 
 Frame: -2
@@ -233,37 +233,37 @@ Length: 7096
 Score: 13
 E-value: 220.5412999039929
 
-0    VAK    2
-     |||     
-0    VAK    2
+0     VAK  2   
+      |||      
+2702  VAK  2704
 
-0    VAK    2
-     |||     
-1283 VAK 1285
+0     VAK  2   
+      |||      
+3985  VAK  3987
 
-0    VAK    2
-     |||     
-1785 VAK 1787
+0     VAK  2   
+      |||      
+4487  VAK  4489
 
-0    VAK    2
-     |||     
-4139 VAK 4141
+0     VAK  2   
+      |||      
+6841  VAK  6843
 
-0    VAKQ    3
-     |||*     
-0    VAKS    3
+0     VAKQ  3   
+      |||*      
+2702  VAKS  2705
 
-0    VAKQ    3
-     |||*     
-1283 VAKS 1286
+0     VAKQ  3   
+      |||*      
+3985  VAKS  3988
 
-0    VAKQ    3
-     |||*     
-1785 VAKH 1788
+0     VAKQ  3   
+      |||*      
+4487  VAKH  4490
 
-0    VAKQ    3
-     *||*     
-3856 IAKK 3859
+0     VAKQ  3   
+      *||*      
+6558  IAKK  6561
 
 
 Frame: -2
@@ -275,9 +275,9 @@ Length: 1273
 Score: 13
 E-value: 220.5412999039929
 
-0    VAK    2
-     |||     
-0    VAK    2
+0     VAK  2   
+      |||      
+1188  VAK  1190
 
 
 Frame: -2
@@ -289,17 +289,17 @@ Length: 4405
 Score: 13
 E-value: 220.5412999039929
 
-0    VAK    2
-     |||     
-0    VAK    2
+0     VAK  2   
+      |||      
+2702  VAK  2704
 
-0    VAK    2
-     |||     
-1283 VAK 1285
+0     VAK  2   
+      |||      
+3985  VAK  3987
 
-0    VAKQ    3
-     |||*     
-0    VAKS    3
+0     VAKQ  3   
+      |||*      
+2702  VAKS  2705
 
 
 Frame: -2
@@ -311,9 +311,9 @@ Length: 1945
 Score: 13
 E-value: 220.5412999039929
 
-0    VAK    2
-     |||     
-0    VAK    2
+0     VAK  2   
+      |||      
+1884  VAK  1886
 
 
 Frame: -2
@@ -325,9 +325,9 @@ Length: 198
 Score: 13
 E-value: 220.5412999039929
 
-0    VAK    2
-     |||     
-0    VAK    2
+0   VAK  2 
+    |||    
+43  VAK  45
 
 
 Frame: -2
@@ -339,9 +339,9 @@ Length: 932
 Score: 13
 E-value: 220.5412999039929
 
-0    VAK    2
-     |||     
-0    VAK    2
+0   VAK  2 
+    |||    
+95  VAK  97
 
 
 Frame: -2
@@ -353,9 +353,9 @@ Length: 298
 Score: 13
 E-value: 220.5412999039929
 
-0    VAK    2
-     |||     
-0    VAK    2
+0   VAK  2 
+    |||    
+43  VAK  45
 
 
 Frame: -2
@@ -367,9 +367,9 @@ Length: 1945
 Score: 13
 E-value: 220.5412999039929
 
-0    VAK    2
-     |||     
-0    VAK    2
+0     VAK  2   
+      |||      
+1884  VAK  1886
 
 
 Frame: -2
@@ -381,9 +381,9 @@ Length: 198
 Score: 13
 E-value: 220.5412999039929
 
-0    VAK    2
-     |||     
-0    VAK    2
+0   VAK  2 
+    |||    
+43  VAK  45
 
 
 Frame: 3
@@ -395,9 +395,9 @@ Length: 1945
 Score: 14
 E-value: 480.08552598639153
 
-9    STK   11
-     |||     
-0    STK    2
+9     STK  11  
+      |||      
+1196  STK  1198
 
 
 Frame: 3
@@ -409,9 +409,9 @@ Length: 500
 Score: 14
 E-value: 480.08552598639153
 
-9    STK   11
+9    STK  11 
      |||     
-0    STK    2
+385  STK  387
 
 
 Frame: 3
@@ -423,9 +423,9 @@ Length: 1945
 Score: 14
 E-value: 480.08552598639153
 
-9    STK   11
-     |||     
-0    STK    2
+9     STK  11  
+      |||      
+1196  STK  1198
 
 
 Frame: 3
@@ -437,9 +437,9 @@ Length: 500
 Score: 14
 E-value: 480.08552598639153
 
-9    STK   11
+9    STK  11 
      |||     
-0    STK    2
+385  STK  387
 
 
 Frame: -1
@@ -451,9 +451,9 @@ Length: 1945
 Score: 17
 E-value: 764.2398065300914
 
-0    GGK    2
-     |||     
-0    GGK    2
+0     GGK  2   
+      |||      
+1621  GGK  1623
 
 
 Frame: -1
@@ -465,9 +465,9 @@ Length: 290
 Score: 17
 E-value: 764.2398065300914
 
-0    GGK    2
+0    GGK  2  
      |||     
-0    GGK    2
+278  GGK  280
 
 
 Frame: -1
@@ -479,9 +479,9 @@ Length: 1945
 Score: 17
 E-value: 764.2398065300914
 
-0    GGK    2
-     |||     
-0    GGK    2
+0     GGK  2   
+      |||      
+1621  GGK  1623
 
 
 Frame: -1
@@ -493,9 +493,9 @@ Length: 290
 Score: 17
 E-value: 764.2398065300914
 
-0    GGK    2
+0    GGK  2  
      |||     
-0    GGK    2
+278  GGK  280
 
 
 Frame: 2
@@ -507,9 +507,9 @@ Length: 180
 Score: 16
 E-value: 1032.1630373488535
 
-19   FIKQ   22
-     |||*     
-10   FIKR   13
+19  FIKQ  22
+    |||*    
+69  FIKR  72
 
 
 Frame: 2
@@ -521,9 +521,9 @@ Length: 180
 Score: 16
 E-value: 1032.1630373488535
 
-19   FIKQ   22
-     |||*     
-10   FIKR   13
+19  FIKQ  22
+    |||*    
+69  FIKR  72
 
 
 Frame: 2
@@ -535,9 +535,9 @@ Length: 1945
 Score: 15
 E-value: 1422.4626591401686
 
-46   VLP   48
+46   VLP  48 
      |||     
-0    VLP    2
+801  VLP  803
 
 
 Frame: 2
@@ -549,9 +549,9 @@ Length: 1945
 Score: 15
 E-value: 1422.4626591401686
 
-46   VLP   48
+46   VLP  48 
      |||     
-0    VLP    2
+801  VLP  803
 
 
 Frame: -3
@@ -563,9 +563,9 @@ Length: 1273
 Score: 14
 E-value: 1640.2922137868377
 
-38   VEK   40
+38   VEK  40 
      |||     
-0    VEK    2
+307  VEK  309
 
 
 Frame: -3
@@ -577,9 +577,9 @@ Length: 180
 Score: 14
 E-value: 1640.2922137868377
 
-38   VEK   40
-     |||     
-0    VEK    2
+38  VEK  40
+    |||    
+55  VEK  57
 
 
 Frame: -3
@@ -591,9 +591,9 @@ Length: 638
 Score: 14
 E-value: 1640.2922137868377
 
-38   VEK   40
+38   VEK  40 
      |||     
-0    VEK    2
+107  VEK  109
 
 
 Frame: -3
@@ -605,9 +605,9 @@ Length: 180
 Score: 14
 E-value: 1640.2922137868377
 
-38   VEK   40
-     |||     
-0    VEK    2
+38  VEK  40
+    |||    
+55  VEK  57
 
 
 Frame: -3
@@ -619,9 +619,9 @@ Length: 638
 Score: 14
 E-value: 1640.2922137868377
 
-38   VEK   40
+38   VEK  40 
      |||     
-0    VEK    2
+107  VEK  109
 
 
 Frame: -1
@@ -633,9 +633,9 @@ Length: 1273
 Score: 14
 E-value: 2000.3563582766315
 
-47   DLL   49
+47   DLL  49 
      |||     
-0    DLL    2
+819  DLL  821
 
 
 Frame: -1
@@ -647,9 +647,9 @@ Length: 75
 Score: 14
 E-value: 2000.3563582766315
 
-47   DLL   49
-     |||     
-0    DLL    2
+47  DLL  49
+    |||    
+71  DLL  73
 
 
 Frame: -1
@@ -661,9 +661,9 @@ Length: 638
 Score: 14
 E-value: 2000.3563582766315
 
-47   DLL   49
-     |||     
-0    DLL    2
+47  DLL  49
+    |||    
+22  DLL  24
 
 
 Frame: -1
@@ -675,9 +675,9 @@ Length: 306
 Score: 14
 E-value: 2000.3563582766315
 
-47   DLL   49
-     |||     
-0    DLL    2
+47  DLL  49
+    |||    
+55  DLL  57
 
 
 Frame: -1
@@ -689,9 +689,9 @@ Length: 932
 Score: 14
 E-value: 2000.3563582766315
 
-47   DLL   49
+47   DLL  49 
      |||     
-0    DLL    2
+268  DLL  270
 
 
 Frame: -1
@@ -703,9 +703,9 @@ Length: 346
 Score: 14
 E-value: 2000.3563582766315
 
-47   DLL   49
+47   DLL  49 
      |||     
-0    DLL    2
+295  DLL  297
 
 
 Frame: -1
@@ -717,9 +717,9 @@ Length: 638
 Score: 14
 E-value: 2000.3563582766315
 
-47   DLL   49
-     |||     
-0    DLL    2
+47  DLL  49
+    |||    
+22  DLL  24
 
 
 Frame: -1
@@ -731,8 +731,8 @@ Length: 306
 Score: 14
 E-value: 2000.3563582766315
 
-47   DLL   49
-     |||     
-0    DLL    2
+47  DLL  49
+    |||    
+55  DLL  57
 
 

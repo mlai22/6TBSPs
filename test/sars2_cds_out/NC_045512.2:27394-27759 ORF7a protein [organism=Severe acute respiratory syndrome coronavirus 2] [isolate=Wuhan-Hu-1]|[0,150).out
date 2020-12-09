@@ -7,9 +7,9 @@ Length: 121
 Score: 267
 E-value: 1.1483826929994845e-32
 
-0    MKIILFLALITLATCELYHYQECVRGTTVLLKEPCSSGTYEGNSPFHPLA   49
-     ||||||||||||||||||||||||||||||||||||||||||||||||||     
-0    MKIILFLALITLATCELYHYQECVRGTTVLLKEPCSSGTYEGNSPFHPLA   49
+0  MKIILFLALITLATCELYHYQECVRGTTVLLKEPCSSGTYEGNSPFHPLA  49
+   ||||||||||||||||||||||||||||||||||||||||||||||||||    
+0  MKIILFLALITLATCELYHYQECVRGTTVLLKEPCSSGTYEGNSPFHPLA  49
 
 
 Frame: -3
@@ -21,9 +21,9 @@ Length: 7096
 Score: 32
 E-value: 3.110363008122207
 
-2    DEMVNCPR    9
-     |**|*|||     
-186  DDVVYCPR  193
+2     DEMVNCPR  9   
+      |**|*|||      
+3295  DDVVYCPR  3302
 
 
 Frame: -3
@@ -35,9 +35,9 @@ Length: 4405
 Score: 32
 E-value: 3.110363008122207
 
-2    DEMVNCPR    9
-     |**|*|||     
-186  DDVVYCPR  193
+2     DEMVNCPR  9   
+      |**|*|||      
+3295  DDVVYCPR  3302
 
 
 Frame: -2
@@ -49,9 +49,9 @@ Length: 7096
 Score: 15
 E-value: 87.08955055960216
 
-0    ARG    2
-     |||     
-0    ARG    2
+0     ARG  2   
+      |||      
+3754  ARG  3756
 
 
 Frame: -2
@@ -63,9 +63,9 @@ Length: 4405
 Score: 15
 E-value: 87.08955055960216
 
-0    ARG    2
-     |||     
-0    ARG    2
+0     ARG  2   
+      |||      
+3754  ARG  3756
 
 
 Frame: -2
@@ -77,9 +77,9 @@ Length: 290
 Score: 15
 E-value: 87.08955055960216
 
-0    ARG    2
+0    ARG  2  
      |||     
-0    ARG    2
+185  ARG  187
 
 
 Frame: -2
@@ -91,9 +91,9 @@ Length: 290
 Score: 15
 E-value: 87.08955055960216
 
-0    ARG    2
+0    ARG  2  
      |||     
-0    ARG    2
+185  ARG  187
 
 
 Frame: 3
@@ -105,9 +105,9 @@ Length: 7096
 Score: 16
 E-value: 294.90372495681527
 
-11   RYL   13
-     |||     
-0    RYL    2
+11    RYL  13  
+      |||      
+3205  RYL  3207
 
 
 Frame: 3
@@ -119,9 +119,9 @@ Length: 4405
 Score: 16
 E-value: 294.90372495681527
 
-11   RYL   13
-     |||     
-0    RYL    2
+11    RYL  13  
+      |||      
+3205  RYL  3207
 
 
 Frame: 3
@@ -133,9 +133,9 @@ Length: 500
 Score: 16
 E-value: 294.90372495681527
 
-11   RYL   13
+11   RYL  13 
      |||     
-0    RYL    2
+442  RYL  444
 
 
 Frame: 3
@@ -147,9 +147,9 @@ Length: 500
 Score: 16
 E-value: 294.90372495681527
 
-11   RYL   13
+11   RYL  13 
      |||     
-0    RYL    2
+442  RYL  444
 
 
 Frame: -3
@@ -161,9 +161,9 @@ Length: 306
 Score: 15
 E-value: 725.7462546633512
 
-0    LED    2
+0    LED  2  
      |||     
-0    LED    2
+286  LED  288
 
 
 Frame: -3
@@ -175,9 +175,9 @@ Length: 346
 Score: 15
 E-value: 725.7462546633512
 
-0    LED    2
+0    LED  2  
      |||     
-0    LED    2
+264  LED  266
 
 
 Frame: -3
@@ -189,9 +189,9 @@ Length: 306
 Score: 15
 E-value: 725.7462546633512
 
-0    LED    2
+0    LED  2  
      |||     
-0    LED    2
+286  LED  288
 
 
 Frame: -3
@@ -203,9 +203,9 @@ Length: 275
 Score: 15
 E-value: 725.7462546633512
 
-22   LYL   24
+22   LYL  24 
      |||     
-0    LYL    2
+105  LYL  107
 
 
 Frame: -3
@@ -217,9 +217,9 @@ Length: 500
 Score: 15
 E-value: 725.7462546633512
 
-22   LYL   24
+22   LYL  24 
      |||     
-0    LYL    2
+346  LYL  348
 
 
 Frame: -3
@@ -231,9 +231,9 @@ Length: 932
 Score: 15
 E-value: 725.7462546633512
 
-22   LYL   24
+22   LYL  24 
      |||     
-0    LYL    2
+882  LYL  884
 
 
 Frame: -3
@@ -245,9 +245,9 @@ Length: 601
 Score: 15
 E-value: 725.7462546633512
 
-22   LYL   24
-     |||     
-0    LYL    2
+22  LYL  24
+    |||    
+62  LYL  64
 
 
 Frame: -3
@@ -259,9 +259,9 @@ Length: 527
 Score: 15
 E-value: 725.7462546633512
 
-22   LYL   24
+22   LYL  24 
      |||     
-0    LYL    2
+492  LYL  494
 
 
 Frame: -3
@@ -273,8 +273,8 @@ Length: 500
 Score: 15
 E-value: 725.7462546633512
 
-22   LYL   24
+22   LYL  24 
      |||     
-0    LYL    2
+346  LYL  348
 
 

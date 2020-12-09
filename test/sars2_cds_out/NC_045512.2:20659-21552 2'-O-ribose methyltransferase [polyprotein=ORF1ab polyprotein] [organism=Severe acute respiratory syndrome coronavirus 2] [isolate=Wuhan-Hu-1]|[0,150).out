@@ -7,9 +7,9 @@ Length: 7096
 Score: 264
 E-value: 3.005829586535553e-32
 
-0    SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQL   49
-     ||||||||||||||||||||||||||||||||||||||||||||||||||     
-5278 SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQL 5327
+0     SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQL  49  
+      ||||||||||||||||||||||||||||||||||||||||||||||||||      
+6798  SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQL  6847
 
 
 Frame: 1
@@ -21,9 +21,9 @@ Length: 298
 Score: 264
 E-value: 3.005829586535553e-32
 
-0    SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQL   49
-     ||||||||||||||||||||||||||||||||||||||||||||||||||     
-0    SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQL   49
+0  SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQL  49
+   ||||||||||||||||||||||||||||||||||||||||||||||||||    
+0  SSQAWQPGVAMPNLYKMQRMLLEKCDLQNYGDSATLPKGIMMNVAKYTQL  49
 
 
 Frame: -1
@@ -35,9 +35,9 @@ Length: 7096
 Score: 29
 E-value: 4.559075888670549
 
-4    FCDIHH    9
-     ||**||     
-3407 FCYMHH 3412
+4     FCDIHH  9   
+      ||**||      
+3421  FCYMHH  3426
 
 
 Frame: -1
@@ -49,9 +49,9 @@ Length: 4405
 Score: 29
 E-value: 4.559075888670549
 
-4    FCDIHH    9
-     ||**||     
-3407 FCYMHH 3412
+4     FCDIHH  9   
+      ||**||      
+3421  FCYMHH  3426
 
 
 Frame: -3
@@ -63,9 +63,9 @@ Length: 7096
 Score: 26
 E-value: 10.228401045075895
 
-5    RHSSLCL   11
-     *|**|||     
-540  KHAFLCL  546
+5     RHSSLCL  11  
+      *|**|||      
+3631  KHAFLCL  3637
 
 
 Frame: -3
@@ -77,9 +77,9 @@ Length: 4405
 Score: 26
 E-value: 10.228401045075895
 
-5    RHSSLCL   11
-     *|**|||     
-540  KHAFLCL  546
+5     RHSSLCL  11  
+      *|**|||      
+3631  KHAFLCL  3637
 
 
 Frame: 1
@@ -91,9 +91,9 @@ Length: 601
 Score: 28
 E-value: 22.43940629378733
 
-24   CDLQNYGD   31
+24   CDLQNYGD  31 
      ||**|*||     
-51   CDWTNAGD   58
+111  CDWTNAGD  118
 
 
 Frame: 1
@@ -105,9 +105,9 @@ Length: 1273
 Score: 27
 E-value: 30.924588840318236
 
-0    SSQAWQPGVA    9
+0    SSQAWQPGVA  9  
      ||**|**|*|     
-242  SSSGWTAGAA  251
+253  SSSGWTAGAA  262
 
 
 Frame: 2
@@ -119,9 +119,9 @@ Length: 1273
 Score: 22
 E-value: 64.56781424339907
 
-12   IFTKCKECY   20
+12   IFTKCKECY  20 
      *|***|**|     
-248  VFAQVKQIY  256
+780  VFAQVKQIY  788
 
 
 Frame: -3
@@ -133,9 +133,9 @@ Length: 290
 Score: 17
 E-value: 183.41755356722194
 
-9    LCL   11
-     |||     
-0    LCL    2
+9   LCL  11
+    |||    
+66  LCL  68
 
 
 Frame: -3
@@ -147,9 +147,9 @@ Length: 290
 Score: 17
 E-value: 183.41755356722194
 
-9    LCL   11
-     |||     
-0    LCL    2
+9   LCL  11
+    |||    
+66  LCL  68
 
 
 Frame: -3
@@ -161,9 +161,9 @@ Length: 500
 Score: 17
 E-value: 183.41755356722194
 
-9    LCL   11
+9    LCL  11 
      |||     
-0    LCL    2
+328  LCL  330
 
 
 Frame: -3
@@ -175,9 +175,9 @@ Length: 500
 Score: 17
 E-value: 183.41755356722194
 
-9    LCL   11
+9    LCL  11 
      |||     
-0    LCL    2
+328  LCL  330
 
 
 Frame: -1
@@ -189,9 +189,9 @@ Length: 1273
 Score: 13
 E-value: 771.8945496639751
 
-0    QLS    2
+0    QLS  2  
      |||     
-0    QLS    2
+964  QLS  966
 
 
 Frame: -1
@@ -203,9 +203,9 @@ Length: 275
 Score: 13
 E-value: 771.8945496639751
 
-0    QLS    2
+0    QLS  2  
      |||     
-0    QLS    2
+217  QLS  219
 
 
 Frame: -1
@@ -217,9 +217,9 @@ Length: 180
 Score: 13
 E-value: 771.8945496639751
 
-0    QLS    2
-     |||     
-0    QLS    2
+0   QLS  2 
+    |||    
+14  QLS  16
 
 
 Frame: -1
@@ -231,9 +231,9 @@ Length: 198
 Score: 13
 E-value: 771.8945496639751
 
-0    QLS    2
+0    QLS  2  
      |||     
-0    QLS    2
+167  QLS  169
 
 
 Frame: -1
@@ -245,9 +245,9 @@ Length: 298
 Score: 13
 E-value: 771.8945496639751
 
-0    QLS    2
+0    QLS  2  
      |||     
-0    QLS    2
+237  QLS  239
 
 
 Frame: -1
@@ -259,9 +259,9 @@ Length: 180
 Score: 13
 E-value: 771.8945496639751
 
-0    QLS    2
-     |||     
-0    QLS    2
+0   QLS  2 
+    |||    
+14  QLS  16
 
 
 Frame: -1
@@ -273,9 +273,9 @@ Length: 198
 Score: 13
 E-value: 771.8945496639751
 
-0    QLS    2
+0    QLS  2  
      |||     
-0    QLS    2
+167  QLS  169
 
 
 Frame: 2
@@ -287,9 +287,9 @@ Length: 7096
 Score: 13
 E-value: 1157.8418244959628
 
-0    LVK    2
-     |||     
-0    LVK    2
+0     LVK  2   
+      |||      
+5210  LVK  5212
 
 
 Frame: 2
@@ -301,9 +301,9 @@ Length: 75
 Score: 13
 E-value: 1157.8418244959628
 
-0    LVK    2
-     |||     
-0    LVK    2
+0   LVK  2 
+    |||    
+50  LVK  52
 
 
 Frame: 2
@@ -315,9 +315,9 @@ Length: 932
 Score: 13
 E-value: 1157.8418244959628
 
-0    LVK    2
+0    LVK  2  
      |||     
-0    LVK    2
+818  LVK  820
 
 
 Frame: 1
@@ -329,9 +329,9 @@ Length: 275
 Score: 14
 E-value: 2000.3563582766315
 
-47   TQL   49
+47   TQL  49 
      |||     
-0    TQL    2
+216  TQL  218
 
 
 Frame: 1
@@ -343,9 +343,9 @@ Length: 4405
 Score: 14
 E-value: 2000.3563582766315
 
-47   TQL   49
-     |||     
-0    TQL    2
+47    TQL  49  
+      |||      
+1520  TQL  1522
 
 
 Frame: 1
@@ -357,9 +357,9 @@ Length: 1945
 Score: 14
 E-value: 2000.3563582766315
 
-47   TQL   49
+47   TQL  49 
      |||     
-0    TQL    2
+702  TQL  704
 
 
 Frame: 1
@@ -371,8 +371,8 @@ Length: 1945
 Score: 14
 E-value: 2000.3563582766315
 
-47   TQL   49
+47   TQL  49 
      |||     
-0    TQL    2
+702  TQL  704
 
 

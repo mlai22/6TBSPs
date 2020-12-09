@@ -7,9 +7,9 @@ Length: 7096
 Score: 264
 E-value: 3.005829586535553e-32
 
-0    SAGFPFNKWGKARLYYDSMSYEDQDALFAYTKRNVIPTITQMNLKYAISA   49
-     ||||||||||||||||||||||||||||||||||||||||||||||||||     
-3743 SAGFPFNKWGKARLYYDSMSYEDQDALFAYTKRNVIPTITQMNLKYAISA 3792
+0     SAGFPFNKWGKARLYYDSMSYEDQDALFAYTKRNVIPTITQMNLKYAISA  49  
+      ||||||||||||||||||||||||||||||||||||||||||||||||||      
+4892  SAGFPFNKWGKARLYYDSMSYEDQDALFAYTKRNVIPTITQMNLKYAISA  4941
 
 
 Frame: 1
@@ -21,9 +21,9 @@ Length: 932
 Score: 264
 E-value: 3.005829586535553e-32
 
-0    SAGFPFNKWGKARLYYDSMSYEDQDALFAYTKRNVIPTITQMNLKYAISA   49
+0    SAGFPFNKWGKARLYYDSMSYEDQDALFAYTKRNVIPTITQMNLKYAISA  49 
      ||||||||||||||||||||||||||||||||||||||||||||||||||     
-0    SAGFPFNKWGKARLYYDSMSYEDQDALFAYTKRNVIPTITQMNLKYAISA   49
+500  SAGFPFNKWGKARLYYDSMSYEDQDALFAYTKRNVIPTITQMNLKYAISA  549
 
 
 Frame: 1
@@ -35,9 +35,9 @@ Length: 4405
 Score: 31
 E-value: 8.573016229662503
 
-2    GFPFNKWGKARLYYDS   17
-     |**|*|*|****||*|     
-374  GIEFLKRGDKSVYYTS  389
+2     GFPFNKWGKARLYYDS  17  
+      |**|*|*|****||*|      
+1523  GIEFLKRGDKSVYYTS  1538
 
 
 Frame: 1
@@ -49,9 +49,9 @@ Length: 1945
 Score: 31
 E-value: 8.573016229662503
 
-2    GFPFNKWGKARLYYDS   17
+2    GFPFNKWGKARLYYDS  17 
      |**|*|*|****||*|     
-374  GIEFLKRGDKSVYYTS  389
+705  GIEFLKRGDKSVYYTS  720
 
 
 Frame: 1
@@ -63,9 +63,9 @@ Length: 1945
 Score: 31
 E-value: 8.573016229662503
 
-2    GFPFNKWGKARLYYDS   17
+2    GFPFNKWGKARLYYDS  17 
      |**|*|*|****||*|     
-374  GIEFLKRGDKSVYYTS  389
+705  GIEFLKRGDKSVYYTS  720
 
 
 Frame: -1
@@ -77,17 +77,17 @@ Length: 7096
 Score: 29
 E-value: 10.420744888389825
 
-19   CICEKCIL   26
-     |****|||     
-2528 CLDDRCIL 2535
+19    CICEKCIL  26  
+      |****|||      
+4692  CLDDRCIL  4699
 
-9    LSYSRDDITFCICEKCILILIT   30
-     *||***|**|**********||     
-2746 MSYEDQDALFAYTKRNVIPTIT 2767
+9     LSYSRDDITFCICEKCILILIT  30  
+      *||***|**|**********||      
+4910  MSYEDQDALFAYTKRNVIPTIT  4931
 
-9    LSYSRDDITFCICEKCILILITH   31
-     *||***|**|**********||*     
-2746 MSYEDQDALFAYTKRNVIPTITQ 2768
+9     LSYSRDDITFCICEKCILILITH  31  
+      *||***|**|**********||*      
+4910  MSYEDQDALFAYTKRNVIPTITQ  4932
 
 
 Frame: 3
@@ -99,9 +99,9 @@ Length: 419
 Score: 21
 E-value: 21.186507276030675
 
-0    SWF    2
-     |||     
-0    SWF    2
+0   SWF  2 
+    |||    
+50  SWF  52
 
 
 Frame: -1
@@ -113,9 +113,9 @@ Length: 4405
 Score: 20
 E-value: 186.8666984559377
 
-0    CTN    2
-     |||     
-0    CTN    2
+0     CTN  2   
+      |||      
+2164  CTN  2166
 
 
 Frame: -1
@@ -127,9 +127,9 @@ Length: 1945
 Score: 20
 E-value: 186.8666984559377
 
-0    CTN    2
-     |||     
-0    CTN    2
+0     CTN  2   
+      |||      
+1346  CTN  1348
 
 
 Frame: -1
@@ -141,9 +141,9 @@ Length: 1945
 Score: 20
 E-value: 186.8666984559377
 
-0    CTN    2
-     |||     
-0    CTN    2
+0     CTN  2   
+      |||      
+1346  CTN  1348
 
 
 Frame: -1
@@ -155,9 +155,9 @@ Length: 601
 Score: 17
 E-value: 489.11347617925856
 
-29   ITH   31
+29   ITH  31 
      |||     
-0    ITH    2
+479  ITH  481
 
 
 Frame: 1
@@ -169,9 +169,9 @@ Length: 527
 Score: 14
 E-value: 2000.3563582766315
 
-0    SAG    2
+0    SAG  2  
      |||     
-1    SAG    3
+502  SAG  504
 
 
 Frame: 1
@@ -183,9 +183,9 @@ Length: 500
 Score: 12
 E-value: 3799.2031365200146
 
-47   ISA   49
+47   ISA  49 
      |||     
-0    ISA    2
+279  ISA  281
 
 
 Frame: 1
@@ -197,8 +197,8 @@ Length: 500
 Score: 12
 E-value: 3799.2031365200146
 
-47   ISA   49
+47   ISA  49 
      |||     
-0    ISA    2
+279  ISA  281
 
 

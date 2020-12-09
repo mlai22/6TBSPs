@@ -7,9 +7,9 @@ Length: 1273
 Score: 250
 E-value: 2.6795407358826303e-30
 
-0    LQSLQTYVTQQLIRAAEIRASANLAATKMSECVLGQSKRVDFCGKGYHLM   49
-     ||||||||||||||||||||||||||||||||||||||||||||||||||     
-509  LQSLQTYVTQQLIRAAEIRASANLAATKMSECVLGQSKRVDFCGKGYHLM  558
+0     LQSLQTYVTQQLIRAAEIRASANLAATKMSECVLGQSKRVDFCGKGYHLM  49  
+      ||||||||||||||||||||||||||||||||||||||||||||||||||      
+1000  LQSLQTYVTQQLIRAAEIRASANLAATKMSECVLGQSKRVDFCGKGYHLM  1049
 
 
 Frame: 1
@@ -21,9 +21,9 @@ Length: 7096
 Score: 34
 E-value: 3.2753365357266726
 
-22   NLAATKMSECVLGQSK   37
-     **|||*****|*|*||     
-1708 SIAATRGATVVIGTSK 1723
+22    NLAATKMSECVLGQSK  37  
+      **|||*****|*|*||      
+4969  SIAATRGATVVIGTSK  4984
 
 
 Frame: 2
@@ -35,9 +35,9 @@ Length: 7096
 Score: 24
 E-value: 11.332081414675649
 
-0    FKVCRHM    6
+0    FKVCRHM  6  
      ||***||     
-405  FKLASHM  411
+913  FKLASHM  919
 
 
 Frame: 1
@@ -49,17 +49,17 @@ Length: 4405
 Score: 28
 E-value: 22.43940629378733
 
-22   NLAATKMSECVL   33
-     *|***|***||*     
-411  SLSGFKLKDCVM  422
+22    NLAATKMSECVL  33  
+      *|***|***||*      
+3672  SLSGFKLKDCVM  3683
 
-22   NLAATKMSECVLGQS   36
-     *|***|***||***|     
-411  SLSGFKLKDCVMYAS  425
+22    NLAATKMSECVLGQS  36  
+      *|***|***||***|      
+3672  SLSGFKLKDCVMYAS  3686
 
-22   NLAATKMSECVLGQSKRV   39
-     *|***|***||***|**|     
-411  SLSGFKLKDCVMYASAVV  428
+22    NLAATKMSECVLGQSKRV  39  
+      *|***|***||***|**|      
+3672  SLSGFKLKDCVMYASAVV  3689
 
 
 Frame: 3
@@ -71,17 +71,17 @@ Length: 7096
 Score: 20
 E-value: 70.07501192097664
 
-0    SKFADIC    6
-     *|****|     
-1859 AKYTQLC 1865
+0     SKFADIC  6   
+      *|****|      
+6842  AKYTQLC  6848
 
-0    SKFADICD    7
-     *|****|*     
-1859 AKYTQLCQ 1866
+0     SKFADICD  7   
+      *|****|*      
+6842  AKYTQLCQ  6849
 
-2    FADICDSTI   10
-     |****|||*     
-1917 FVSDADSTL 1925
+2     FADICDSTI  10  
+      |****|||*      
+6900  FVSDADSTL  6908
 
 
 Frame: -1
@@ -93,9 +93,9 @@ Length: 7096
 Score: 18
 E-value: 144.18179589784918
 
-4    ALSTKINSF   12
-     ||*||****     
-825  ALLTKSSEY  833
+4     ALSTKINSF  12  
+      ||*||****      
+1850  ALLTKSSEY  1858
 
 
 Frame: -1
@@ -107,9 +107,9 @@ Length: 4405
 Score: 18
 E-value: 144.18179589784918
 
-4    ALSTKINSF   12
-     ||*||****     
-825  ALLTKSSEY  833
+4     ALSTKINSF  12  
+      ||*||****      
+1850  ALLTKSSEY  1858
 
 
 Frame: -1
@@ -121,9 +121,9 @@ Length: 1945
 Score: 18
 E-value: 144.18179589784918
 
-4    ALSTKINSF   12
-     ||*||****     
-825  ALLTKSSEY  833
+4     ALSTKINSF  12  
+      ||*||****      
+1032  ALLTKSSEY  1040
 
 
 Frame: -1
@@ -135,9 +135,9 @@ Length: 1945
 Score: 18
 E-value: 144.18179589784918
 
-4    ALSTKINSF   12
-     ||*||****     
-825  ALLTKSSEY  833
+4     ALSTKINSF  12  
+      ||*||****      
+1032  ALLTKSSEY  1040
 
 
 Frame: 2
@@ -149,9 +149,9 @@ Length: 61
 Score: 15
 E-value: 203.20895130573837
 
-0    FKV    2
-     |||     
-0    FKV    2
+0   FKV  2 
+    |||    
+21  FKV  23
 
 
 Frame: 2
@@ -163,9 +163,9 @@ Length: 4405
 Score: 15
 E-value: 203.20895130573837
 
-0    FKV    2
+0    FKV  2  
      |||     
-0    FKV    2
+508  FKV  510
 
 
 Frame: 2
@@ -177,9 +177,9 @@ Length: 638
 Score: 15
 E-value: 203.20895130573837
 
-0    FKV    2
+0    FKV  2  
      |||     
-0    FKV    2
+328  FKV  330
 
 
 Frame: 2
@@ -191,9 +191,9 @@ Length: 601
 Score: 15
 E-value: 203.20895130573837
 
-0    FKV    2
+0    FKV  2  
      |||     
-0    FKV    2
+345  FKV  347
 
 
 Frame: 2
@@ -205,9 +205,9 @@ Length: 638
 Score: 15
 E-value: 203.20895130573837
 
-0    FKV    2
+0    FKV  2  
      |||     
-0    FKV    2
+328  FKV  330
 
 
 Frame: -1
@@ -219,9 +219,9 @@ Length: 1273
 Score: 16
 E-value: 273.8391731741856
 
-10   NSF   12
-     |||     
-0    NSF    2
+10  NSF  12
+    |||    
+29  NSF  31
 
 
 Frame: 3
@@ -233,9 +233,9 @@ Length: 932
 Score: 15
 E-value: 348.35820223840864
 
-0    SKF    2
+0    SKF  2  
      |||     
-0    SKF    2
+591  SKF  593
 
 
 Frame: 3
@@ -247,9 +247,9 @@ Length: 298
 Score: 15
 E-value: 348.35820223840864
 
-0    SKF    2
+0    SKF  2  
      |||     
-0    SKF    2
+247  SKF  249
 
 
 Frame: 3
@@ -261,9 +261,9 @@ Length: 121
 Score: 15
 E-value: 348.35820223840864
 
-9    TIN   11
-     |||     
-0    TIN    2
+9   TIN  11
+    |||    
+86  TIN  88
 
 
 Frame: 1
@@ -275,9 +275,9 @@ Length: 932
 Score: 17
 E-value: 764.2398065300914
 
-47   HLM   49
+47   HLM  49 
      |||     
-0    HLM    2
+612  HLM  614
 
 
 Frame: 1
@@ -289,9 +289,9 @@ Length: 275
 Score: 13
 E-value: 2756.766248799911
 
-0    LQS    2
+0    LQS  2  
      |||     
-0    LQS    2
+114  LQS  116
 
 
 Frame: 1
@@ -303,9 +303,9 @@ Length: 121
 Score: 13
 E-value: 2756.766248799911
 
-0    LQS    2
-     |||     
-0    LQS    2
+0   LQS  2 
+    |||    
+21  LQS  23
 
 
 Frame: 1
@@ -317,8 +317,8 @@ Length: 527
 Score: 13
 E-value: 2756.766248799911
 
-0    LQS    2
+0    LQS  2  
      |||     
-0    LQS    2
+252  LQS  254
 
 

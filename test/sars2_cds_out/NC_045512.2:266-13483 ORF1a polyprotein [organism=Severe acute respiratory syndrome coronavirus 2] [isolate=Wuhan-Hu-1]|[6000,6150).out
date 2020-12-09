@@ -7,9 +7,9 @@ Length: 7096
 Score: 275
 E-value: 8.82563702725723e-34
 
-0    ATYKPNTWCIRCLWSTKPVETSNSFDVLKSEDAQGMDNLACEDLKPVSEE   49
-     ||||||||||||||||||||||||||||||||||||||||||||||||||     
-1098 ATYKPNTWCIRCLWSTKPVETSNSFDVLKSEDAQGMDNLACEDLKPVSEE 1147
+0     ATYKPNTWCIRCLWSTKPVETSNSFDVLKSEDAQGMDNLACEDLKPVSEE  49  
+      ||||||||||||||||||||||||||||||||||||||||||||||||||      
+2000  ATYKPNTWCIRCLWSTKPVETSNSFDVLKSEDAQGMDNLACEDLKPVSEE  2049
 
 
 Frame: 1
@@ -21,9 +21,9 @@ Length: 4405
 Score: 275
 E-value: 8.82563702725723e-34
 
-0    ATYKPNTWCIRCLWSTKPVETSNSFDVLKSEDAQGMDNLACEDLKPVSEE   49
-     ||||||||||||||||||||||||||||||||||||||||||||||||||     
-1098 ATYKPNTWCIRCLWSTKPVETSNSFDVLKSEDAQGMDNLACEDLKPVSEE 1147
+0     ATYKPNTWCIRCLWSTKPVETSNSFDVLKSEDAQGMDNLACEDLKPVSEE  49  
+      ||||||||||||||||||||||||||||||||||||||||||||||||||      
+2000  ATYKPNTWCIRCLWSTKPVETSNSFDVLKSEDAQGMDNLACEDLKPVSEE  2049
 
 
 Frame: 1
@@ -35,9 +35,9 @@ Length: 1945
 Score: 275
 E-value: 8.82563702725723e-34
 
-0    ATYKPNTWCIRCLWSTKPVETSNSFDVLKSEDAQGMDNLACEDLKPVSEE   49
-     ||||||||||||||||||||||||||||||||||||||||||||||||||     
-1098 ATYKPNTWCIRCLWSTKPVETSNSFDVLKSEDAQGMDNLACEDLKPVSEE 1147
+0     ATYKPNTWCIRCLWSTKPVETSNSFDVLKSEDAQGMDNLACEDLKPVSEE  49  
+      ||||||||||||||||||||||||||||||||||||||||||||||||||      
+1182  ATYKPNTWCIRCLWSTKPVETSNSFDVLKSEDAQGMDNLACEDLKPVSEE  1231
 
 
 Frame: 1
@@ -49,9 +49,9 @@ Length: 1945
 Score: 275
 E-value: 8.82563702725723e-34
 
-0    ATYKPNTWCIRCLWSTKPVETSNSFDVLKSEDAQGMDNLACEDLKPVSEE   49
-     ||||||||||||||||||||||||||||||||||||||||||||||||||     
-1098 ATYKPNTWCIRCLWSTKPVETSNSFDVLKSEDAQGMDNLACEDLKPVSEE 1147
+0     ATYKPNTWCIRCLWSTKPVETSNSFDVLKSEDAQGMDNLACEDLKPVSEE  49  
+      ||||||||||||||||||||||||||||||||||||||||||||||||||      
+1182  ATYKPNTWCIRCLWSTKPVETSNSFDVLKSEDAQGMDNLACEDLKPVSEE  1231
 
 
 Frame: -2
@@ -63,13 +63,13 @@ Length: 7096
 Score: 32
 E-value: 6.096311495919527
 
-12   LSIPCASSDFSTSNEFD   28
-     |**|****|*|***|*|     
-3994 LGLPTQTVDSSQGSEYD 4010
+12    LSIPCASSDFSTSNEFD  28  
+      |**|****|*|***|*|      
+5849  LGLPTQTVDSSQGSEYD  5865
 
-42   QVFGLY   47
-     ||||||     
-3556 QVFGLY 3561
+42    QVFGLY  47  
+      ||||||      
+5411  QVFGLY  5416
 
 
 Frame: -2
@@ -81,9 +81,9 @@ Length: 4405
 Score: 31
 E-value: 8.401555905069253
 
-23   TSNEFDV   29
-     |||*|||     
-165  TSNSFDV  171
+23    TSNEFDV  29  
+      |||*|||      
+2020  TSNSFDV  2026
 
 
 Frame: 2
@@ -95,9 +95,9 @@ Length: 419
 Score: 16
 E-value: 568.742898131001
 
-0    PRI    2
-     |||     
-0    PRI    2
+0   PRI  2 
+    |||    
+12  PRI  14
 
 
 Frame: 2
@@ -109,9 +109,9 @@ Length: 7096
 Score: 16
 E-value: 568.742898131001
 
-24   LMY   26
-     |||     
-0    LMY    2
+24    LMY  26  
+      |||      
+6076  LMY  6078
 
 
 Frame: 2
@@ -123,9 +123,9 @@ Length: 527
 Score: 16
 E-value: 568.742898131001
 
-24   LMY   26
+24   LMY  26 
      |||     
-0    LMY    2
+151  LMY  153
 
 
 Frame: -2
@@ -137,9 +137,9 @@ Length: 932
 Score: 15
 E-value: 1422.4626591401686
 
-46   LYV   48
+46   LYV  48 
      |||     
-0    LYV    2
+672  LYV  674
 
 
 Frame: -2
@@ -151,9 +151,9 @@ Length: 527
 Score: 15
 E-value: 1422.4626591401686
 
-46   LYV   48
+46   LYV  48 
      |||     
-0    LYV    2
+418  LYV  420
 
 
 Frame: 1
@@ -165,9 +165,9 @@ Length: 75
 Score: 14
 E-value: 2000.3563582766315
 
-47   SEE   49
-     |||     
-0    SEE    2
+47  SEE  49
+   |||   
+5  SEE  7
 
 
 Frame: -2
@@ -179,9 +179,9 @@ Length: 1945
 Score: 13
 E-value: 2701.6309238239132
 
-0    SSE    2
-     |||     
-0    SSE    2
+0     SSE  2   
+      |||      
+1037  SSE  1039
 
 
 Frame: -2
@@ -193,9 +193,9 @@ Length: 500
 Score: 13
 E-value: 2701.6309238239132
 
-0    SSE    2
-     |||     
-0    SSE    2
+0   SSE  2 
+    |||    
+39  SSE  41
 
 
 Frame: -2
@@ -207,9 +207,9 @@ Length: 298
 Score: 13
 E-value: 2701.6309238239132
 
-0    SSE    2
+0    SSE  2  
      |||     
-0    SSE    2
+200  SSE  202
 
 
 Frame: -2
@@ -221,9 +221,9 @@ Length: 1945
 Score: 13
 E-value: 2701.6309238239132
 
-0    SSE    2
-     |||     
-0    SSE    2
+0     SSE  2   
+      |||      
+1037  SSE  1039
 
 
 Frame: -2
@@ -235,8 +235,8 @@ Length: 500
 Score: 13
 E-value: 2701.6309238239132
 
-0    SSE    2
-     |||     
-0    SSE    2
+0   SSE  2 
+    |||    
+39  SSE  41
 
 

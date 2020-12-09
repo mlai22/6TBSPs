@@ -82,12 +82,12 @@ def align_out(output, out_file, sum_file):
 	Args:
 		output (list): 			a python list of tuples containing restults
 		out_file (handle): 		output file handle
-		out_file (handle):		summary file handle
+		sum_file (handle):		summary file handle
 
 	Returns:
 		None
 	'''			
-	for [f, read_id, query, ref_id, prot_seq, s, la, S, evalue] in output:
+	for f, read_id, query, ref_id, prot_seq, s, la, S, evalue in output:
 		# print to output
 		print('Frame:', str(f), file=out_file)
 		print('Query:', query, file=out_file)

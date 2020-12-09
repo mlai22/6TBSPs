@@ -7,9 +7,9 @@ Length: 7096
 Score: 30
 E-value: 10.397020256522515
 
-12   NFRSLVDLFSKRTLK   26
-     |***|**|***||*|     
-458  NLKTLLSLREVRTIK  472
+12    NFRSLVDLFSKRTLK  26  
+      |***|**|***||*|      
+1554  NLKTLLSLREVRTIK  1568
 
 
 Frame: 2
@@ -21,9 +21,9 @@ Length: 4405
 Score: 30
 E-value: 10.397020256522515
 
-12   NFRSLVDLFSKRTLK   26
-     |***|**|***||*|     
-458  NLKTLLSLREVRTIK  472
+12    NFRSLVDLFSKRTLK  26  
+      |***|**|***||*|      
+1554  NLKTLLSLREVRTIK  1568
 
 
 Frame: 2
@@ -35,9 +35,9 @@ Length: 1945
 Score: 30
 E-value: 10.397020256522515
 
-12   NFRSLVDLFSKRTLK   26
+12   NFRSLVDLFSKRTLK  26 
      |***|**|***||*|     
-458  NLKTLLSLREVRTIK  472
+736  NLKTLLSLREVRTIK  750
 
 
 Frame: 2
@@ -49,9 +49,9 @@ Length: 1945
 Score: 30
 E-value: 10.397020256522515
 
-12   NFRSLVDLFSKRTLK   26
+12   NFRSLVDLFSKRTLK  26 
      |***|**|***||*|     
-458  NLKTLLSLREVRTIK  472
+736  NLKTLLSLREVRTIK  750
 
 
 Frame: 1
@@ -63,9 +63,9 @@ Length: 7096
 Score: 20
 E-value: 46.716674613984424
 
-0    IKGLYL    5
-     |||**|     
-514  IKGSFL  519
+0     IKGLYL  5   
+      |||**|      
+3398  IKGSFL  3403
 
 
 Frame: 1
@@ -77,9 +77,9 @@ Length: 4405
 Score: 20
 E-value: 46.716674613984424
 
-0    IKGLYL    5
-     |||**|     
-514  IKGSFL  519
+0     IKGLYL  5   
+      |||**|      
+3398  IKGSFL  3403
 
 
 Frame: -1
@@ -91,9 +91,9 @@ Length: 7096
 Score: 18
 E-value: 55.45453688378816
 
-0    TVISY    4
-     ||*|*     
-3436 TVLSF 3440
+0     TVISY  4   
+      ||*|*      
+4264  TVLSF  4268
 
 
 Frame: 1
@@ -105,9 +105,9 @@ Length: 500
 Score: 16
 E-value: 168.5164142610373
 
-5    LPR    7
+5    LPR  7  
      |||     
-0    LPR    2
+121  LPR  123
 
 
 Frame: 1
@@ -119,9 +119,9 @@ Length: 500
 Score: 16
 E-value: 168.5164142610373
 
-5    LPR    7
+5    LPR  7  
      |||     
-0    LPR    2
+121  LPR  123
 
 
 Frame: 1
@@ -133,9 +133,9 @@ Length: 306
 Score: 15
 E-value: 232.23880149227242
 
-0    IKG    2
+0    IKG  2  
      |||     
-0    IKG    2
+135  IKG  137
 
 
 Frame: 1
@@ -147,9 +147,9 @@ Length: 290
 Score: 15
 E-value: 232.23880149227242
 
-0    IKG    2
-     |||     
-0    IKG    2
+0  IKG  2
+   |||   
+6  IKG  8
 
 
 Frame: 1
@@ -161,9 +161,9 @@ Length: 113
 Score: 15
 E-value: 232.23880149227242
 
-0    IKG    2
-     |||     
-0    IKG    2
+0   IKG  2 
+    |||    
+90  IKG  92
 
 
 Frame: 1
@@ -175,9 +175,9 @@ Length: 306
 Score: 15
 E-value: 232.23880149227242
 
-0    IKG    2
+0    IKG  2  
      |||     
-0    IKG    2
+135  IKG  137
 
 
 Frame: 1
@@ -189,9 +189,9 @@ Length: 290
 Score: 15
 E-value: 232.23880149227242
 
-0    IKG    2
-     |||     
-0    IKG    2
+0  IKG  2
+   |||   
+6  IKG  8
 
 
 Frame: 1
@@ -203,9 +203,9 @@ Length: 113
 Score: 15
 E-value: 232.23880149227242
 
-0    IKG    2
-     |||     
-0    IKG    2
+0   IKG  2 
+    |||    
+90  IKG  92
 
 
 Frame: -1
@@ -217,9 +217,9 @@ Length: 4405
 Score: 13
 E-value: 275.67662487999115
 
-0    TVI    2
+0    TVI  2  
      |||     
-0    TVI    2
+828  TVI  830
 
 
 Frame: -1
@@ -231,9 +231,9 @@ Length: 1945
 Score: 13
 E-value: 275.67662487999115
 
-0    TVI    2
-     |||     
-0    TVI    2
+0   TVI  2 
+    |||    
+10  TVI  12
 
 
 Frame: -1
@@ -245,9 +245,9 @@ Length: 346
 Score: 13
 E-value: 275.67662487999115
 
-0    TVI    2
-     |||     
-0    TVI    2
+0   TVI  2 
+    |||    
+82  TVI  84
 
 
 Frame: -1
@@ -259,9 +259,9 @@ Length: 1945
 Score: 13
 E-value: 275.67662487999115
 
-0    TVI    2
-     |||     
-0    TVI    2
+0   TVI  2 
+    |||    
+10  TVI  12
 
 
 Frame: 2
@@ -273,9 +273,9 @@ Length: 500
 Score: 18
 E-value: 487.99992457733583
 
-41   QYN   43
+41   QYN  43 
      |||     
-0    QYN    2
+439  QYN  441
 
 
 Frame: 2
@@ -287,9 +287,9 @@ Length: 500
 Score: 18
 E-value: 487.99992457733583
 
-41   QYN   43
+41   QYN  43 
      |||     
-0    QYN    2
+439  QYN  441
 
 
 Frame: 2
@@ -301,9 +301,9 @@ Length: 306
 Score: 13
 E-value: 2425.9542989439224
 
-0    LKV    2
-     |||     
-0    LKV    2
+0   LKV  2 
+    |||    
+88  LKV  90
 
 
 Frame: 2
@@ -315,8 +315,8 @@ Length: 306
 Score: 13
 E-value: 2425.9542989439224
 
-0    LKV    2
-     |||     
-0    LKV    2
+0   LKV  2 
+    |||    
+88  LKV  90
 
 

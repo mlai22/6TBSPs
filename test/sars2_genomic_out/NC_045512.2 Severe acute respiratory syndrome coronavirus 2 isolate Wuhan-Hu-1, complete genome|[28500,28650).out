@@ -7,9 +7,9 @@ Length: 419
 Score: 274
 E-value: 1.1919683118774527e-33
 
-0    NSSPDDQIGYYRRATRRIRGGDGKMKDLSPRWYFYYLGTGPEAGLPYGA   48
-     |||||||||||||||||||||||||||||||||||||||||||||||||     
-0    NSSPDDQIGYYRRATRRIRGGDGKMKDLSPRWYFYYLGTGPEAGLPYGA   48
+0   NSSPDDQIGYYRRATRRIRGGDGKMKDLSPRWYFYYLGTGPEAGLPYGA  48 
+    |||||||||||||||||||||||||||||||||||||||||||||||||     
+76  NSSPDDQIGYYRRATRRIRGGDGKMKDLSPRWYFYYLGTGPEAGLPYGA  124
 
 
 Frame: 3
@@ -21,9 +21,9 @@ Length: 7096
 Score: 30
 E-value: 5.671101958103189
 
-2    VQMTKLATTEELPDEF   17
-     |**|*|**|****|||     
-5081 VRITGLYPTLNISDEF 5096
+2     VQMTKLATTEELPDEF  17  
+      |**|*|**|****|||      
+5570  VRITGLYPTLNISDEF  5585
 
 
 Frame: 2
@@ -35,9 +35,9 @@ Length: 7096
 Score: 30
 E-value: 11.578499831127345
 
-26   DLSPRWYFY   34
-     |***|*|||     
-1281 DYGARFYFY 1289
+26    DLSPRWYFY  34  
+      |***|*|||      
+1416  DYGARFYFY  1424
 
 
 Frame: 2
@@ -49,9 +49,9 @@ Length: 4405
 Score: 30
 E-value: 11.578499831127345
 
-26   DLSPRWYFY   34
-     |***|*|||     
-1281 DYGARFYFY 1289
+26    DLSPRWYFY  34  
+      |***|*|||      
+1416  DYGARFYFY  1424
 
 
 Frame: 3
@@ -63,13 +63,13 @@ Length: 4405
 Score: 27
 E-value: 14.843802643352754
 
-7    LATTEELPDEFVVVTV   22
-     |******|*|****|*     
-1000 LTSSSKTPEEHFIETI 1015
+7     LATTEELPDEFVVVTV  22  
+      |******|*|****|*      
+1489  LTSSSKTPEEHFIETI  1504
 
-7    LATTEELPDEFVVVTVK   23
-     |******|*|****|**     
-1000 LTSSSKTPEEHFIETIS 1016
+7     LATTEELPDEFVVVTVK  23  
+      |******|*|****|**      
+1489  LTSSSKTPEEHFIETIS  1505
 
 
 Frame: -3
@@ -81,9 +81,9 @@ Length: 7096
 Score: 24
 E-value: 19.42642528230111
 
-2    IGKSSFWPSS   11
-     ||*****||*     
-4217 IGLALYYPSA 4226
+2     IGKSSFWPSS  11  
+      ||*****||*      
+5616  IGLALYYPSA  5625
 
 
 Frame: 2
@@ -95,17 +95,17 @@ Length: 1945
 Score: 26
 E-value: 41.76597093405991
 
-0    NSSPDDQIGYYRR   12
-     ||*|*|*|**|**     
-713  NSVPWDTIANYAK  725
+0     NSSPDDQIGYYRR  12  
+      ||*|*|*|**|**      
+1312  NSVPWDTIANYAK  1324
 
-6    QIGYYRRATRR   16
-     |*|*|***|**     
-414  QCGHYKHITSK  424
+6     QIGYYRRATRR  16  
+      |*|*|***|**      
+1013  QCGHYKHITSK  1023
 
-30   RWYFY   34
+30   RWYFY  34 
      |*|||     
-3    RFYFY    7
+602  RFYFY  606
 
 
 Frame: 2
@@ -117,17 +117,17 @@ Length: 1945
 Score: 26
 E-value: 41.76597093405991
 
-0    NSSPDDQIGYYRR   12
-     ||*|*|*|**|**     
-713  NSVPWDTIANYAK  725
+0     NSSPDDQIGYYRR  12  
+      ||*|*|*|**|**      
+1312  NSVPWDTIANYAK  1324
 
-6    QIGYYRRATRR   16
-     |*|*|***|**     
-414  QCGHYKHITSK  424
+6     QIGYYRRATRR  16  
+      |*|*|***|**      
+1013  QCGHYKHITSK  1023
 
-30   RWYFY   34
+30   RWYFY  34 
      |*|||     
-3    RFYFY    7
+602  RFYFY  606
 
 
 Frame: -1
@@ -139,13 +139,13 @@ Length: 7096
 Score: 15
 E-value: 87.08955055960216
 
-0    LAP    2
+0    LAP  2  
      |||     
-0    LAP    2
+801  LAP  803
 
-0    LAP    2
-     |||     
-343  LAP  345
+0     LAP  2   
+      |||      
+1144  LAP  1146
 
 
 Frame: -1
@@ -157,13 +157,13 @@ Length: 4405
 Score: 15
 E-value: 87.08955055960216
 
-0    LAP    2
+0    LAP  2  
      |||     
-0    LAP    2
+801  LAP  803
 
-0    LAP    2
-     |||     
-343  LAP  345
+0     LAP  2   
+      |||      
+1144  LAP  1146
 
 
 Frame: -1
@@ -175,9 +175,9 @@ Length: 638
 Score: 15
 E-value: 87.08955055960216
 
-0    LAP    2
+0    LAP  2  
      |||     
-0    LAP    2
+621  LAP  623
 
 
 Frame: -1
@@ -189,9 +189,9 @@ Length: 1945
 Score: 15
 E-value: 87.08955055960216
 
-0    LAP    2
+0    LAP  2  
      |||     
-0    LAP    2
+326  LAP  328
 
 
 Frame: -1
@@ -203,9 +203,9 @@ Length: 638
 Score: 15
 E-value: 87.08955055960216
 
-0    LAP    2
+0    LAP  2  
      |||     
-0    LAP    2
+621  LAP  623
 
 
 Frame: -1
@@ -217,9 +217,9 @@ Length: 1945
 Score: 15
 E-value: 87.08955055960216
 
-0    LAP    2
+0    LAP  2  
      |||     
-0    LAP    2
+326  LAP  328
 
 
 Frame: 3
@@ -231,9 +231,9 @@ Length: 1945
 Score: 18
 E-value: 266.1817770421831
 
-20   VTVK   23
-     ||||     
-292  VTVK  295
+20    VTVK  23  
+      ||||      
+1675  VTVK  1678
 
 
 Frame: 3
@@ -245,9 +245,9 @@ Length: 1945
 Score: 18
 E-value: 266.1817770421831
 
-20   VTVK   23
-     ||||     
-292  VTVK  295
+20    VTVK  23  
+      ||||      
+1675  VTVK  1678
 
 
 Frame: -3
@@ -259,9 +259,9 @@ Length: 4405
 Score: 13
 E-value: 661.6238997119787
 
-0    STI    2
-     |||     
-0    STI    2
+0     STI  2   
+      |||      
+1399  STI  1401
 
 
 Frame: -3
@@ -273,9 +273,9 @@ Length: 1945
 Score: 13
 E-value: 661.6238997119787
 
-0    STI    2
+0    STI  2  
      |||     
-0    STI    2
+581  STI  583
 
 
 Frame: -3
@@ -287,9 +287,9 @@ Length: 346
 Score: 13
 E-value: 661.6238997119787
 
-0    STI    2
-     |||     
-0    STI    2
+0   STI  2 
+    |||    
+96  STI  98
 
 
 Frame: -3
@@ -301,9 +301,9 @@ Length: 1945
 Score: 13
 E-value: 661.6238997119787
 
-0    STI    2
+0    STI  2  
      |||     
-0    STI    2
+581  STI  583
 
 
 Frame: 2
@@ -315,9 +315,9 @@ Length: 180
 Score: 17
 E-value: 748.9550103994897
 
-46   YGA   48
+46   YGA  48 
      |||     
-0    YGA    2
+135  YGA  137
 
 
 Frame: 2
@@ -329,9 +329,9 @@ Length: 180
 Score: 17
 E-value: 748.9550103994897
 
-46   YGA   48
+46   YGA  48 
      |||     
-0    YGA    2
+135  YGA  137
 
 
 Frame: 3
@@ -343,9 +343,9 @@ Length: 638
 Score: 14
 E-value: 960.1710519727831
 
-21   TVK   23
+21   TVK  23 
      |||     
-0    TVK    2
+309  TVK  311
 
 
 Frame: 3
@@ -357,9 +357,9 @@ Length: 932
 Score: 14
 E-value: 960.1710519727831
 
-21   TVK   23
+21   TVK  23 
      |||     
-0    TVK    2
+408  TVK  410
 
 
 Frame: 3
@@ -371,9 +371,9 @@ Length: 346
 Score: 14
 E-value: 960.1710519727831
 
-21   TVK   23
+21   TVK  23 
      |||     
-0    TVK    2
+273  TVK  275
 
 
 Frame: 3
@@ -385,9 +385,9 @@ Length: 638
 Score: 14
 E-value: 960.1710519727831
 
-21   TVK   23
+21   TVK  23 
      |||     
-0    TVK    2
+309  TVK  311
 
 
 Frame: 3
@@ -399,9 +399,9 @@ Length: 1273
 Score: 12
 E-value: 1823.6175055296071
 
-0    IAV    2
+0    IAV  2  
      |||     
-0    IAV    2
+769  IAV  771
 
 
 Frame: 3
@@ -413,9 +413,9 @@ Length: 306
 Score: 12
 E-value: 1823.6175055296071
 
-0    IAV    2
+0    IAV  2  
      |||     
-0    IAV    2
+258  IAV  260
 
 
 Frame: 3
@@ -427,9 +427,9 @@ Length: 306
 Score: 12
 E-value: 1823.6175055296071
 
-0    IAV    2
+0    IAV  2  
      |||     
-0    IAV    2
+258  IAV  260
 
 
 Frame: 2
@@ -441,8 +441,8 @@ Length: 75
 Score: 14
 E-value: 1960.349231111099
 
-0    NSS    2
-     |||     
-0    NSS    2
+0   NSS  2 
+    |||    
+65  NSS  67
 
 

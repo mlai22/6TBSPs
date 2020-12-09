@@ -7,9 +7,9 @@ Length: 7096
 Score: 285
 E-value: 3.5712507250964377e-35
 
-0    AVGACVLCNSQTSLRCGACIRRPFLCCKCCYDHVISTSHKLVLSVNPYVC   49
-     ||||||||||||||||||||||||||||||||||||||||||||||||||     
-2434 AVGACVLCNSQTSLRCGACIRRPFLCCKCCYDHVISTSHKLVLSVNPYVC 2483
+0     AVGACVLCNSQTSLRCGACIRRPFLCCKCCYDHVISTSHKLVLSVNPYVC  49  
+      ||||||||||||||||||||||||||||||||||||||||||||||||||      
+5324  AVGACVLCNSQTSLRCGACIRRPFLCCKCCYDHVISTSHKLVLSVNPYVC  5373
 
 
 Frame: 1
@@ -21,9 +21,9 @@ Length: 601
 Score: 285
 E-value: 3.5712507250964377e-35
 
-0    AVGACVLCNSQTSLRCGACIRRPFLCCKCCYDHVISTSHKLVLSVNPYVC   49
-     ||||||||||||||||||||||||||||||||||||||||||||||||||     
-0    AVGACVLCNSQTSLRCGACIRRPFLCCKCCYDHVISTSHKLVLSVNPYVC   49
+0  AVGACVLCNSQTSLRCGACIRRPFLCCKCCYDHVISTSHKLVLSVNPYVC  49
+   ||||||||||||||||||||||||||||||||||||||||||||||||||    
+0  AVGACVLCNSQTSLRCGACIRRPFLCCKCCYDHVISTSHKLVLSVNPYVC  49
 
 
 Frame: -3
@@ -35,9 +35,9 @@ Length: 7096
 Score: 24
 E-value: 6.4754750941003705
 
-0    KHTD    3
-     ||||     
-706  KHTD  709
+0     KHTD  3   
+      ||||      
+2797  KHTD  2800
 
 
 Frame: -3
@@ -49,9 +49,9 @@ Length: 4405
 Score: 24
 E-value: 6.4754750941003705
 
-0    KHTD    3
-     ||||     
-706  KHTD  709
+0     KHTD  3   
+      ||||      
+2797  KHTD  2800
 
 
 Frame: -3
@@ -63,9 +63,9 @@ Length: 500
 Score: 24
 E-value: 6.4754750941003705
 
-0    KHTD    3
-     ||||     
-0    KHTD    3
+0   KHTD  3 
+    ||||    
+34  KHTD  37
 
 
 Frame: -3
@@ -77,9 +77,9 @@ Length: 500
 Score: 24
 E-value: 6.4754750941003705
 
-0    KHTD    3
-     ||||     
-0    KHTD    3
+0   KHTD  3 
+    ||||    
+34  KHTD  37
 
 
 Frame: -3
@@ -91,9 +91,9 @@ Length: 1945
 Score: 19
 E-value: 32.19100219296771
 
-1    HTD    3
-     |||     
-0    HTD    2
+1     HTD  3   
+      |||      
+1273  HTD  1275
 
 
 Frame: -3
@@ -105,9 +105,9 @@ Length: 1945
 Score: 19
 E-value: 32.19100219296771
 
-1    HTD    3
-     |||     
-0    HTD    2
+1     HTD  3   
+      |||      
+1273  HTD  1275
 
 
 Frame: -3
@@ -119,9 +119,9 @@ Length: 1273
 Score: 18
 E-value: 44.363629507030524
 
-0    KHT    2
+0    KHT  2  
      |||     
-0    KHT    2
+205  KHT  207
 
 
 Frame: -3
@@ -133,9 +133,9 @@ Length: 932
 Score: 18
 E-value: 44.363629507030524
 
-0    KHT    2
+0    KHT  2  
      |||     
-0    KHT    2
+640  KHT  642
 
 
 Frame: -2
@@ -147,9 +147,9 @@ Length: 7096
 Score: 17
 E-value: 290.4111264814348
 
-0    QTY    2
-     |||     
-0    QTY    2
+0     QTY  2   
+      |||      
+4683  QTY  4685
 
 
 Frame: -2
@@ -161,9 +161,9 @@ Length: 1273
 Score: 17
 E-value: 290.4111264814348
 
-0    QTY    2
-     |||     
-0    QTY    2
+0     QTY  2   
+      |||      
+1004  QTY  1006
 
 
 Frame: -2
@@ -175,9 +175,9 @@ Length: 932
 Score: 17
 E-value: 290.4111264814348
 
-0    QTY    2
+0    QTY  2  
      |||     
-0    QTY    2
+291  QTY  293
 
 
 Frame: 3
@@ -189,9 +189,9 @@ Length: 7096
 Score: 17
 E-value: 305.6959226120366
 
-17   LHT   19
-     |||     
-0    LHT    2
+17    LHT  19  
+      |||      
+1578  LHT  1580
 
 
 Frame: 3
@@ -203,9 +203,9 @@ Length: 4405
 Score: 17
 E-value: 305.6959226120366
 
-17   LHT   19
-     |||     
-0    LHT    2
+17    LHT  19  
+      |||      
+1578  LHT  1580
 
 
 Frame: 3
@@ -217,9 +217,9 @@ Length: 1945
 Score: 17
 E-value: 305.6959226120366
 
-17   LHT   19
+17   LHT  19 
      |||     
-0    LHT    2
+760  LHT  762
 
 
 Frame: 3
@@ -231,9 +231,9 @@ Length: 1945
 Score: 17
 E-value: 305.6959226120366
 
-17   LHT   19
+17   LHT  19 
      |||     
-0    LHT    2
+760  LHT  762
 
 
 Frame: -1
@@ -245,9 +245,9 @@ Length: 7096
 Score: 14
 E-value: 360.06414448979365
 
-0    ANI    2
+0    ANI  2  
      |||     
-0    ANI    2
+428  ANI  430
 
 
 Frame: -1
@@ -259,9 +259,9 @@ Length: 4405
 Score: 14
 E-value: 360.06414448979365
 
-0    ANI    2
+0    ANI  2  
      |||     
-0    ANI    2
+428  ANI  430
 
 
 Frame: -1
@@ -273,9 +273,9 @@ Length: 638
 Score: 14
 E-value: 360.06414448979365
 
-0    ANI    2
+0    ANI  2  
      |||     
-0    ANI    2
+248  ANI  250
 
 
 Frame: -1
@@ -287,9 +287,9 @@ Length: 638
 Score: 14
 E-value: 360.06414448979365
 
-0    ANI    2
+0    ANI  2  
      |||     
-0    ANI    2
+248  ANI  250
 
 
 Frame: 2
@@ -301,9 +301,9 @@ Length: 7096
 Score: 14
 E-value: 520.0926531519241
 
-0    LLG    2
-     |||     
-0    LLG    2
+0     LLG  2   
+      |||      
+3843  LLG  3845
 
 
 Frame: 2
@@ -315,9 +315,9 @@ Length: 4405
 Score: 14
 E-value: 520.0926531519241
 
-0    LLG    2
-     |||     
-0    LLG    2
+0     LLG  2   
+      |||      
+3843  LLG  3845
 
 
 Frame: 2
@@ -329,9 +329,9 @@ Length: 290
 Score: 14
 E-value: 520.0926531519241
 
-0    LLG    2
+0    LLG  2  
      |||     
-0    LLG    2
+274  LLG  276
 
 
 Frame: 2
@@ -343,9 +343,9 @@ Length: 290
 Score: 14
 E-value: 520.0926531519241
 
-0    LLG    2
+0    LLG  2  
      |||     
-0    LLG    2
+274  LLG  276
 
 
 Frame: 1
@@ -357,9 +357,9 @@ Length: 4405
 Score: 14
 E-value: 2000.3563582766315
 
-0    AVG    2
-     |||     
-0    AVG    2
+0     AVG  2   
+      |||      
+2890  AVG  2892
 
 
 Frame: 1
@@ -371,9 +371,9 @@ Length: 500
 Score: 14
 E-value: 2000.3563582766315
 
-0    AVG    2
+0    AVG  2  
      |||     
-0    AVG    2
+127  AVG  129
 
 
 Frame: 1
@@ -385,9 +385,9 @@ Length: 527
 Score: 14
 E-value: 2000.3563582766315
 
-0    AVG    2
-     |||     
-0    AVG    2
+0   AVG  2  
+    |||     
+99  AVG  101
 
 
 Frame: 1
@@ -399,8 +399,8 @@ Length: 500
 Score: 14
 E-value: 2000.3563582766315
 
-0    AVG    2
+0    AVG  2  
      |||     
-0    AVG    2
+127  AVG  129
 
 

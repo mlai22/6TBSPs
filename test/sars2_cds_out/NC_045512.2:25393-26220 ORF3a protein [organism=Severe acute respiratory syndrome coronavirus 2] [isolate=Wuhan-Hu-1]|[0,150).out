@@ -7,9 +7,9 @@ Length: 275
 Score: 253
 E-value: 1.0237234406296968e-30
 
-0    MDLFMRIFTIGTVTLKQGEIKDATPSDFVRATATIPIQASLPFGWLIVGV   49
-     ||||||||||||||||||||||||||||||||||||||||||||||||||     
-0    MDLFMRIFTIGTVTLKQGEIKDATPSDFVRATATIPIQASLPFGWLIVGV   49
+0  MDLFMRIFTIGTVTLKQGEIKDATPSDFVRATATIPIQASLPFGWLIVGV  49
+   ||||||||||||||||||||||||||||||||||||||||||||||||||    
+0  MDLFMRIFTIGTVTLKQGEIKDATPSDFVRATATIPIQASLPFGWLIVGV  49
 
 
 Frame: 3
@@ -21,9 +21,9 @@ Length: 7096
 Score: 44
 E-value: 0.045061861260416704
 
-6    LHNWNC   11
-     ||||||     
-2406 LHNWNC 2411
+6     LHNWNC  11  
+      ||||||      
+2446  LHNWNC  2451
 
 
 Frame: 3
@@ -35,9 +35,9 @@ Length: 4405
 Score: 44
 E-value: 0.045061861260416704
 
-6    LHNWNC   11
-     ||||||     
-2406 LHNWNC 2411
+6     LHNWNC  11  
+      ||||||      
+2446  LHNWNC  2451
 
 
 Frame: 2
@@ -49,9 +49,9 @@ Length: 222
 Score: 28
 E-value: 1.7951525035029863
 
-0    WICL    3
-     ||||     
-0    WICL    3
+0   WICL  3 
+    ||||    
+30  WICL  33
 
 
 Frame: -2
@@ -63,9 +63,9 @@ Length: 1273
 Score: 23
 E-value: 109.32016993052837
 
-8    GSEACIGI   15
+8    GSEACIGI  15 
      ||**|*|*     
-327  GSTPCNGV  334
+475  GSTPCNGV  482
 
 
 Frame: -1
@@ -77,9 +77,9 @@ Length: 7096
 Score: 16
 E-value: 210.64551782629664
 
-0    NAN    2
-     |||     
-0    NAN    2
+0     NAN  2   
+      |||      
+4880  NAN  4882
 
 
 Frame: -1
@@ -91,9 +91,9 @@ Length: 932
 Score: 16
 E-value: 210.64551782629664
 
-0    NAN    2
+0    NAN  2  
      |||     
-0    NAN    2
+488  NAN  490
 
 
 Frame: 3
@@ -105,9 +105,9 @@ Length: 1945
 Score: 16
 E-value: 358.09738030470425
 
-0    GFV    2
-     |||     
-0    GFV    2
+0     GFV  2   
+      |||      
+1821  GFV  1823
 
 
 Frame: 3
@@ -119,9 +119,9 @@ Length: 500
 Score: 16
 E-value: 358.09738030470425
 
-0    GFV    2
-     |||     
-0    GFV    2
+0   GFV  2  
+    |||     
+99  GFV  101
 
 
 Frame: 3
@@ -133,9 +133,9 @@ Length: 1945
 Score: 16
 E-value: 358.09738030470425
 
-0    GFV    2
-     |||     
-0    GFV    2
+0     GFV  2   
+      |||      
+1821  GFV  1823
 
 
 Frame: 3
@@ -147,9 +147,9 @@ Length: 500
 Score: 16
 E-value: 358.09738030470425
 
-0    GFV    2
-     |||     
-0    GFV    2
+0   GFV  2  
+    |||     
+99  GFV  101
 
 
 Frame: 3
@@ -161,9 +161,9 @@ Length: 180
 Score: 14
 E-value: 680.1211618140546
 
-14   EAR   16
-     |||     
-0    EAR    2
+14  EAR  16
+    |||    
+40  EAR  42
 
 
 Frame: 3
@@ -175,9 +175,9 @@ Length: 180
 Score: 14
 E-value: 680.1211618140546
 
-14   EAR   16
-     |||     
-0    EAR    2
+14  EAR  16
+    |||    
+40  EAR  42
 
 
 Frame: 1
@@ -189,9 +189,9 @@ Length: 1273
 Score: 15
 E-value: 1451.4925093267025
 
-0    MDL    2
+0    MDL  2  
      |||     
-0    MDL    2
+176  MDL  178
 
 
 Frame: 1
@@ -203,9 +203,9 @@ Length: 7096
 Score: 14
 E-value: 2000.3563582766315
 
-47   VGV   49
-     |||     
-0    VGV    2
+47    VGV  49  
+      |||      
+4593  VGV  4595
 
 
 Frame: 1
@@ -217,8 +217,8 @@ Length: 932
 Score: 14
 E-value: 2000.3563582766315
 
-47   VGV   49
+47   VGV  49 
      |||     
-0    VGV    2
+201  VGV  203
 
 
