@@ -216,17 +216,17 @@ class LocalAlignment:
             left_digits =  int(math.log10(int(self.max_loc_y_list[i][0]) + base)) + 1
             right_digits = int(math.log10(int(self.max_loc_y_list[i][1]) + base)) + 1
 
-            print('{0:>{1}d} {2} {3:<{4}d}'.format(
+            print('{0:<{1}d}  {2}  {3:<{4}d}'.format(
                 self.max_loc_x_list[i][0],
                 left_digits,
                 self.align_seq_x_list[i],
                 self.max_loc_x_list[i][1],
                 right_digits))
-            print('{0} {1} {2}'.format(
+            print('{0}  {1}  {2}'.format(
                 ' ' * left_digits,
                 self.xscript_list[i],
                 ' ' * right_digits))
-            print('{0:>{1}d} {2} {3:<{4}d}'.format(
+            print('{0:<{1}d}  {2}  {3:<{4}d}'.format(
                 int(self.max_loc_y_list[i][0]) + base,
                 left_digits,
                 self.align_seq_y_list[i],
@@ -244,20 +244,19 @@ class LocalAlignment:
         for i, loc in enumerate(self.max_loc_list):
             left_digits =  int(math.log10(int(self.max_loc_y_list[i][0]) + base)) + 1
             right_digits = int(math.log10(int(self.max_loc_y_list[i][1]) + base)) + 1
-            print(left_digits)
-            print('{0:>{1}d} {2} {3:<{4}d}'.format(
+            print('{0:<{1}d}  {2}  {3:<{4}d}'.format(
                 self.max_loc_x_list[i][0],
                 left_digits,
                 self.align_seq_x_list[i],
                 self.max_loc_x_list[i][1],
                 right_digits),
                 file=out_file)
-            print('{0} {1} {2}'.format(
+            print('{0}  {1}  {2}'.format(
                 ' ' * left_digits,
                 self.xscript_list[i],
                 ' ' * right_digits),
                 file=out_file)
-            print('{0:>{1}d} {2} {3:<{4}d}'.format(
+            print('{0:<{1}d}  {2}  {3:<{4}d}'.format(
                 int(self.max_loc_y_list[i][0]) + base,
                 left_digits,
                 self.align_seq_y_list[i],
