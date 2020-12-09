@@ -35,7 +35,7 @@ def main():
 	s_time = time.time()
 	'''Main function of the 6tbsps-query'''
 	parser = argparse.ArgumentParser(prog = '6tbsps-query', \
-		description = 'Search DNA sequences against a pre-indexed protein database')
+		description = 'Search DNA sequences against a pre-indexed protein database.')
 	parser.add_argument('--db', required = True, \
 		help='database base name of k-mer indices')
 	parser.add_argument('-o', required = True, help = 'output directory')
