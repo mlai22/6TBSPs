@@ -1,0 +1,14 @@
+# 6tbsps-build
+os
+argparse
+# 6tbsps-query
+pickle
+multiprocessing
+itertools
+time
+# evaluator
+pandas
+# local_alignment
+numpy
+# score_matrix
+math
