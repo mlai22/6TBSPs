@@ -1,7 +1,9 @@
 <!-- INFO -->
 <p align="center">
-  <h3 align="center">A 6-frame Translation-based Protein Search Tool</h3>
+  <h3 align="center">A 6-frame Translation-based Protein Search Tool (6TBSPs)</h3>
 </p>
+
+![](logo.png)
 
 <!-- TABLE OF CONTENTS -->
 ## Table of Contents
