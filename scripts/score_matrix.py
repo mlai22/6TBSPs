@@ -55,14 +55,12 @@ def e_value_cal(m, n, S, name='BLOSUM62'):
     return: e-value = kmne^-lambda*S
 
     '''
+    e = math.e
     if name == 'BLOSUM62':
-        e = math.e
         E = 0.139042 * m * n * e ** (-0.320733 * S)
     if name == 'BLOSUM45':
-        e = math.e
         E = 0.095168 * m * n * e ** (-0.231019 * S)
     if name == 'BLOSUM80':
-        e = math.e
         E = 0.185160 * m * n * e ** (-0.350826 * S)
     return E
 

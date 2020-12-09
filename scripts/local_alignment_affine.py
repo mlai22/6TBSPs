@@ -226,13 +226,13 @@ class LocalAlignment:
                self.align_seq_x_list, self.align_seq_y_list, self.xscript_list, \
                self.max_loc_x_list, self.max_loc_y_list
 
-    def display(self):
+    def display(self, offset=0):
         '''
         Display some parameters of this function.
         Args:
             out_file: output file handle
         '''
-        print('score: {}'.format(self.score))
+        # print('score: {}'.format(self.score))
         for i, loc in enumerate(self.max_loc_list):
             # print('x: {} y: {}'.format(loc[0], loc[1]))
             print('{:<4d} {} {:>4d}'.format(self.max_loc_x_list[i][0],
@@ -244,11 +244,11 @@ class LocalAlignment:
                                         self.max_loc_y_list[i][1]))
             print('')
     
-    def display_file(self, out_file=None):
+    def display_file(self, out_file=None, offset=0):
         '''
         Display some parameters of this function.
         '''
-        print('score: {}'.format(self.score), file=out_file)
+        # print('score: {}'.format(self.score), file=out_file)
         for i, loc in enumerate(self.max_loc_list):
             # print('x: {} y: {}'.format(loc[0], loc[1]))
             print('{:<4d} {} {:>4d}'.format(self.max_loc_x_list[i][0],

@@ -1,0 +1,238 @@
+Frame: 1
+Query: LVNKFLALCADSIIIGGAKLKALNLGETFVTHSKGLYRKCVKSREETGLL
+Length: 50
+Subject: YP_009724389.1:1-7096 ORF1ab polyprotein [organism=Severe acute respiratory syndrome coronavirus 2] [isolate=Wuhan-Hu-1]
+Length: 7096
+
+Score: 251
+E-value: 1.944320215984026e-30
+
+0    LVNKFLALCADSIIIGGAKLKALNLGETFVTHSKGLYRKCVKSREETGLL   49
+     ||||||||||||||||||||||||||||||||||||||||||||||||||     
+0    LVNKFLALCADSIIIGGAKLKALNLGETFVTHSKGLYRKCVKSREETGLL   49
+
+
+Frame: 1
+Query: LVNKFLALCADSIIIGGAKLKALNLGETFVTHSKGLYRKCVKSREETGLL
+Length: 50
+Subject: YP_009725295.1:1-4405 ORF1a polyprotein [organism=Severe acute respiratory syndrome coronavirus 2] [isolate=Wuhan-Hu-1]
+Length: 4405
+
+Score: 251
+E-value: 1.944320215984026e-30
+
+0    LVNKFLALCADSIIIGGAKLKALNLGETFVTHSKGLYRKCVKSREETGLL   49
+     ||||||||||||||||||||||||||||||||||||||||||||||||||     
+0    LVNKFLALCADSIIIGGAKLKALNLGETFVTHSKGLYRKCVKSREETGLL   49
+
+
+Frame: 1
+Query: LVNKFLALCADSIIIGGAKLKALNLGETFVTHSKGLYRKCVKSREETGLL
+Length: 50
+Subject: YP_009725298.1 nsp2 [polyprotein_range=YP_009724389.1:181-818] [polyprotein=ORF1ab polyprotein] [organism=Severe acute respiratory syndrome coronavirus 2] [isolate=Wuhan-Hu-1]
+Length: 638
+
+Score: 251
+E-value: 1.944320215984026e-30
+
+0    LVNKFLALCADSIIIGGAKLKALNLGETFVTHSKGLYRKCVKSREETGLL   49
+     ||||||||||||||||||||||||||||||||||||||||||||||||||     
+0    LVNKFLALCADSIIIGGAKLKALNLGETFVTHSKGLYRKCVKSREETGLL   49
+
+
+Frame: 1
+Query: LVNKFLALCADSIIIGGAKLKALNLGETFVTHSKGLYRKCVKSREETGLL
+Length: 50
+Subject: YP_009742609.1 nsp2 [polyprotein_range=YP_009725295.1:181-818] [polyprotein=ORF1a polyprotein] [organism=Severe acute respiratory syndrome coronavirus 2] [isolate=Wuhan-Hu-1]
+Length: 638
+
+Score: 251
+E-value: 1.944320215984026e-30
+
+0    LVNKFLALCADSIIIGGAKLKALNLGETFVTHSKGLYRKCVKSREETGLL   49
+     ||||||||||||||||||||||||||||||||||||||||||||||||||     
+0    LVNKFLALCADSIIIGGAKLKALNLGETFVTHSKGLYRKCVKSREETGLL   49
+
+
+Frame: -2
+Query: SRPVSSLDLTHFLYNPFECVTNVSPKFKALSLAPPIMIESAHKAKNLFT
+Length: 49
+Subject: YP_009724389.1:1-7096 ORF1ab polyprotein [organism=Severe acute respiratory syndrome coronavirus 2] [isolate=Wuhan-Hu-1]
+Length: 7096
+
+Score: 35
+E-value: 2.329106960823031
+
+7    DLTHFLYNPFECVTNV   22
+     |**|||***|**|*|*     
+547  DFLHFLPRVFSAVGNI  562
+
+
+Frame: -2
+Query: SRPVSSLDLTHFLYNPFECVTNVSPKFKALSLAPPIMIESAHKAKNLFT
+Length: 49
+Subject: YP_009725295.1:1-4405 ORF1a polyprotein [organism=Severe acute respiratory syndrome coronavirus 2] [isolate=Wuhan-Hu-1]
+Length: 4405
+
+Score: 35
+E-value: 2.329106960823031
+
+7    DLTHFLYNPFECVTNV   22
+     |**|||***|**|*|*     
+547  DFLHFLPRVFSAVGNI  562
+
+
+Frame: -3
+Query: VGQFLLWI
+Length: 8
+Subject: YP_009724389.1:1-7096 ORF1ab polyprotein [organism=Severe acute respiratory syndrome coronavirus 2] [isolate=Wuhan-Hu-1]
+Length: 7096
+
+Score: 15
+E-value: 232.23880149227242
+
+0    VGQ    2
+     |||     
+0    VGQ    2
+
+
+Frame: -3
+Query: VGQFLLWI
+Length: 8
+Subject: YP_009725295.1:1-4405 ORF1a polyprotein [organism=Severe acute respiratory syndrome coronavirus 2] [isolate=Wuhan-Hu-1]
+Length: 4405
+
+Score: 15
+E-value: 232.23880149227242
+
+0    VGQ    2
+     |||     
+0    VGQ    2
+
+
+Frame: -3
+Query: VGQFLLWI
+Length: 8
+Subject: YP_009725299.1 nsp3 [polyprotein_range=YP_009724389.1:819-2763] [polyprotein=ORF1ab polyprotein] [organism=Severe acute respiratory syndrome coronavirus 2] [isolate=Wuhan-Hu-1]
+Length: 1945
+
+Score: 15
+E-value: 232.23880149227242
+
+0    VGQ    2
+     |||     
+0    VGQ    2
+
+
+Frame: -3
+Query: VGQFLLWI
+Length: 8
+Subject: YP_009742610.1 nsp3 [polyprotein_range=YP_009725295.1:819-2763] [polyprotein=ORF1a polyprotein] [organism=Severe acute respiratory syndrome coronavirus 2] [isolate=Wuhan-Hu-1]
+Length: 1945
+
+Score: 15
+E-value: 232.23880149227242
+
+0    VGQ    2
+     |||     
+0    VGQ    2
+
+
+Frame: -2
+Query: SRPVSSLDLTHFLYNPFECVTNVSPKFKALSLAPPIMIESAHKAKNLFT
+Length: 49
+Subject: YP_009725299.1 nsp3 [polyprotein_range=YP_009724389.1:819-2763] [polyprotein=ORF1ab polyprotein] [organism=Severe acute respiratory syndrome coronavirus 2] [isolate=Wuhan-Hu-1]
+Length: 1945
+
+Score: 15
+E-value: 1422.4626591401686
+
+46   LFT   48
+     |||     
+0    LFT    2
+
+
+Frame: -2
+Query: SRPVSSLDLTHFLYNPFECVTNVSPKFKALSLAPPIMIESAHKAKNLFT
+Length: 49
+Subject: YP_009725304.1 nsp8 [polyprotein_range=YP_009724389.1:3943-4140] [polyprotein=ORF1ab polyprotein] [organism=Severe acute respiratory syndrome coronavirus 2] [isolate=Wuhan-Hu-1]
+Length: 198
+
+Score: 15
+E-value: 1422.4626591401686
+
+46   LFT   48
+     |||     
+0    LFT    2
+
+
+Frame: -2
+Query: SRPVSSLDLTHFLYNPFECVTNVSPKFKALSLAPPIMIESAHKAKNLFT
+Length: 49
+Subject: YP_009742610.1 nsp3 [polyprotein_range=YP_009725295.1:819-2763] [polyprotein=ORF1a polyprotein] [organism=Severe acute respiratory syndrome coronavirus 2] [isolate=Wuhan-Hu-1]
+Length: 1945
+
+Score: 15
+E-value: 1422.4626591401686
+
+46   LFT   48
+     |||     
+0    LFT    2
+
+
+Frame: -2
+Query: SRPVSSLDLTHFLYNPFECVTNVSPKFKALSLAPPIMIESAHKAKNLFT
+Length: 49
+Subject: YP_009742615.1 nsp8 [polyprotein_range=YP_009725295.1:3943-4140] [polyprotein=ORF1a polyprotein] [organism=Severe acute respiratory syndrome coronavirus 2] [isolate=Wuhan-Hu-1]
+Length: 198
+
+Score: 15
+E-value: 1422.4626591401686
+
+46   LFT   48
+     |||     
+0    LFT    2
+
+
+Frame: 1
+Query: LVNKFLALCADSIIIGGAKLKALNLGETFVTHSKGLYRKCVKSREETGLL
+Length: 50
+Subject: YP_009725311.1 2'-O-ribose methyltransferase [polyprotein_range=YP_009724389.1:6799-7096] [polyprotein=ORF1ab polyprotein] [organism=Severe acute respiratory syndrome coronavirus 2] [isolate=Wuhan-Hu-1]
+Length: 298
+
+Score: 14
+E-value: 2000.3563582766315
+
+0    LVN    2
+     |||     
+0    LVN    2
+
+
+Frame: 1
+Query: LVNKFLALCADSIIIGGAKLKALNLGETFVTHSKGLYRKCVKSREETGLL
+Length: 50
+Subject: YP_009725302.1 nsp6 [polyprotein_range=YP_009724389.1:3570-3859] [polyprotein=ORF1ab polyprotein] [organism=Severe acute respiratory syndrome coronavirus 2] [isolate=Wuhan-Hu-1]
+Length: 290
+
+Score: 14
+E-value: 2000.3563582766315
+
+47   GLL   49
+     |||     
+0    GLL    2
+
+
+Frame: 1
+Query: LVNKFLALCADSIIIGGAKLKALNLGETFVTHSKGLYRKCVKSREETGLL
+Length: 50
+Subject: YP_009742613.1 nsp6 [polyprotein_range=YP_009725295.1:3570-3859] [polyprotein=ORF1a polyprotein] [organism=Severe acute respiratory syndrome coronavirus 2] [isolate=Wuhan-Hu-1]
+Length: 290
+
+Score: 14
+E-value: 2000.3563582766315
+
+47   GLL   49
+     |||     
+0    GLL    2
+
+

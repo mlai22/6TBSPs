@@ -73,3 +73,38 @@ def write_dict(dictionary, dir_name, base_name):
 		pickle.dump(dictionary, handle, protocol = pickle.HIGHEST_PROTOCOL)	
 	
 	return
+
+#%%
+def align_out(output, out_file, sum_file):
+	'''
+	Write the alignment restuls to files
+
+	Args:
+		output (list): 			a python list of tuples containing restults
+		out_file (handle): 		output file handle
+		out_file (handle):		summary file handle
+
+	Returns:
+		None
+	'''			
+	for [f, read_id, query, ref_id, prot_seq, s, la, S, evalue] in output:
+		# print to output
+		print('Frame:', str(f), file=out_file)
+		print('Query:', query, file=out_file)
+		print('Length:', len(query), file=out_file)
+		print('Subject:', ref_id, file=out_file)
+		print('Length:', len(prot_seq[ref_id]), file=out_file)
+		print(file=out_file)
+
+		print('Score:', str(S), file=out_file)
+		print('E-value:', str(evalue), file=out_file)
+		print(file=out_file)
+
+		la.traceback()
+		la.display_file(out_file, s)
+		print(file=out_file)
+
+		# print to summary --- similar to output format 6
+		print('\t'.join([read_id, ref_id, str(S), str(evalue)]), file=sum_file)
+	
+	return

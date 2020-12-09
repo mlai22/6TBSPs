@@ -6,16 +6,15 @@ Output: compressed dictionary (hashtable) of kmers and reference proteins
 
 Author:
 	Mei-Yu Lai
+	Yuchen Ge
 
 E-mail:
 	mlai22@jhu.edu
+	yge15@jhmi.edu
 
 Usage:
-	$ python 6tbsps.py-build [-k $kmer_len] --db $out_basename protein.faa
-
-Attributes:
-	Parse an input FASTA and translate the DNA sequences in 6-frame, 
-	output a single FASTA file of compressed protein sequences.
+	$ python 6tbsps-build [-h] [-k [KMER]] --db DB protein.faa [protein.faa ...]
+	
 '''
 #%%
 import os
