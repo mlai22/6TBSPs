@@ -48,8 +48,6 @@ Build a compressed hashtable for protein databases.
 ```sh
 usage: python 6tbsps-build [-h] [-k [KMER]] --db DB protein.faa [protein.faa ...]
 
-Build a compressed hashtable for protein databases.
-
 positional arguments:
   protein.faa           protein FASTA filename
 
@@ -62,7 +60,22 @@ optional arguments:
 ```
 
 ## Search DNA or RNA Sequences
-[TODO]
+
+Search DNA sequences against a pre-indexed protein database.
+```sh
+usage: 6tbsps-query [-h] --db DB -o O [-t [T]] [--sm [SM]] reads.fa [reads.fa ...]
+
+positional arguments:
+  reads.fa              DNA reads in FASTA format
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --db DB               database base name of k-mer indices
+  -o O                  output directory
+  -t [T]                number of threads
+  --sm [SM], --score-matrix [SM]
+                        scoring matrix: BLOSUM45, BLOSUM62 (default), BLOSUM80
+```
 
 <!-- LICENSE -->
 ## License
