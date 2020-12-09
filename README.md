@@ -79,7 +79,7 @@ optional arguments:
 
 ## Generate Test Results
 
-The following commands will help you reproduce our test outputs. See ['test/'](test/) for details.
+The following commands will help you reproduce our test outputs. See [`test/`](test/) for details.
 ```sh
 # build sar2 protein database
 python 6tbsps-build.py --db test/sars2 test/SARS2-reference/ncbi_dataset/data/protein.faa
