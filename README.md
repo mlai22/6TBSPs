@@ -79,8 +79,16 @@ optional arguments:
 
 ## Generate Test Results
 
-
 The following commands will help you reproduce our test outputs. See ['test/'](test/) for details.
+```sh
+# build sar2 protein database
+python 6tbsps-build.py --db test/sars2 test/SARS2-reference/ncbi_dataset/data/protein.faa
+
+# query silulated sars2 cds reads
+python 6tbsps-query.py --db test/sars2 -o test/sars2_cds_out/ -t 8 test/sars2_cds_l150_c01.fa
+# query simulated sars2 genomic reads
+python 6tbsps-query.py --db test/sars2 -o test/sars2_genomic_out/ -t 8 test/sars2_genomic_l150_c01.fa
+```
 
 <!-- LICENSE -->
 ## License
