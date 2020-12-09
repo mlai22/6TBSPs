@@ -41,7 +41,23 @@ Our code is tested using Python 3.8.
 pip3 install -r requirements.txt
 ```
 ## Build Protein Database Index
-[TODO]
+
+Build a compressed hashtable for protein databases.
+```sh
+usage: python 6tbsps-build [-h] [-k [KMER]] --db DB protein.faa [protein.faa ...]
+
+Build a compressed hashtable for protein databases.
+
+positional arguments:
+  protein.faa           protein FASTA filename
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -k [KMER], --kmer [KMER]
+                        k-mer length (default:3)
+  --db DB, --database DB
+                        database base name of k-mer indices
+```
 
 ## Search DNA or RNA Sequences
 [TODO]
