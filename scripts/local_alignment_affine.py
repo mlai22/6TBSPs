@@ -254,7 +254,7 @@ class LocalAlignment:
             print('{:<4d} {} {:>4d}'.format(self.max_loc_x_list[i][0],
                                             self.align_seq_x_list[i],
                                             self.max_loc_x_list[i][1]), file=out_file)
-            print('    {}    '.format(self.xscript_list[i]), file=out_file)
+            print('     {}     '.format(self.xscript_list[i]), file=out_file)
             print('{:<4d} {} {:>4d}'.format(self.max_loc_y_list[i][0],
                                             self.align_seq_y_list[i],
                                             self.max_loc_y_list[i][1]), file=out_file)
