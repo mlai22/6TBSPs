@@ -70,9 +70,10 @@ def ranking_loss(six_content, blastx_content):
         else:
             hit_counter += 1 
         ranking_loss_value += min_rank
+
     print('Miss: ', miss_counter)
     print('Hit: ', hit_counter)
-    return ranking_loss_value
+    return float(float(ranking_loss_value) / len(blastx_dic.keys()))
 
 def read_6tbsps_results(src_dir):
     '''
