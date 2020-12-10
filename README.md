@@ -139,15 +139,12 @@ Listed in alphabetical order by last name:
 <!-- REFERENCES -->
 ## References
 
-A collection of papers from which we took inspiration:
-* [Dank Learning: Generating Memes Using Deep Neural Networks](https://arxiv.org/pdf/1806.04510.pdf)
-	```
-	@misc{peirson2018dank,
-	      title={Dank Learning: Generating Memes Using Deep Neural Networks}, 
-	      author={Abel L Peirson V au2 and E Meltem Tolunay},
-	      year={2018},
-	      eprint={1806.04510},
-	      archivePrefix={arXiv},
-	      primaryClass={cs.CL}
-	}
-	```
+[1] Altschul, S. F., Gish, W., Miller, W., Myers, E. W., & Lipman, D. J. (1990). Basic local alignment search tool. Journal of molecular biology, 215(3), 403-410.
+[2] Huson, D. H., & Xie, C. (2014). A poor man’s BLASTX—high-throughput metagenomic protein database search using PAUDA. Bioinformatics, 30(1), 38-39.
+[3] Steinegger, M., & Söding, J. (2017). MMseqs2 enables sensitive protein sequence searching for the analysis of massive data sets. Nature biotechnology, 35(11), 1026-1028.
+[4] Pagh, R., & Rodler, F. F. (2004). Cuckoo hashing. Journal of Algorithms, 51(2), 122-144.
+[5] Henikoff, S., & Henikoff, J. G. (1992). Amino acid substitution matrices from protein blocks. Proceedings of the National Academy of Sciences, 89(22), 10915-10919.
+[6] Dayhoff, M. O. (Ed.). (1972). Atlas of protein sequence and structure. National Biomedical Research Foundation.
+[7] Karlin, S., & Altschul, S. F. (1990). Methods for assessing the statistical significance of molecular sequence features by using general scoring schemes. Proceedings of the National Academy of Sciences, 87(6), 2264-2268.
+
+
