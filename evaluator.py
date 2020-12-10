@@ -24,7 +24,6 @@ def ranking_loss(six_content, blastx_content):
     calculate ranking loss
     '''
     # get golden top result from blastx
-    # print(blastx_content)
     blastx_dic = {} 
     for i in blastx_content:
         if i[0] not in blastx_dic.keys():

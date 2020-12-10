@@ -118,6 +118,13 @@ optional arguments:
   -s 6tbsps_directory_path
                         6TBSPs query result files directory
 ```
+The following commands can help you to re-evaluate our tool. [`test/blastx_out`](test/blastx_out) is the output directory of BLASTX.
+```sh
+# Evaluate test case 1
+python evaluator.py -b test/blastx_out/sars2_cds.out -s test/sars2_cds_out
+# Evaluate test case 3
+python evaluator.py -b test/blastx_out/metagenome.out -s test/metagenome_output
+```
 
 <!-- LICENSE -->
 ## License
