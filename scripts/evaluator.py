@@ -25,7 +25,6 @@ def ranking_loss(six_content, blastx_content):
     '''
     # get golden top result from blastx
     # print(blastx_content)
-    print(six_content)
     blastx_dic = {} 
     for i in blastx_content:
         if i[0] not in blastx_dic.keys():
@@ -65,7 +64,6 @@ def ranking_loss(six_content, blastx_content):
                 # miss
                 rank_candidates.append(len(six_sid_dic[qid]))
         min_rank = min(rank_candidates)
-        print(rank_candidates)
         if min_rank == len(six_sid_dic[qid]):
             # miss
             miss_counter += 1
