@@ -105,6 +105,9 @@ python 6tbsps-query.py --db test/sars2 -o test/sars2_cds_out/ -p 8 test/sars2_cd
 # query simulated sars2 genomic reads
 python 6tbsps-query.py --db test/sars2 -o test/sars2_genomic_out/ -p 8 test/sars2_genomic_l150_c01.fa
 
+# query unrelated E.Coli cds reads
+python 6tbsps-query.py --db test/sars2 -o test/ecoli_sars2_out/ -p 8 test/ten_reads_from_ecoli
+
 #query metagenomics reads
 python 6tbsps-query.py --db test/sars2 -o metagenome_output -p 8 test/metagenome_seqs.fasta
 ```
