@@ -42,15 +42,21 @@ def ranking_loss(six_content, blastx_content):
             six_sid_dic[i[0]].append(i[1]) 
             six_evalue_dic[i[0]].append(i[2])
     ranking_loss_value = 0
+    miss_counter = 0
+    hit_counter = 0
     for k, v in blastx_dic.items():
         if v[0][0] in six_sid_dic[k]:
             loc = six_sid_dic[k].index(v[0][0])
             evalue = six_evalue_dic[k][loc]
             # print(six_evalue_dic[k].index(evalue))
             ranking_loss_value += six_evalue_dic[k].index(evalue)
+            hit_counter += 1
         else:
             # print('not found', k)
             ranking_loss_value += len(six_sid_dic[k])
+            miss_counter += 1
+    print('Miss: ', miss_counter)
+    print('Hit: ', hit_counter)
     return ranking_loss_value
         # for k, v in blastx_dic.items():
             # print(k)
