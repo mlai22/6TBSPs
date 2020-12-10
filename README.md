@@ -111,7 +111,7 @@ python 6tbsps-query.py --db test/sars2 -o test/sars2_genomic_out/ -p 8 test/sars
 python 6tbsps-query.py --db test/sars2 -o test/dissimilar_output/ -p 8 test/dissimilar_seqs.fasta
 
 #query metagenomics reads
-python 6tbsps-query.py --db test/sars2 -o test/metagenome_output -p 8 test/metagenome_seqs.fasta
+python 6tbsps-query.py --db test/sars2 -o test/metagenome_output/ -p 8 test/metagenome_seqs.fasta
 ```
 
 ## Benchmark Against BLASTX
