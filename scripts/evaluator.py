@@ -7,10 +7,10 @@ Email:
     hezt@jhu.edu
     
 Usage:
-    TODO:
+    usage: python evalutaor.py [-h] -b file_path -6 directory_path
 ​
 Attributes:
-    TODO:
+    None
 ​
 """
 
@@ -18,54 +18,110 @@ import argparse
 import os
 import pandas as pd
 
-def ranking_loss():
+def ranking_loss(six_content, blastx_content):
+    '''
+    calculate ranking loss
+    '''
+    # get golden top result from blastx
+    blastx_dic = {} 
+    for i in blastx_content:
+        if i[0] not in blastx_dic.keys():
+            blastx_dic[i[0]] = [[i[1], i[2]]]
+        else:
+            blastx_dic[i[0]].append([i[1], i[2]])
+    for k in blastx_dic.keys():
+        blastx_dic[k] = sorted(blastx_dic[k], key=lambda x: x[1])
+    # find blastx top results in 6tbsps results 
+    six_sid_dic = {} 
+    six_evalue_dic = {}
+    for i in six_content:
+        if i[0] not in six_sid_dic.keys():
+            six_sid_dic[i[0]] = [i[1]]
+            six_evalue_dic[i[0]] = [i[2]]
+        else:
+            six_sid_dic[i[0]].append(i[1]) 
+            six_evalue_dic[i[0]].append(i[2])
+    ranking_loss_value = 0
+    for k, v in blastx_dic.items():
+        if v[0][0] in six_sid_dic[k]:
+            loc = six_sid_dic[k].index(v[0][0])
+            evalue = six_evalue_dic[k][loc]
+            # print(six_evalue_dic[k].index(evalue))
+            ranking_loss_value += six_evalue_dic[k].index(evalue)
+        else:
+            # print('not found', k)
+            ranking_loss_value += len(six_sid_dic[k])
+    return ranking_loss_value
+        # for k, v in blastx_dic.items():
+            # print(k)
+            # print(v)
+    # print(blastx_dic)
 
-    return 0
+def read_6tbsps_results(src_dir):
+    '''
+    read query results from 6tbsps output directory
+    only read file with ext name: .summary
+    clean the data
+    '''
+    six_content = []
+    for file_name in os.listdir(src_dir):
+        if os.path.splitext(file_name)[-1] == '.summary':
+            with open(os.path.join(src_dir, file_name), 'r') as f:
+                for line in f.readlines():
+                    line_list = line.rstrip().split('\t')
+                    qid = line_list[0].split(' ')[0]
+                    sid = line_list[1].split(' ')[0]
+                    evalue = float(line_list[2])
+                    line_list = [qid, sid, evalue]
+                    six_content.append(line_list)
+    return six_content
 
-def evaluate_6tbsps():
-    print('6')
-    
-def evaluate_blastx(src_dir):
-    # for f in os.listdir(src_dir):
-    #     src_f = os.path.join(src_dir, f)
-    #     # dst_f = os.path.join(dst_dir, f + '_ms.fa')
-    #     df = pd.read_csv(src_f, header=None)
-    #     df = df[df.iloc[:, 2] == 1]
-    #     f_content = []
-    #     for index, row in df.iterrows():
-    #         content = '>'
-    #         for idx, c in enumerate(row):
-    #             if idx == 6:
-    #                 c = str(c).replace(' ', '')
-    #             content += str(c) + ','
-    #         f_content.append(content + '\n')
-    #         f_content.append(row.iloc[1] + '\n')
-    #     print(dst_f)
-    #     with open(dst_f, 'w') as f:
-    #         f.writelines(f_content)
-    print('b') 
+def read_blastx_results(src_file):
+    '''
+    read query results from 6tbsps output directory
+    clean the data
+    '''
+    content = []
+    with open(src_file, 'r') as f:
+        for line in f.readlines():
+            line_list = line.rstrip().split('\t')
+            qid = line_list[0].split(' ')[0]
+            sid = line_list[1].split(' ')[0]
+            sid = sid.replace('@', ':')
+            sid = sid.split('|')
+            if len(sid) == 1:
+                sid = sid[0]
+            else:
+                sid = sid[1]
+            evalue = float(line_list[2])
+            line_list = [qid, sid, evalue]
+            content.append(line_list)
+    return content
 
 def main():
     '''
-    Main function of the 6tbsps-query
+    Main function of the evaluator
+    Print ranking loss in console
     '''
-    parser = argparse.ArgumentParser(prog = 'evalutaor', \
+    parser = argparse.ArgumentParser(prog = 'python evalutaor.py',
         description = '')
-    parser.add_argument('-t', required = True, choices=['BLASTX', '6TBSPs'], \
-        help='which tool you use for query, BLASTX or ')
-    parser.add_argument('-o', metavar='evaluation_output_directory', \
-        required = True, help = 'output directory')
-    parser.add_argument('query_result_directory', nargs = '+', \
-        help = 'query result files directory')
+    parser.add_argument('-b', metavar='blastx_file_path',
+        required = True,
+        help='BLASTX query result file')
+    parser.add_argument('-s', metavar='6tbsps_directory_path',
+        required= True,
+        help = '6TBSPs query result files directory')
+    # parser.add_argument('-o', metavar='directory_path', \
+        # required = True, help = 'output directory')
     args = parser.parse_args()
-    out_dir = args.o
-    in_dir = args.query_result_directory
-    query_tool = args.t
-    if query_tool == 'BLASTX':
-        evaluate_blastx()
-    else:
-        evaluate_6tbsps()
-    return
+    blastx_file_path = args.b
+    six_dir_path = args.s
+    six_content = read_6tbsps_results(six_dir_path)
+    blast_content = read_blastx_results(blastx_file_path)
+    ranking_loss_value = ranking_loss(six_content, blast_content)
+    print('Ranking Loss: ', ranking_loss_value)
+    return ranking_loss_value
+
 
 if __name__ == "__main__":
     main()

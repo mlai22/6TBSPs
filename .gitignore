@@ -7,4 +7,4 @@ datasets
 __pycache__
 test.py
 zitong_test
-sars2_genomic_out_normal
+test/sars2_genomic_out_normal
