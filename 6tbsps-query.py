@@ -48,7 +48,7 @@ def main():
 	args = parser.parse_args()
 	sm = score_matrix(args.sm) # default BLOSUM62
 	out_dir = args.o
-	num_threads = args.t
+	num_proc = args.p
 	in_files = args.reads
 
 	# get the pre-indexed protein database and sequences
@@ -66,7 +66,7 @@ def main():
 		fio.parse_fasta(name, reads)
 	query_args = [[read_id, seq, out_dir, k, prot_db, sm, prot_seq, n] \
 		for read_id, seq in reads.items()]
-	with multiprocessing.Pool(processes=num_threads) as pool:
+	with multiprocessing.Pool(processes=num_proc) as pool:
 		pool.starmap(query, query_args)	
 	print('running time: {}'.format(time.time() - s_time))
 
