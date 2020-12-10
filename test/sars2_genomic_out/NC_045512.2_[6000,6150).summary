@@ -1,0 +1,25 @@
+NC_045512.2_[6000,6150)	YP_009724389.1:1-7096 ORF1ab polyprotein [organism=Severe acute respiratory syndrome coronavirus 2] [isolate=Wuhan-Hu-1]	267	1.1254150391394949e-32
+NC_045512.2_[6000,6150)	YP_009725295.1:1-4405 ORF1a polyprotein [organism=Severe acute respiratory syndrome coronavirus 2] [isolate=Wuhan-Hu-1]	267	1.1254150391394949e-32
+NC_045512.2_[6000,6150)	YP_009725299.1 nsp3 [polyprotein_range=YP_009724389.1:819-2763] [polyprotein=ORF1ab polyprotein] [organism=Severe acute respiratory syndrome coronavirus 2] [isolate=Wuhan-Hu-1]	267	1.1254150391394949e-32
+NC_045512.2_[6000,6150)	YP_009742610.1 nsp3 [polyprotein_range=YP_009725295.1:819-2763] [polyprotein=ORF1a polyprotein] [organism=Severe acute respiratory syndrome coronavirus 2] [isolate=Wuhan-Hu-1]	267	1.1254150391394949e-32
+NC_045512.2_[6000,6150)	YP_009724389.1:1-7096 ORF1ab polyprotein [organism=Severe acute respiratory syndrome coronavirus 2] [isolate=Wuhan-Hu-1]	25	17.620179689225374
+NC_045512.2_[6000,6150)	YP_009725295.1:1-4405 ORF1a polyprotein [organism=Severe acute respiratory syndrome coronavirus 2] [isolate=Wuhan-Hu-1]	25	17.620179689225374
+NC_045512.2_[6000,6150)	YP_009724389.1:1-7096 ORF1ab polyprotein [organism=Severe acute respiratory syndrome coronavirus 2] [isolate=Wuhan-Hu-1]	19	72.42975493417734
+NC_045512.2_[6000,6150)	YP_009724389.1:1-7096 ORF1ab polyprotein [organism=Severe acute respiratory syndrome coronavirus 2] [isolate=Wuhan-Hu-1]	16	84.25820713051866
+NC_045512.2_[6000,6150)	YP_009725295.1:1-4405 ORF1a polyprotein [organism=Severe acute respiratory syndrome coronavirus 2] [isolate=Wuhan-Hu-1]	16	84.25820713051866
+NC_045512.2_[6000,6150)	YP_009725299.1 nsp3 [polyprotein_range=YP_009724389.1:819-2763] [polyprotein=ORF1ab polyprotein] [organism=Severe acute respiratory syndrome coronavirus 2] [isolate=Wuhan-Hu-1]	16	84.25820713051866
+NC_045512.2_[6000,6150)	YP_009742610.1 nsp3 [polyprotein_range=YP_009725295.1:819-2763] [polyprotein=ORF1a polyprotein] [organism=Severe acute respiratory syndrome coronavirus 2] [isolate=Wuhan-Hu-1]	16	84.25820713051866
+NC_045512.2_[6000,6150)	YP_009724397.2:1-419 nucleocapsid phosphoprotein [organism=Severe acute respiratory syndrome coronavirus 2] [isolate=Wuhan-Hu-1]	16	84.25820713051866
+NC_045512.2_[6000,6150)	YP_009724393.1:1-222 membrane glycoprotein [organism=Severe acute respiratory syndrome coronavirus 2] [isolate=Wuhan-Hu-1]	16	315.96827673944495
+NC_045512.2_[6000,6150)	YP_009724397.2:1-419 nucleocapsid phosphoprotein [organism=Severe acute respiratory syndrome coronavirus 2] [isolate=Wuhan-Hu-1]	15	435.4477527980108
+NC_045512.2_[6000,6150)	YP_009725300.1 nsp4 [polyprotein_range=YP_009724389.1:2764-3263] [polyprotein=ORF1ab polyprotein] [organism=Severe acute respiratory syndrome coronavirus 2] [isolate=Wuhan-Hu-1]	15	435.4477527980108
+NC_045512.2_[6000,6150)	YP_009725301.1 3C-like proteinase [polyprotein_range=YP_009724389.1:3264-3569] [polyprotein=ORF1ab polyprotein] [organism=Severe acute respiratory syndrome coronavirus 2] [isolate=Wuhan-Hu-1]	15	435.4477527980108
+NC_045512.2_[6000,6150)	YP_009742611.1 nsp4 [polyprotein_range=YP_009725295.1:2764-3263] [polyprotein=ORF1a polyprotein] [organism=Severe acute respiratory syndrome coronavirus 2] [isolate=Wuhan-Hu-1]	15	435.4477527980108
+NC_045512.2_[6000,6150)	YP_009742612.1 3C-like proteinase [polyprotein_range=YP_009725295.1:3264-3569] [polyprotein=ORF1a polyprotein] [organism=Severe acute respiratory syndrome coronavirus 2] [isolate=Wuhan-Hu-1]	15	435.4477527980108
+NC_045512.2_[6000,6150)	YP_009725295.1:1-4405 ORF1a polyprotein [organism=Severe acute respiratory syndrome coronavirus 2] [isolate=Wuhan-Hu-1]	13	496.217924783984
+NC_045512.2_[6000,6150)	YP_009725299.1 nsp3 [polyprotein_range=YP_009724389.1:819-2763] [polyprotein=ORF1ab polyprotein] [organism=Severe acute respiratory syndrome coronavirus 2] [isolate=Wuhan-Hu-1]	13	496.217924783984
+NC_045512.2_[6000,6150)	YP_009725308.1 helicase [polyprotein_range=YP_009724389.1:5325-5925] [polyprotein=ORF1ab polyprotein] [organism=Severe acute respiratory syndrome coronavirus 2] [isolate=Wuhan-Hu-1]	13	496.217924783984
+NC_045512.2_[6000,6150)	YP_009742610.1 nsp3 [polyprotein_range=YP_009725295.1:819-2763] [polyprotein=ORF1a polyprotein] [organism=Severe acute respiratory syndrome coronavirus 2] [isolate=Wuhan-Hu-1]	13	496.217924783984
+NC_045512.2_[6000,6150)	YP_009724389.1:1-7096 ORF1ab polyprotein [organism=Severe acute respiratory syndrome coronavirus 2] [isolate=Wuhan-Hu-1]	13	1543.7890993279502
+NC_045512.2_[6000,6150)	YP_009725307.1 RNA-dependent RNA polymerase [polyprotein_range=YP_009724389.1:4393-5324] [polyprotein=ORF1ab polyprotein] [organism=Severe acute respiratory syndrome coronavirus 2] [isolate=Wuhan-Hu-1]	13	1543.7890993279502
+NC_045512.2_[6000,6150)	YP_009725307.1 RNA-dependent RNA polymerase [polyprotein_range=YP_009724389.1:4393-5324] [polyprotein=ORF1ab polyprotein] [organism=Severe acute respiratory syndrome coronavirus 2] [isolate=Wuhan-Hu-1]	14	1960.349231111099
