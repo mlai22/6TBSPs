@@ -133,8 +133,9 @@ Listed in alphabetical order by last name:
   * PhD student in Computer Science at Johns Hopkins University
 * Mei-Yu Lai - mlai22@jhu.edu
   * MSE student in Biomedical Engineering at Johns Hopkins University
+* Ruijing Zhang - rzhang73@jh.edu
+  * MSE student in Biomedical Engineering at Johns Hopkins University
 
-[TODO]
 
 <!-- REFERENCES -->
 ## References
