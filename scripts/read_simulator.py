@@ -76,7 +76,7 @@ def read_simulation(seqs, readLen, cov):
     for name in sorted(seqs):
         seq = seqs[name]
         for i in range(0, len(seq) - readLen + 1, int(readLen/cov)):
-            readID = name.split()[0] + '_[%d,%d)' % (i, i + readLen)
+            readID = name.split()[0] + '_%d_%d' % (i, i + readLen)
             readSeq = seq[i: i + readLen]
             reads.append((readID, readSeq))
     
