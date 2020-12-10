@@ -104,6 +104,9 @@ python 6tbsps-build.py --db test/sars2 test/SARS2-reference/ncbi_dataset/data/pr
 python 6tbsps-query.py --db test/sars2 -o test/sars2_cds_out/ -p 8 test/sars2_cds_l150_c01.fa
 # query simulated sars2 genomic reads
 python 6tbsps-query.py --db test/sars2 -o test/sars2_genomic_out/ -p 8 test/sars2_genomic_l150_c01.fa
+
+#query metagenomics reads
+python 6tbsps-query.py --db test/sars2 -o metagenome_output -p 8 test/metagenome_seqs.fasta
 ```
 
 ## Benchmark Against BLASTX
