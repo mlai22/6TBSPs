@@ -2,6 +2,7 @@ papers/
 slides/
 *.docx
 *.pdf
+!CGS_Team_65_Project_Final_Report.pdf
 datasets
 .vscode
 __pycache__
