@@ -39,7 +39,7 @@ def main():
 	parser.add_argument('--db', required = True, \
 		help='database base name of k-mer indices')
 	parser.add_argument('-o', required = True, help = 'output directory')
-	parser.add_argument('-t', default=1, nargs='?', type=int, help = 'number of threads')
+	parser.add_argument('-p', default=1, nargs='?', type=int, help = 'number of processes')
 	parser.add_argument('--sm', '--score-matrix', default='BLOSUM62', nargs='?', type=str, \
 		help = 'scoring matrix: BLOSUM45, BLOSUM62 (default), BLOSUM80')
 	parser.add_argument('reads', metavar = 'reads.fa', nargs = '+', \
