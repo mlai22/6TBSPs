@@ -138,9 +138,9 @@ Distributed under the GNU General Public License v3.0. See [`LICENSE`](LICENSE) 
 
 Listed in alphabetical order by last name:
 * Yuchen (Peter) Ge - yge15@jhmi.edu
-  * Pursing PhD in Biomedical Engineering at Johns Hopkins University
+  * Pursing Ph.D. in Biomedical Engineering at Johns Hopkins University
 * Zitong He - hezt@jhu.edu
-  * PhD student in Computer Science at Johns Hopkins University
+  * Ph.D. student in Computer Science at Johns Hopkins University
 * Mei-Yu Lai - mlai22@jhu.edu
   * MSE student in Biomedical Engineering at Johns Hopkins University
 * Ruijing Zhang - rzhang73@jh.edu
