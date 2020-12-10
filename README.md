@@ -29,7 +29,8 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-[TODO]
+
+Searching translated nucleotide sequences against protein databases has more power identifying the true source organism. In this project, our team implemented a protein search tool based on 6-frame translation of DNA/RNA sequences (6TBSPs). We first indexed the input protein references, and then performed local alignment for each translated frame. The output was sorted by e-value, which captures statistical significance. We also designed three test cases, where in the identity test (CDS against protein) 6TBSPs achieved 100% sensitivity. When BLASTX was benchmarked against our tool, we noticed that 6TBSPs used more query time and memory, but achieved comparable results. Further directions include to improve on the seed-and-extend algorithm to quickly narrow down to candidate regions, as well as making the program parallel using multi-threading.
 
 <!-- GETTING STARTED -->
 ## Getting Started
@@ -97,6 +98,7 @@ The following commands will help you reproduce our test outputs. See [`test/`](t
 python read_simulator.py -l 150 -c 0.1 test/SARS2-reference/ncbi_dataset/data/cds.fna > test/sars2_cds_l150_c01.fa
 # simulate sars2 genomic reads
 python read_simulator.py -l 150 -c 0.1 test/SARS2-reference/ncbi_dataset/data/genomic.fna > test/sars2_genomic_l150_c01.fa
+
 # build sar2 protein database
 python 6tbsps-build.py --db test/sars2 test/SARS2-reference/ncbi_dataset/data/protein.faa
 
@@ -105,8 +107,11 @@ python 6tbsps-query.py --db test/sars2 -o test/sars2_cds_out/ -p 8 test/sars2_cd
 # query simulated sars2 genomic reads
 python 6tbsps-query.py --db test/sars2 -o test/sars2_genomic_out/ -p 8 test/sars2_genomic_l150_c01.fa
 
+# query unrelated E.Coli cds reads
+python 6tbsps-query.py --db test/sars2 -o test/dissimilar_output/ -p 8 test/dissimilar_seqs.fasta
+
 #query metagenomics reads
-python 6tbsps-query.py --db test/sars2 -o metagenome_output -p 8 test/metagenome_seqs.fasta
+python 6tbsps-query.py --db test/sars2 -o test/metagenome_output -p 8 test/metagenome_seqs.fasta
 ```
 
 ## Benchmark Against BLASTX
