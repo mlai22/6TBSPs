@@ -18,11 +18,14 @@ import argparse
 import os
 import pandas as pd
 
+
 def ranking_loss(six_content, blastx_content):
     '''
     calculate ranking loss
     '''
     # get golden top result from blastx
+    # print(blastx_content)
+    print(six_content)
     blastx_dic = {} 
     for i in blastx_content:
         if i[0] not in blastx_dic.keys():
@@ -30,8 +33,9 @@ def ranking_loss(six_content, blastx_content):
         else:
             blastx_dic[i[0]].append([i[1], i[2]])
     for k in blastx_dic.keys():
-        blastx_dic[k] = sorted(blastx_dic[k], key=lambda x: x[1])
-    # find blastx top results in 6tbsps results 
+        min_eval = min(blastx_dic[k], key=lambda x: x[1])[1]
+        blastx_dic[k] = [i[0] for i in blastx_dic[k] if i[1] == min_eval]
+    # put 6tbsps result to dict
     six_sid_dic = {} 
     six_evalue_dic = {}
     for i in six_content:
@@ -41,27 +45,36 @@ def ranking_loss(six_content, blastx_content):
         else:
             six_sid_dic[i[0]].append(i[1]) 
             six_evalue_dic[i[0]].append(i[2])
+    # find blastx top results: blastx_dic[k][...] in 6tbsps results 
     ranking_loss_value = 0
     miss_counter = 0
     hit_counter = 0
-    for k, v in blastx_dic.items():
-        if v[0][0] in six_sid_dic[k]:
-            loc = six_sid_dic[k].index(v[0][0])
-            evalue = six_evalue_dic[k][loc]
-            # print(six_evalue_dic[k].index(evalue))
-            ranking_loss_value += six_evalue_dic[k].index(evalue)
-            hit_counter += 1
-        else:
-            # print('not found', k)
-            ranking_loss_value += len(six_sid_dic[k])
+    for qid, top_sid_list in blastx_dic.items():
+        rank_candidates = []
+        for top_sid in top_sid_list:
+            if top_sid in six_sid_dic[qid]:
+                # hit
+                # there may exist tie: there are several same evalue good hits
+                # break this tie by get the first hit's rank
+                # among all same evalue good hits
+                hit_loc = six_sid_dic[qid].index(top_sid)
+                evalue = six_evalue_dic[qid][hit_loc]
+                # .index() will return the first matched elem's index
+                rank_candidates.append(six_evalue_dic[qid].index(evalue)) 
+            else:
+                # miss
+                rank_candidates.append(len(six_sid_dic[qid]))
+        min_rank = min(rank_candidates)
+        print(rank_candidates)
+        if min_rank == len(six_sid_dic[qid]):
+            # miss
             miss_counter += 1
+        else:
+            hit_counter += 1 
+        ranking_loss_value += min_rank
     print('Miss: ', miss_counter)
     print('Hit: ', hit_counter)
     return ranking_loss_value
-        # for k, v in blastx_dic.items():
-            # print(k)
-            # print(v)
-    # print(blastx_dic)
 
 def read_6tbsps_results(src_dir):
     '''
@@ -77,7 +90,7 @@ def read_6tbsps_results(src_dir):
                     line_list = line.rstrip().split('\t')
                     qid = line_list[0].split(' ')[0]
                     sid = line_list[1].split(' ')[0]
-                    evalue = float(line_list[2])
+                    evalue = float(line_list[-1])
                     line_list = [qid, sid, evalue]
                     six_content.append(line_list)
     return six_content
@@ -99,7 +112,7 @@ def read_blastx_results(src_file):
                 sid = sid[0]
             else:
                 sid = sid[1]
-            evalue = float(line_list[2])
+            evalue = float(line_list[-2])
             line_list = [qid, sid, evalue]
             content.append(line_list)
     return content
