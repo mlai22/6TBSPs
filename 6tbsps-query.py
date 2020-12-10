@@ -13,7 +13,7 @@ E-mail:
 	hezt@jhu.edu
 
 Usage:
-	$ python 6tbsps-query [-h] --db DB -o O [-t [T]] [--sm [SM]] reads.fa [reads.fa ...]
+	$ python 6tbsps-query [-h] --db DB -o O [-p [P]] [--sm [SM]] reads.fa [reads.fa ...]
 
 '''
 #%%
