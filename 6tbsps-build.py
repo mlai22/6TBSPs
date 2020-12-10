@@ -20,8 +20,8 @@ Usage:
 import os
 import argparse
 
-# custom scripts
-import scripts.file_io as fio
+# custom src
+import src.file_io as fio
 #%%
 def protein_kmer_table(seqs, k):
 	'''
