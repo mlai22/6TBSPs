@@ -82,6 +82,7 @@ optional arguments:
                         scoring matrix: BLOSUM45, BLOSUM62 (default), BLOSUM80
 ```
 
+
 ## Generate Test Results
 
 We downloaded from NCBI the reference sequences for Sars-Cov2.
@@ -100,6 +101,19 @@ python 6tbsps-query.py --db test/sars2 -o test/sars2_cds_out/ -p 8 test/sars2_cd
 python 6tbsps-query.py --db test/sars2 -o test/sars2_genomic_out/ -p 8 test/sars2_genomic_l150_c01.fa
 ```
 
+## Evaluate Searching Tools
+
+Evaluate different searching tools by ranking loss.
+```sh
+usage: python evalutaor.py [-h] -b blastx_file_path -s 6tbsps_directory_path
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -b blastx_file_path   BLASTX query result file
+  -s 6tbsps_directory_path
+                        6TBSPs query result files directory
+```
+
 <!-- LICENSE -->
 ## License
 Distributed under the GNU General Public License v3.0. See [`LICENSE`](LICENSE) for more information.
@@ -110,6 +124,8 @@ Distributed under the GNU General Public License v3.0. See [`LICENSE`](LICENSE) 
 Listed in alphabetical order by last name:
 * Yuchen (Peter) Ge - yge15@jhmi.edu
   * Pursing PhD in Biomedical Engineering at Johns Hopkins University
+* Zitong He - hezt@jhu.edu
+  * PhD student in Computer Science at Johns Hopkins University
 
 [TODO]
 

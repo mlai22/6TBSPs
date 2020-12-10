@@ -24,12 +24,12 @@ import multiprocessing
 from itertools import product
 import time
 
-# custom scripts
-import scripts.file_io as fio
-import scripts.six_frame_translation as sft
-from scripts.seed_and_extend import naive_seed_and_extend
-from scripts.local_alignment_affine import LocalAlignment
-from scripts.score_matrix import score_matrix, e_value_cal
+# custom src
+import src.file_io as fio
+import src.six_frame_translation as sft
+from src.seed_and_extend import naive_seed_and_extend
+from src.local_alignment_affine import LocalAlignment
+from src.score_matrix import score_matrix, e_value_cal
 #%%
 def main():
 	s_time = time.time()
