@@ -108,10 +108,10 @@ python 6tbsps-query.py --db test/sars2 -o test/sars2_cds_out/ -p 8 test/sars2_cd
 python 6tbsps-query.py --db test/sars2 -o test/sars2_genomic_out/ -p 8 test/sars2_genomic_l150_c01.fa
 
 # query unrelated E.Coli cds reads
-python 6tbsps-query.py --db test/sars2 -o test/ecoli_sars2_out/ -p 8 test/dissimilar_seqs.fasta
+python 6tbsps-query.py --db test/sars2 -o test/dissimilar_output/ -p 8 test/dissimilar_seqs.fasta
 
 #query metagenomics reads
-python 6tbsps-query.py --db test/sars2 -o metagenome_output -p 8 test/metagenome_seqs.fasta
+python 6tbsps-query.py --db test/sars2 -o test/metagenome_output -p 8 test/metagenome_seqs.fasta
 ```
 
 ## Benchmark Against BLASTX
