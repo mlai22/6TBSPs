@@ -68,7 +68,7 @@ optional arguments:
 
 Search DNA sequences against a pre-indexed protein database.
 ```sh
-usage: python 6tbsps-query [-h] --db DB -o O [-t [T]] [--sm [SM]] reads.fa [reads.fa ...]
+usage: 6tbsps-query [-h] --db DB -o O [-p [P]] [--sm [SM]] reads.fa [reads.fa ...]
 
 positional arguments:
   reads.fa              DNA reads in FASTA format
@@ -77,7 +77,7 @@ optional arguments:
   -h, --help            show this help message and exit
   --db DB               database base name of k-mer indices
   -o O                  output directory
-  -t [T]                number of threads
+  -p [P]                number of processes
   --sm [SM], --score-matrix [SM]
                         scoring matrix: BLOSUM45, BLOSUM62 (default), BLOSUM80
 ```
