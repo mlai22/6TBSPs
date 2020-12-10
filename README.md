@@ -21,6 +21,7 @@
   <li><a href="#build-protein-database-index">Build Protein Database Index</a></li>
   <li><a href="#search-dna-or-rna-sequences">Search DNA or RNA Sequences</a></li>
   <li><a href="#generate-test-results">Generate Test Results</a></li>
+  <li><a href="#benchmark-agaisnt-blastx">Benchmark Against BLASTX</a></li>
   <li><a href="#license">License</a></li>
   <li><a href="#contact">Contact</a></li>
   <li><a href="#references">References</a></li>
@@ -92,6 +93,10 @@ and [`protein.faa`](test/SARS2-reference/ncbi_dataset/data/protein.faa).
 
 The following commands will help you reproduce our test outputs. See [`test/`](test/) for details.
 ```sh
+# simulate sars2 cds reads
+python read_simulator.py -l 150 -c 0.1 test/SARS2-reference/ncbi_dataset/data/cds.fna > test/sars2_cds_l150_c01.fa
+# simulate sars2 genomic reads
+python read_simulator.py -l 150 -c 0.1 test/SARS2-reference/ncbi_dataset/data/genomic.fna > test/sars2_genomic_l150_c01.fa
 # build sar2 protein database
 python 6tbsps-build.py --db test/sars2 test/SARS2-reference/ncbi_dataset/data/protein.faa
 
@@ -101,7 +106,7 @@ python 6tbsps-query.py --db test/sars2 -o test/sars2_cds_out/ -p 8 test/sars2_cd
 python 6tbsps-query.py --db test/sars2 -o test/sars2_genomic_out/ -p 8 test/sars2_genomic_l150_c01.fa
 ```
 
-## Evaluate Searching Tools
+## Benchmark Against BLASTX
 
 Evaluate different searching tools by ranking loss.
 ```sh
