@@ -7,7 +7,7 @@ Email:
     hezt@jhu.edu
     
 Usage:
-    usage: python evalutaor.py [-h] -b file_path -6 directory_path
+    usage: python evaluator.py [-h] -b file_path -6 directory_path
 ​
 Attributes:
     None
@@ -120,7 +120,7 @@ def main():
     Main function of the evaluator
     Print ranking loss in console
     '''
-    parser = argparse.ArgumentParser(prog = 'python evalutaor.py',
+    parser = argparse.ArgumentParser(prog = 'python evaluator.py',
         description = '')
     parser.add_argument('-b', metavar='blastx_file_path',
         required = True,

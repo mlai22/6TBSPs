@@ -118,7 +118,7 @@ python 6tbsps-query.py --db test/sars2 -o test/metagenome_output/ -p 8 test/meta
 
 Evaluate different searching tools by ranking loss.
 ```sh
-usage: python evalutaor.py [-h] -b blastx_file_path -s 6tbsps_directory_path
+usage: python evaluator.py [-h] -b blastx_file_path -s 6tbsps_directory_path
 
 optional arguments:
   -h, --help            show this help message and exit
